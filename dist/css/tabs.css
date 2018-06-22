@@ -1,0 +1,183 @@
+.tabs-box:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.tabs-nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100px;
+	float: right;
+}
+
+.tabs_item {
+	float: right;
+	background: #ffffff;
+	list-style: none;
+	position: relative;
+}
+
+.tabs_link {
+	display: inline-block;
+	width: 19rem;
+	height: 7rem;
+	color: #5b9581;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 2.7rem;
+}
+
+.tabs_item-aerial::before,
+.tabs_item-hatha::before,
+.tabs_item-Prenatai::before,
+.tabs_item-meditation::before {
+	content: "";
+	display: inline-block;
+	width: 5.5rem;
+	height: 5.5rem;
+	z-index: 3;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.tabs_item-aerial::before {
+	background-image: url(../img/price/aerial.png);
+	margin-top: 12px;
+	margin-left: 12px;
+}
+
+.tabs_item-hatha::before {
+	background-image: url(../img/price/Hatha.png);
+	margin-top: 12px;
+	margin-left: 12px;
+}
+
+.tabs_item-meditation::before {
+	background-image: url(../img/price/Meditation.png);
+	margin-top: 12px;
+	margin-left: 12px;
+}
+
+.tabs_item-Prenatai::before {
+	background-image: url(../img/price/Prenatal.png);
+	margin-top: 12px;
+	margin-left: 12px;
+}
+
+.tabs_link:hover {
+	background: #f7f7f7;
+}
+
+.tabs-nav li.select a {
+	/* background: #d0d0d0; */
+	background: #f0f0f0;
+}
+
+.tabs-nav .active {
+	display: inline-block;
+	padding: 5px;
+}
+
+.tabs-box>div {
+	margin: 0 0 0 0px;
+}
+
+.tabs_img {
+	display: inline-block;
+}
+
+.tabs_link-hatha {
+	padding-left: 4rem;
+	color: #7caded;
+}
+
+.tabs_link-prenatai {
+	padding-left: 2rem;
+	color: #d09587;
+}
+
+.tabs_link-meditation {
+	padding-left: 3rem;
+	color: #c4ad69;
+}
+
+.hatha-box_text {
+	line-height: 1.75;
+	font-size: 1.125rem;
+	color: #969696;
+	margin-top: 1rem;
+}
+
+.hatha-box_text strong {
+	color: #5b9aed;
+}
+
+.hatha-box_title {
+	font-size: 2rem;
+	color: #585858;
+	margin-bottom: 0rem;
+	padding-top: 1rem;
+}
+
+.hatha-box_list strong {
+	color: #5b9aed;
+}
+
+.hatha-box_item {
+	line-height: 1.75;
+	font-size: 1.125rem;
+	color: #969696;
+	list-style: none;
+}
+
+.hatha-text {
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+
+ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.hatha-box_img {
+	float: left;
+	margin-right: 4rem;
+}
+
+.hatha-price {
+	font-size: 1.125rem;
+	line-height: 2.29625;
+	color: #9a9a9a;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.hatha-price strong {
+	color: #5b9aed;
+	font-size: 2rem;
+	line-height: 2.29625;
+}
+
+.tabs_prenatai-box strong {
+	color: #d09587;
+}
+
+.tabs_aerial-box strong {
+	color: #66a690;
+}
+
+.tabs_meditation-box strong {
+	color: #c4ad69;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
