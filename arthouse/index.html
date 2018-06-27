@@ -59,7 +59,7 @@
 				<br>жизни вместе с близкими людьми</h1>
 			<span class="main_phone">+7 999 112 77 79</span>
 			<span class="main_delivery">Доставка по всей России</span>
-			<button class="main_button">Заказать набор</button>
+			<button type="button" class="main_button popup-btn">Заказать набор</button>
 		</section>
 	</div>
 	<section class="section_advantages">
@@ -99,7 +99,7 @@
 							<br>вам материал бесплатно,</span> либо
 						<span>вернем деньги.</span>
 					</p>
-					<button class="main_button">Заказать набор</button>
+					<button class="main_button popup-btn">Заказать набор</button>
 				</div>
 				<div class="manual_video">
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/KvOq9GVcQRQ" frameborder="0" allow="autoplay; encrypted-media"
@@ -158,7 +158,7 @@
 					<p class="set_text promo">Специально для детей от 0 до 5 лет
 						<br>малыш подрастет, а слепок его ручки
 						<br>останется таким же маленьким</p>
-					<button class="main_button set_button">Заказать набор</button>
+					<button class="main_button set_button popup-btn">Заказать набор</button>
 				</div>
 				<div class="set_item second_item">
 					<img src="img/main/set/2.png" width="225" height="223" alt="ArtHouse 3D Классик" class="set_img">
@@ -167,7 +167,7 @@
 					<p class="set_text promo">В наборе есть всё необходимое
 						<br> для создания слепка руки
 						<br>взрослого человека</p>
-					<button class="main_button set_button">Заказать набор</button>
+					<button class="main_button set_button popup-btn">Заказать набор</button>
 				</div>
 				<div class="set_item three_item">
 					<img src="img/main/set/3.png" width="224" height="223" alt="ArtHouse 3D Художник" class="set_img">
@@ -176,7 +176,7 @@
 					<p class="set_text promo">В набор входят декорации:
 						<br> стразы, бабочка и специальные
 						<br> краски для слепка</p>
-					<button class="main_button set_button">Заказать набор</button>
+					<button class="main_button set_button popup-btn">Заказать набор</button>
 				</div>
 			</div>
 			<div class="set_box-other">
@@ -187,7 +187,7 @@
 					<p class="set_text promo">Индивидуальный подарок для
 						<br>создания нескольких слепков рук.
 						<br>В набор входят декорации</p>
-					<button class="main_button set_button">Заказать набор</button>
+					<button class="main_button set_button popup-btn">Заказать набор</button>
 				</div>
 				<div class="set_item five_item">
 					<img src="img/main/set/5.png" width="225" height="223" alt="ArtHouse 3D Классик" class="set_img">
@@ -196,7 +196,7 @@
 					<p class="set_text promo">В наборе есть всё необходимое
 						<br> для создания слепка рук
 						<br> всей семьи</p>
-					<button class="main_button set_button">Заказать набор</button>
+					<button class="main_button set_button popup-btn">Заказать набор</button>
 				</div>
 				<div class="set_item six_item">
 					<img src="img/main/set/6.png" width="224" height="223" alt="ArtHouse 3D Художник" class="set_img">
@@ -205,7 +205,7 @@
 					<p class="set_text promo">В набор входят декорации:
 						<br> табличка под гравировку
 						<br> и золотая краска</p>
-					<button class="main_button set_button">Заказать набор</button>
+					<button class="main_button set_button popup-btn">Заказать набор</button>
 				</div>
 			</div>
 		</div>
@@ -260,7 +260,9 @@
 				<p class="review_text">Позитивные отзывы и предложения покупателей,
 					<br>с фотографиями слепков мотивирует команду
 					<br>«ArtHouse3D» на совершенствование наборов для Вас.</p>
-				<button class="main_button review_button">Оставить отзыв</button>
+				<a class="review_link" href="https://vk.com/topic-153163747_39760046" target="_blank">
+					<button class="main_button review_button">Оставить отзыв</button>
+				</a>
 			</div>
 		</div>
 	</section>
@@ -314,13 +316,13 @@
 				<p class="footer_socialText-news">newrusart@mail.ru
 					<br>+7 999 112 77 79</p>
 				<p class="footer_socialText-news">Следите за новостями в соц.сетях</p>
-				<a href="#" target="_blank">
+				<a href="https://vk.com/newarthouse" target="_blank">
 					<i class="sprite sprite-5"></i>
 				</a>
-				<a href="#" target="_blank">
+				<a href="https://www.facebook.com/ElenaArtHouse3D/" target="_blank">
 					<i class="sprite sprite-6"></i>
 				</a>
-				<a href="#" target="_blank">
+				<a href="https://www.instagram.com/slepki_ryk_3d/" target="_blank">
 					<i class="sprite sprite-7"></i>
 				</a>
 			</div>
@@ -343,19 +345,43 @@
 		</div>
 	</div>
 </footer>
+<div class="copyright">
+	<div class="container">
+		<p class="copyright_text">2016–2018 © Все права защищены</p>
+	</div>
+</div>
 
 
 
 
-
-
-
-
-
-
-
-
-
+<div class="popup">
+	<div class="popup-dialog">
+		<div class="popup-content">
+			<button class="popup-close">&times;</button>
+			<h4 class="popup-header">Заявка</h4>
+			<input class="popup_text2" type="text" name="" id="">
+			<span class="floating-label2">Имя</span>
+			<input class="popup_text" type="text" name="" id="">
+			<span class="floating-label3">Фамилия</span>
+			<input class="popup_email" type="email" name="email" id="email">
+			<span class="floating-label4">E-mail</span>
+			<input class="popup_tel" type="tel" name="tel" id="tel">
+			<span class="floating-label5">Номер телефона</span>
+			<select class="popup_delivery" name="delivery" id="delivery">
+				<option value="Самовывоз">Самовывоз</option>
+				<option value="Самовывоз">До вашего метро</option>
+				<option value="Самовывоз">Доставка</option>
+				<option value="Самовывоз">Почта России</option>
+				<option value="Самовывоз">Курьерская служба</option>
+			</select>
+			<input class="popup_address" type="text" name="address" id="address" required>
+			<span class="floating-label6">Адрес доставки</span>
+			<textarea class="popup_message" name="text" id="text" cols="45" rows="7" placeholder="Напишите комментарий..."></textarea>
+			<button type="submit" class="main_button popup_button">Заказать набор</button>
+		</div>
+	</div>
+</div>
+</div>
 
 
 

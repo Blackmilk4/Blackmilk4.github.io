@@ -42,3 +42,12 @@ $('.five_item').hover(function () {
 $('.six_item').hover(function () {
 	$(this).parent('.set_box-other').find('.six').toggleClass('active');
 });
+
+$('.popup-btn').on('click', function (event) {
+	event.preventDefault();
+	$('.popup').fadeIn();
+});
+$('.popup-close').on('click', function (event) {
+	event.preventDefault();
+	$('.popup').fadeOut();
+});
