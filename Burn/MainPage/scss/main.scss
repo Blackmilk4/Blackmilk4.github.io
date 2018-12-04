@@ -102,6 +102,7 @@ input:not(:focus):valid~.floating-label {
 	margin-bottom: 1rem;
 }
 
+.ready_btn,
 .btn_info,
 .btn_SuggestCancel,
 .btn_SendSuggest,
@@ -484,6 +485,13 @@ input[type="email"]::placeholder {
 .ready_text {
 	margin-top: 0.6rem;
 	margin-bottom: 0.6rem;
+}
+
+.ready_btn {
+	width: 117px;
+	height: 51px;
+	margin-top: 2.3rem;
+	margin-left: 4rem;
 }
 
 .suggest_title,
