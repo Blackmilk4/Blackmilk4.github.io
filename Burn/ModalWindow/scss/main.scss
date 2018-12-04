@@ -1,0 +1,781 @@
+@import '../../MainPage/scss/main';
+@import '../../MainPage/scss/fonts';
+
+html {
+	background-color: #1B1E3A;
+}
+
+.ripple {
+	position: relative;
+	overflow: hidden;
+}
+
+.ripple-effect {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 0;
+	width: 0;
+	border: 2px solid rgba(255, 255, 255, 0.3);
+	border-radius: 5000px;
+	animation: ripple 1s ease forwards;
+	z-index: 1;
+}
+
+@keyframes ripple {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(100);
+	}
+}
+
+.modal_window-InstallMetaMask {
+	width: 886px;
+	min-height: 576px;
+	background-color: #2C3060;
+	background-image: url(../img/metamask.png);
+	background-repeat: no-repeat;
+	background-position: 90% 30%;
+	margin-bottom: 2rem;
+}
+
+.MetaMask_menu {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+}
+
+.MetaMask_item {
+	list-style: none;
+	color: #FFFFFF;
+	font-size: 1.25rem;
+	font-family: Roboto;
+	font-weight: 500;
+	padding-top: 1.3125rem;
+	position: relative;
+	opacity: .3;
+
+	&:first-child {
+		opacity: 1;
+	}
+
+	&:last-child {
+		padding-right: 4.375rem;
+
+		&:after {
+			display: none;
+		}
+	}
+
+	&:after {
+		content: '';
+		display: inline-block;
+		width: 12px;
+		height: 12px;
+		background-image: url(../img/Vector.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 183px;
+		bottom: 5px;
+	}
+
+	&:nth-child(3) {
+		&:after {
+			left: 109px;
+		}
+	}
+}
+
+.header_MetaMask {
+	padding-bottom: 1.4rem;
+	box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12)
+}
+
+.MetaMask_title {
+	font-size: 2rem;
+	font-family: ProductSans;
+	font-weight: 700;
+	color: #FFFFFF;
+	margin-bottom: 0.8rem;
+	margin-top: 3rem;
+}
+
+.MetaMask_text {
+	font-family: ProductSans;
+	font-weight: 400;
+	font-size: 1.125rem;
+	color: #FFFFFF;
+	opacity: .7;
+	line-height: 140%;
+	margin-bottom: 0;
+}
+
+.text_riple {
+	margin-bottom: 9.5rem;
+}
+
+.text_riple2 {
+	margin-bottom: 13rem;
+}
+
+.MetaMask_title,
+.MetaMask_text {
+	padding-left: 2.3rem;
+}
+
+.btn_MetaMask {
+	margin-left: 2.3rem;
+	width: 168px;
+	height: 51px;
+	font-size: 1.125rem;
+}
+
+.MetaMask_confirm,
+.MetaMask_unlock,
+.MetaMask_setup {
+	background-position: 95% 45%;
+}
+
+.MetaMask_setup {
+	background-image: url(../img/Metamaskstep1.png);
+
+	button {
+		margin-top: 13.5rem;
+	}
+}
+
+.setup_text,
+.setup_color {
+	line-height: 110%;
+	padding-left: 4.4375rem;
+	position: relative;
+
+	&:before {
+		content: '';
+		display: inline-block;
+		width: 15px;
+		height: 15px;
+		background-image: url(../img/CheckNotReady.svg);
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 39px;
+		bottom: 1px;
+	}
+}
+
+.setup_text {
+	&:before {
+		background-image: url(../img/CheckNotReady.svg);
+	}
+
+	&:last-child {
+		padding-bottom: 14rem;
+	}
+}
+
+.setup_color {
+	color: #FDC002;
+	opacity: 1;
+
+	&:before {
+		background-image: url(../img/CheckCurrent.svg);
+	}
+}
+
+.btn_setup {
+	width: 106px;
+	height: 51px;
+	margin-left: 2.3rem;
+	font-size: 1.125rem;
+}
+
+.MetaMask_unlock {
+	background-image: url(../img/Metamaskstep1_2.png);
+}
+
+.MetaMask_confirm {
+	background-image: url(../img/Metamaskstep1_3.png);
+}
+
+.active {
+	opacity: 1;
+}
+
+.MetaMask_ConfirmRegister,
+.MetaMask_register {
+	background-repeat: no-repeat;
+	background-position: 90% 30%;
+}
+
+.MetaMask_register {
+	background-image: url(../img/IconAdd.svg);
+}
+
+.address_hash {
+	color: #FDC002;
+}
+
+.btn_register {
+	width: 228px;
+	height: 51px;
+	margin-left: 1rem;
+	margin-top: 7rem;
+}
+
+.btn_get-code {
+	margin-top: 7rem;
+}
+
+.MetaMask_register,
+.form_ConfirmRegister {
+	input[type="email"] {
+		padding-left: 1rem;
+		width: 363px;
+		min-height: 60px !important;
+		display: block;
+		margin-left: 2.4rem;
+		margin-top: 0rem;
+		border-radius: 3px;
+		padding-right: 0;
+		color: #000000;
+		padding-top: 0;
+		font-size: 1.125rem;
+		font-family: Roboto;
+		font-weight: 400;
+
+		&:focus {
+			border: none;
+			outline: none;
+		}
+	}
+}
+
+input[type="text"]::placeholder {
+	opacity: .6;
+	width: 360px !important;
+}
+
+.email_register {
+	width: 350px;
+	padding-top: 0.3rem;
+	padding-left: 0;
+	margin-left: 2.5rem;
+	font-size: 1.125rem;
+	font-family: Roboto;
+	font-weight: 400;
+
+}
+
+.ref_register {
+	margin-top: 0 !important;
+	margin-bottom: 0.5rem !important;
+}
+
+.btn_registerAddress {
+	width: 290px;
+	height: 51px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.MetaMask_ConfirmRegister {
+	background-image: url(../img/IconConfirm.svg);
+}
+
+.code_register {
+	display: inline-block;
+	margin-bottom: 1rem;
+	font-family: Roboto;
+	font-weight: 400;
+
+}
+
+.register_text {
+	font-size: 0.875rem;
+	font-family: Roboto;
+	font-weight: 400;
+	color: #fff;
+	opacity: .32;
+	padding-left: 1.5rem;
+	margin-top: 0.8rem;
+}
+
+.box_register-code {
+	display: flex;
+}
+
+.rules_text {
+	font-size: 0.875rem;
+	color: rgb(136, 136, 136);
+	font-family: Roboto;
+	font-weight: 400;
+}
+
+.checkbox_rules {
+	margin-top: 0.4rem;
+	margin-left: 1.25rem;
+
+	span {
+		color: #FDC002;
+		opacity: none;
+
+		&:hover {
+			border-bottom: 1px solid #FDC002;
+			cursor: pointer;
+		}
+	}
+}
+
+
+$md-checkbox-checked-color: #FDC002;
+$md-checkbox-border-color: rgba(0, 0, 0, 0.54);
+$md-checkbox-border-color-disabled: rgba(0, 0, 0, 0.26);
+$md-checkbox-checked-color-disabled: rgba(0, 0, 0, 0.26);
+$md-checkbox-margin: 1em 0;
+$md-checkbox-size: 1.35em;
+$md-checkbox-padding: .25em;
+$md-checkbox-border-width: 2px;
+$md-checkbox-border-radius: 0.125em;
+$md-checkmark-width: 0.125em;
+$md-checkmark-color: #2C3060;
+$md-checkbox-label-padding: .75em;
+
+.md-checkbox {
+	position: relative;
+	margin: $md-checkbox-margin;
+	text-align: left;
+	border: none;
+	outline: none;
+
+
+	label {
+		cursor: pointer;
+		display: inline;
+		line-height: $md-checkbox-size;
+		vertical-align: top;
+		clear: both;
+		padding-left: 1px;
+
+		&:not(:empty) {
+			padding-left: $md-checkbox-label-padding;
+		}
+
+		&:before,
+		&:after {
+			content: "";
+			position: absolute;
+			right: 260px;
+			bottom: -2px;
+		}
+
+		&:before {
+			width: $md-checkbox-size;
+			height: $md-checkbox-size;
+			background: #fff;
+			border: $md-checkbox-border-width solid $md-checkbox-border-color;
+			border-radius: $md-checkbox-border-radius;
+			cursor: pointer;
+			transition: background .3s;
+		}
+
+	}
+
+	input[type="checkbox"] {
+		outline: 0;
+		visibility: hidden;
+		width: $md-checkbox-size;
+		margin: 0;
+		display: block;
+		float: left;
+		font-size: inherit;
+
+		&:checked {
+			+label:before {
+				background: $md-checkbox-checked-color;
+				border: none;
+			}
+
+			+label:after {
+
+				$md-checkmark-size: $md-checkbox-size - 2 * $md-checkbox-padding;
+
+				transform: translate($md-checkbox-padding, ($md-checkbox-size / 2) - ($md-checkmark-size / 2.6)) rotate(-45deg) translateX(40%) translateY(-172%);
+				width: $md-checkmark-size;
+				height: $md-checkmark-size / 2;
+
+				border: $md-checkmark-width solid $md-checkmark-color;
+				border-top-style: none;
+				border-right-style: none;
+			}
+
+
+		}
+
+		&:disabled {
+			+label:before {
+				border-color: $md-checkbox-border-color-disabled;
+			}
+
+			&:checked {
+				+label:before {
+					background: $md-checkbox-checked-color-disabled;
+				}
+			}
+
+		}
+	}
+
+}
+
+.rules_text {
+	position: relative;
+	left: 35px;
+}
+
+.checkbox_rules {
+	a {
+		text-decoration: none;
+	}
+}
+
+.MetaMask_ConfirmRegister,
+.MetaMask_register {
+	position: relative;
+}
+
+
+input:focus~.floating-label,
+input:not(:focus):valid~.floating-label {
+	top: 282px;
+	bottom: 10px;
+	left: 48px;
+	font-size: 0.75rem;
+	opacity: 1;
+	outline: none;
+	border: none !important;
+	padding-top: 0.7rem;
+	color: #000000;
+	opacity: .42;
+
+	&:focus {
+		outline: none;
+		border: none;
+	}
+
+	&:active {
+		outline: none;
+		border: none;
+	}
+}
+
+
+
+.floating-label {
+	position: absolute;
+	pointer-events: none;
+	left: 47px;
+	top: 290px;
+	transition: 0.2s ease all;
+	color: #000000;
+	opacity: .42;
+	font-size: 1.125rem;
+	font-family: Roboto;
+	font-weight: 400;
+	padding-top: 0.3rem;
+	padding-top: 1rem;
+	padding-left: 0.5rem;
+}
+
+.floating-label2 {
+	position: absolute;
+	pointer-events: none;
+	left: 47px;
+	top: 265px;
+	transition: 0.2s ease all;
+	font-size: 1.125rem;
+	color: #000000;
+	opacity: .42;
+	font-family: Roboto;
+	font-weight: 400;
+	padding-top: 0.3rem;
+	padding-top: 1rem;
+	padding-left: 0.5rem;
+}
+
+input:focus~.floating-label2,
+input:not(:focus):valid~.floating-label2 {
+	top: 258px;
+	bottom: 10px;
+	left: 48px;
+	font-size: 0.75rem;
+	opacity: 1;
+	outline: none;
+	border: none !important;
+	padding-top: 0.7rem;
+	color: #000000;
+	opacity: .42;
+
+	&:focus {
+		outline: none;
+		border: none;
+	}
+
+	&:active {
+		outline: none;
+		border: none;
+	}
+}
+
+
+.email_addToken {
+	margin-left: 1.5rem;
+}
+
+.email_register {
+	padding-left: 1rem;
+	padding-top: 0.5rem;
+	width: 360px;
+	font-size: 1.125rem;
+	height: 51px !important;
+	display: block;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border-radius: 3px;
+	padding-right: 0;
+	color: #000000;
+	border: none;
+	outline: none;
+
+	&:focus {
+		border: none;
+		outline: none;
+	}
+
+	&:active {
+		border: none;
+		outline: none;
+	}
+}
+
+.email_registerConfirm {
+	font-size: 1.125rem;
+	font-family: Roboto;
+	font-weight: 400;
+	margin-bottom: 1.5rem;
+}
+
+
+.modal_window-suggestToken {
+	width: 663px;
+	min-height: 655px;
+	background-color: #2C3060;
+	border: 1px solid white;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+
+
+.text_submit-Email,
+.suggestToken_text,
+.suggestToken_title {
+	padding-left: 1.5rem;
+}
+
+.suggestToken_title {
+	margin: 0;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	font-size: 2rem;
+	font-family: ProductSans;
+	font-weight: 700;
+	color: #fff;
+}
+
+.text_submit-Email,
+.suggest_item,
+.suggestToken_text {
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 1.125rem;
+	line-height: 160%;
+	color: #fff;
+	opacity: .7;
+}
+
+textarea {
+	resize: none;
+	background-color: #fff;
+	margin-left: 1.5rem;
+	margin-top: 1.5rem;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 1.125rem;
+	border-radius: 3px;
+	width: 595px;
+}
+
+textarea::placeholder {
+	color: #000000;
+	opacity: .6;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 1.125rem;
+}
+
+.btn_SendSuggest {
+	width: 157px;
+	height: 36px;
+	margin-left: 1.6rem;
+	font-size: 0.875rem;
+	color: #212121;
+	opacity: 1;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.btn_SuggestCancel {
+	width: 86px;
+	height: 36px;
+	font-size: 0.875rem;
+	margin-left: 0.7rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.modal_window-INFO {
+	width: 669px;
+	min-height: 509px;
+	background-color: #2C3060;
+	border: 1px solid #fff;
+}
+
+.info_title {
+	font-size: 2rem;
+	font-family: ProductSans;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 1rem;
+}
+
+.info_text-description,
+.info_list-text,
+.info_title {
+	padding-left: 1.5rem;
+}
+
+.info_text-description,
+.info_list-text {
+	font-size: 1rem;
+	font-family: Roboto;
+	font-weight: 400;
+	color: #fff;
+	opacity: .7;
+	padding-bottom: 1rem;
+	margin-bottom: 0;
+}
+
+.info_value {
+	padding-right: 4.5rem;
+}
+
+.ERC20contract {
+	color: #FDC002;
+}
+
+.info_box {
+	display: flex;
+	justify-content: space-between;
+}
+
+.info_text-description {
+	line-height: 180%;
+}
+
+.btn_info {
+	width: 63px;
+	height: 36px;
+	font-family: Roboto;
+	font-weight: 500;
+	margin-left: 1.5rem;
+	margin-bottom: 3rem;
+}
+
+.text_submit-Email {
+	margin-top: 0;
+}
+
+.email_addToken {
+	padding-left: 1rem;
+	padding-top: 0.5rem;
+	width: 344px;
+	height: 52px !important;
+	display: block;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	border-radius: 3px;
+	padding-right: 0;
+	color: #000000;
+	border: none;
+	outline: none;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 1.125rem;
+
+	&:focus {
+		border: none;
+		outline: none;
+	}
+
+	&:active {
+		border: none;
+		outline: none;
+	}
+}
+
+.suggestTokenNotProfile {
+	position: relative;
+}
+
+input:focus~.floating-label3,
+input:not(:focus):valid~.floating-label3 {
+	top: 170px;
+	bottom: 10px;
+	left: 38px;
+	font-size: 0.75rem;
+	opacity: 1;
+	outline: none;
+	border: none !important;
+	padding-top: 0.7rem;
+	color: #000000;
+	opacity: .42;
+
+	&:focus {
+		outline: none;
+		border: none;
+	}
+
+	&:active {
+		outline: none;
+		border: none;
+	}
+}
+
+.floating-label3 {
+	position: absolute;
+	pointer-events: none;
+	left: 37px;
+	top: 191px;
+	transition: 0.2s ease all;
+	font-size: 1.125rem;
+	color: #000000;
+	opacity: .42;
+	font-family: Roboto;
+	font-weight: 400;
+	padding-top: 0.3rem
+}

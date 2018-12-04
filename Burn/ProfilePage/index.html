@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="scss/main.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<header class="header_profile">
+		<div class="container">
+			<div class="box_profile">
+				<div class="profile_logo"><a href="index.html"><img src="img/logotype.svg" alt="Logotype" class="img_logo"></a></div>
+				<div class="box_statistics-Profile">
+					<div class="box_total-balance">
+						<p class="statistics_title-Profile">136712.536</p>
+						<p class="statistics_text-Profile">Total balance (BurnTokens)</p>
+					</div>
+					<div class="box_AddressUse">
+						<p class="statistics_title-Profile"> 0xbb1a...8F65</p>
+						<p class="statistics_text-Profile">Address in use</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="section_referal">
+		<div class="container">
+			<div class="box_referal">
+				<div class="referal_statistics">
+					<h2 class="title_MyReferal">Referal statistics</h2>
+					<div class="box_TimeStatistics">
+						<div class="tabs">
+							<div class="tab">
+								<input type="radio" id="tab1" name="tab-group" checked>
+								<label for="tab1" class="tab-title">7 DAYS</label>
+								<section class="tab-content">
+									<div class="box_statistics">
+										<div class="box_visits">
+											<p class="statistics_title-visits">Visits</p>
+											<p class="statistics_text-visits empty_visit">non</p>
+										</div>
+										<div class="box_Registrations">
+											<p class="statistics_title-Registrations">Registrations</p>
+											<p class="statistics_text-Registrations">10</p>
+										</div>
+										<div class="box_BurnTokens-earned">
+											<p class="statistics_title-BurnTokensEarned">BurnTokens earned</p>
+											<p class="statistics_text-BurnTokensEarned">136712.536</p>
+										</div>
+									</div>
+								</section>
+							</div>
+							<div class="tab">
+								<input type="radio" id="tab2" name="tab-group">
+								<label for="tab2" class="tab-title">30 DAYS</label>
+								<section class="tab-content">
+									<div class="box_statistics">
+										<div class="box_visits">
+											<p class="statistics_title-visits">Visits</p>
+											<p class="statistics_text-visits empty_visit">non</p>
+										</div>
+										<div class="box_Registrations">
+											<p class="statistics_title-Registrations">Registrations</p>
+											<p class="statistics_text-Registrations">20</p>
+										</div>
+										<div class="box_BurnTokens-earned">
+											<p class="statistics_title-BurnTokensEarned">BurnTokens earned</p>
+											<p class="statistics_text-BurnTokensEarned">136712.536</p>
+										</div>
+									</div>
+								</section>
+							</div>
+							<div class="tab">
+								<input type="radio" id="tab3" name="tab-group">
+								<label for="tab3" class="tab-title">TOTAL</label>
+								<section class="tab-content">
+									<div class="box_statistics">
+										<div class="box_visits">
+											<p class="statistics_title-visits">Visits</p>
+											<p class="statistics_text-visits empty_visit">non</p>
+										</div>
+										<div class="box_Registrations">
+											<p class="statistics_title-Registrations">Registrations</p>
+											<p class="statistics_text-Registrations">30</p>
+										</div>
+										<div class="box_BurnTokens-earned">
+											<p class="statistics_title-BurnTokensEarned">BurnTokens earned</p>
+											<p class="statistics_text-BurnTokensEarned">136712.536</p>
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="referal_MyReferalURl">
+					<h2 class="title_MyReferal">My referal URL</h2>
+					<div class="box_CopyLink">
+						<p class="text_MyReferal">Use this referral link to spread the word about BurnToken.<br>Every new user will get
+							20% bonus on the first burn and<br>you'll get 15% lifetime bonus for every referral burn</p>
+						<span class="referal_link">dev.burntoken.xyz/#PC5AGc78</span>
+						<button type="button" class="btn_MyReferal ripple btn">COPY LINK</button>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section_table section_table-profile">
+		<div class="container">
+			<form class="table_form" action="" id="table_form">
+				<table class="main_table main_table-profile">
+					<tr>
+						<th class="table_title table_title-profile" colspan="3">Available tokens</th>
+						<td><input form="table_form" class="table_search table_search-profile" type="search" placeholder="Search"></td>
+					</tr>
+					<tr class="table_item">
+						<th class="table_filtr table_filtr-profile table_FiltrProfile-symbol">SYMBOL</th>
+						<th class="table_filtr table_filtr-profile table_FiltrProfile-name">NAME</th>
+						<th class="table_filtr table_filtr-profile table_FiltrProfile-burnedTotal">BURNED TOTAL</th>
+						<th class="table_filtr table_filtr-profile table_FiltrProfile-symbolBurnedByYou">BURNED BY YOU</th>
+						<th class="table_filtr table_filtr-profile table_FiltrProfile-symbolAvailable">AVAILABLE</th>
+						<th class="table_filtr table_filtr-profile table_FiltrProfile-symbolBurn">BURN!</th>
+
+					</tr>
+					<tr class="table_list">
+						<td class="symbol symbol_profile"><button type="button" class="table_btn"><img class="img_info" src="img/Vector.svg" alt="info"></button>STKN4</td>
+						<td class="name name_profile">Shit token #4</td>
+						<td class="burned_total burned_total-profile">0.001%</td>
+						<td class="burned_by_you">Shit token #4</td>
+						<td class="available">0</td>
+						<td class="burn">burn</td>
+					</tr>
+					<tr class="table_list">
+						<td class="symbol symbol_profile"><button type="button" class="table_btn"><img class="img_info" src="img/Vector.svg" alt="info"></button>STKN4</td>
+						<td class="name name_profile">Shit token #4</td>
+						<td class="burned_total burned_total-profile dangerColor">0.0013%</td>
+						<td class="burned_by_you">Shit token #4</td>
+						<td class="available">0</td>
+						<td class="burn">burn</td>
+					</tr>
+					<tr class="table_list">
+						<td class="symbol symbol_profile"><button type="button" class="table_btn"><img class="img_info" src="img/Vector.svg" alt="info"></button>STKN4</td>
+						<td class="name name_profile">Shit token #4</td>
+						<td class="burned_total burned_total-profile">>0.028%</td>
+						<td class="burned_by_you">Shit token #4</td>
+						<td class="available">0</td>
+						<td class="burn">burn</td>
+					</tr>
+					<tr class="table_list">
+						<td class="symbol symbol_profile"><button type="button" class="table_btn"><img class="img_info" src="img/Vector.svg" alt="info"></button>STKN4</td>
+						<td class="name name_profile">Shit token #4</td>
+						<td class="burned_total burned_total-profile NoChange">0%</td>
+						<td class="burned_by_you">Shit token #4</td>
+						<td class="available">0</td>
+						<td class="burn">burn</td>
+					</tr>
+					<tr class="table_list">
+						<td class="symbol symbol_profile"><button type="button" class="table_btn"><img class="img_info" src="img/Vector.svg" alt="info"></button>STKN4</td>
+						<td class="name name_profile">Shit token #4</td>
+						<td class="burned_total burned_total-profile">>0.001%</td>
+						<td class="burned_by_you">Shit token #4</td>
+						<td class="available">0</td>
+						<td class="burn">burn</td>
+					</tr>
+					<tr class="table_list">
+						<td class="symbol symbol_profile symbol_last"><button type="button" class="table_btn"><img class="img_info" src="img/Vector.svg"
+								 alt="info"></button>STKN4</td>
+						<td class="name name_profile name_last">Shit token #4</td>
+						<td class="burned_total burned_total-profile burned_total_last NoChange">0%</td>
+						<td class="burned_by_you">Shit token #4</td>
+
+						<td class="available">0</td>
+						<td class="burn">burn</td>
+
+					</tr>
+					<th><button type="button" class="btn_prev btn_prev-profile"><img src="img/prev.svg" alt="prev"></button></th>
+					<th><button type="button" disabled class="btn_number btn_number-profile active_number">1</button></th>
+					<th><button type="button" class="btn_number btn_otherNumber-profile other_number">2</button></th>
+					<th><button type="button" class="btn_next btn_next-profile"><img src="img/next.svg" alt="next"></button></th>
+				</table>
+			</form>
+		</div>
+	</section>
+
+	<section class="ReadyAndSuggest HelpAndSuggest">
+			<div class="container">
+				<div class="ReadyAndSuggest_box HelpAndSuggest_box">
+					<div class="ready_box HelpAndInfo">
+						<h4 class="ready_title help_title">Help and info</h4>
+						<p class="ready_text help_text">Don't see your token in our list — suggest an ERC20 token<br>for our database, so that you could burn it.</p>
+						<button class="suggest_btn btn_help ripple btn" type="button">HOW IT WORKS</button>
+					</div>
+					<div class="suggest_box">
+						<h4 class="suggest_title">Don't see your token?</h4>
+						<p class="suggest_text">Don't see your token in our list — suggest an ERC20 token<br>for our database, so that
+							you
+							could burn it.</p>
+						<button class="suggest_btn suggest_btn-profile ripple btn" type="button">SUGGEST TOKEN</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
