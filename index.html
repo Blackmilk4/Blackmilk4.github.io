@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>AUCTION</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="css/normailize.css">
+	<link rel="stylesheet" href="scss/main.css">
+	<link rel="stylesheet" href="scss/media.css">
+</head>
+
+<body>
+	<section class="section_header">
+		<div class="container">
+			<header class="main_header">
+				<div class="main_logo">
+					<a href="../../index.php"><img src="img/logotype.svg" alt="CryptoPainters" class="logo"></a>
+				</div>
+				<nav class="main_nav">
+					<ul class="main_menu" id="menu">
+						<li class="main_item"><a href="Paint.html" class="main_item-link">Paint</a></li>
+						<li class="main_item"><a href="Auction.html" class="main_item-link">Auction</a></li>
+						<li class="main_item"><a href="FAQs.php" class="main_item-link">FAQs</a></li>
+					</ul>
+					<!-- <button class="profile_btn">START</button> -->
+					<button class="MyProfile_btn">My profile</button>
+				</nav>
+			</header>
+		</div>
+	</section>
+
+	<section class="section_Author-profile">
+		<div class="container">
+			<div class="Author-profile_box">
+				<picture>
+					<source srcset="img/dali_avatar_mobile.png" media="(max-width: 900px)">
+					<img src="img/dali_avatar.png" alt="" class="avatar_Author-profile-img" width="103" height="103">
+				</picture>
+				<!-- <img src="img/dali_avatar.png" alt="" class="avatar_Author-profile-img" width="103" height="103"> -->
+				<div class="data_Author-profile">
+					<h1 class="title_Author-profile">nickXmpl</h1>
+					<p class="text_Author-profile">CryptoKitties is one of the world’s first games to be built on blockchain
+						technology—the same breakthrough that makes things like Bitcoin. </p>
+				</div>
+			</div>
+			<button type="button" class="btn_copyAddress">copy address</button>
+			<button type="button" class="btn_copyReport">settings</button>
+			<div class="profile_footer">
+				<h2 class="title_paintings-AuthorProfile">Paintings <span class="quantity"> (14)</span> </h2>
+				<div class="btn_footer-profile-group">
+					<button class="footer_profile-btnPaint" type="button">PAINT</button>
+					<button class="footer_profile-Auction" type="button">AUCTION</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section_BrowesAll">
+		<div class="container">
+			<form class="form_BrowesAll" action="">
+				<input class="BrowesAll_search" type="search" name="search" id="search" placeholder="Search">
+				<div class="box_wantUpdate mdCheck">
+					<input class="checkbox_wantUpdate" type="checkbox" name="rules" id="mdCheck">
+					<label class="wantUpdate_text" for="mdCheck">For sale</label>
+				</div>
+				<select class="sortByPrice" name="Price" id="Price">
+					<option disabled selected><span class="span_sort">Sort by: </span>price</option>
+					<option value="Price">Price</option>
+					<option value="Age">Age</option>
+					<option value="Likes">Likes</option>
+				</select>
+				<select class="BrowesAll_select" name="Sort" id="Sort">
+					<option value="Low to High">Low to High</option>
+					<option value="High to Low">High to Low</option>
+				</select>
+			</form>
+			<div class="box_likes">
+				<div class="img_group">
+					<div class="box_all">
+						<div class="img_data">
+							<button type="button" class="btn_auction-like">
+								<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12.6449 22.9986L12.6442 22.9979C9.62999 20.2647 7.1686 18.0319 5.45474 15.9366C3.74663 13.8482 2.83334 11.9574 2.83334 9.91667C2.83334 6.59948 5.43282 4 8.75001 4C10.6286 4 12.4395 4.87697 13.6193 6.2625L14 6.70954L14.3807 6.2625C15.5606 4.87697 17.3714 4 19.25 4C22.5672 4 25.1667 6.59948 25.1667 9.91667C25.1667 11.9574 24.2534 13.8483 22.5452 15.9382C20.8349 18.0306 18.3803 20.2611 15.3749 22.9923L15.3565 23.009L15.3554 23.01L14.0013 24.2333L12.6449 22.9986Z"
+									 stroke="black" />
+								</svg>
+							</button>
+							<img src="img/image_auction/1.jpg" alt="Image" class="img_likes" width="219" height="229">
+							<div class="box_forSale">
+								<p class="text_forSale">For sale<span class="price_forSale">Ξ 0.07</span></p>
+							</div>
+						</div>
+						<footer class="footer_data">
+							<span class="data_author">Gail Frazier</span>
+							<span class="data_number">#12343</span>
+						</footer>
+					</div>
+					<div class="box_all">
+						<div class="img_data">
+							<button type="button" class="btn_auction-like">
+								<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12.6449 22.9986L12.6442 22.9979C9.62999 20.2647 7.1686 18.0319 5.45474 15.9366C3.74663 13.8482 2.83334 11.9574 2.83334 9.91667C2.83334 6.59948 5.43282 4 8.75001 4C10.6286 4 12.4395 4.87697 13.6193 6.2625L14 6.70954L14.3807 6.2625C15.5606 4.87697 17.3714 4 19.25 4C22.5672 4 25.1667 6.59948 25.1667 9.91667C25.1667 11.9574 24.2534 13.8483 22.5452 15.9382C20.8349 18.0306 18.3803 20.2611 15.3749 22.9923L15.3565 23.009L15.3554 23.01L14.0013 24.2333L12.6449 22.9986Z"
+									 stroke="black" />
+								</svg>
+							</button>
+							<img src="img/image_auction/2.jpg" alt="Image" class="img_likes" width="219" height="229">
+							<div class="box_forSale">
+								<p class="text_forSale">For sale<span class="price_forSale">Ξ 0.07</span></p>
+							</div>
+						</div>
+						<footer class="footer_data">
+							<span class="data_author">Gail Frazier</span>
+							<span class="data_number">#12343</span>
+						</footer>
+					</div>
+					<div class="box_all">
+						<div class="img_data">
+							<button type="button" class="btn_auction-like">
+								<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12.6449 22.9986L12.6442 22.9979C9.62999 20.2647 7.1686 18.0319 5.45474 15.9366C3.74663 13.8482 2.83334 11.9574 2.83334 9.91667C2.83334 6.59948 5.43282 4 8.75001 4C10.6286 4 12.4395 4.87697 13.6193 6.2625L14 6.70954L14.3807 6.2625C15.5606 4.87697 17.3714 4 19.25 4C22.5672 4 25.1667 6.59948 25.1667 9.91667C25.1667 11.9574 24.2534 13.8483 22.5452 15.9382C20.8349 18.0306 18.3803 20.2611 15.3749 22.9923L15.3565 23.009L15.3554 23.01L14.0013 24.2333L12.6449 22.9986Z"
+									 stroke="black" />
+								</svg>
+							</button>
+							<img src="img/image_auction/3.jpg" alt="Image" class="img_likes" width="219" height="229">
+							<div class="box_forSale">
+								<p class="text_forSale">For sale<span class="price_forSale">Ξ 0.07</span></p>
+							</div>
+						</div>
+						<footer class="footer_data">
+							<span class="data_author">Gail Frazier</span>
+							<span class="data_number">#12343</span>
+						</footer>
+					</div>
+					<div class="box_all">
+						<div class="img_data">
+							<button type="button" class="btn_auction-like">
+								<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12.6449 22.9986L12.6442 22.9979C9.62999 20.2647 7.1686 18.0319 5.45474 15.9366C3.74663 13.8482 2.83334 11.9574 2.83334 9.91667C2.83334 6.59948 5.43282 4 8.75001 4C10.6286 4 12.4395 4.87697 13.6193 6.2625L14 6.70954L14.3807 6.2625C15.5606 4.87697 17.3714 4 19.25 4C22.5672 4 25.1667 6.59948 25.1667 9.91667C25.1667 11.9574 24.2534 13.8483 22.5452 15.9382C20.8349 18.0306 18.3803 20.2611 15.3749 22.9923L15.3565 23.009L15.3554 23.01L14.0013 24.2333L12.6449 22.9986Z"
+									 stroke="black" />
+								</svg>
+							</button>
+							<img src="img/image_auction/4.jpg" alt="Image" class="img_likes" width="219" height="229">
+							<div class="box_forSale">
+								<p class="text_forSale">For sale<span class="price_forSale">Ξ 0.07</span></p>
+							</div>
+						</div>
+						<footer class="footer_data">
+							<span class="data_author">Gail Frazier</span>
+							<span class="data_number">#12343</span>
+						</footer>
+					</div>
+					<div class="box_all">
+						<div class="img_data">
+							<button type="button" class="btn_auction-like">
+								<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12.6449 22.9986L12.6442 22.9979C9.62999 20.2647 7.1686 18.0319 5.45474 15.9366C3.74663 13.8482 2.83334 11.9574 2.83334 9.91667C2.83334 6.59948 5.43282 4 8.75001 4C10.6286 4 12.4395 4.87697 13.6193 6.2625L14 6.70954L14.3807 6.2625C15.5606 4.87697 17.3714 4 19.25 4C22.5672 4 25.1667 6.59948 25.1667 9.91667C25.1667 11.9574 24.2534 13.8483 22.5452 15.9382C20.8349 18.0306 18.3803 20.2611 15.3749 22.9923L15.3565 23.009L15.3554 23.01L14.0013 24.2333L12.6449 22.9986Z"
+									 stroke="black" />
+								</svg>
+							</button>
+							<img src="img/image_auction/1.jpg" alt="Image" class="img_likes" width="219" height="229">
+							<div class="box_forSale">
+								<p class="text_forSale">For sale<span class="price_forSale">Ξ 0.07</span></p>
+							</div>
+						</div>
+						<footer class="footer_data">
+							<span class="data_author">Gail Frazier</span>
+							<span class="data_number">#12343</span>
+						</footer>
+					</div>
+					<div class="box_all">
+						<div class="img_data">
+							<button type="button" class="btn_auction-like">
+								<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12.6449 22.9986L12.6442 22.9979C9.62999 20.2647 7.1686 18.0319 5.45474 15.9366C3.74663 13.8482 2.83334 11.9574 2.83334 9.91667C2.83334 6.59948 5.43282 4 8.75001 4C10.6286 4 12.4395 4.87697 13.6193 6.2625L14 6.70954L14.3807 6.2625C15.5606 4.87697 17.3714 4 19.25 4C22.5672 4 25.1667 6.59948 25.1667 9.91667C25.1667 11.9574 24.2534 13.8483 22.5452 15.9382C20.8349 18.0306 18.3803 20.2611 15.3749 22.9923L15.3565 23.009L15.3554 23.01L14.0013 24.2333L12.6449 22.9986Z"
+									 stroke="black" />
+								</svg>
+							</button>
+							<img src="img/image_auction/2.jpg" alt="Image" class="img_likes" width="219" height="229">
+							<div class="box_forSale">
+								<p class="text_forSale">For sale<span class="price_forSale">Ξ 0.07</span></p>
+							</div>
+						</div>
+						<footer class="footer_data">
+							<span class="data_author">Gail Frazier</span>
+							<span class="data_number">#12343</span>
+						</footer>
+					</div>
+					<div class="box_all">
+						<div class="img_data">
+							<button type="button" class="btn_auction-like">
+								<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12.6449 22.9986L12.6442 22.9979C9.62999 20.2647 7.1686 18.0319 5.45474 15.9366C3.74663 13.8482 2.83334 11.9574 2.83334 9.91667C2.83334 6.59948 5.43282 4 8.75001 4C10.6286 4 12.4395 4.87697 13.6193 6.2625L14 6.70954L14.3807 6.2625C15.5606 4.87697 17.3714 4 19.25 4C22.5672 4 25.1667 6.59948 25.1667 9.91667C25.1667 11.9574 24.2534 13.8483 22.5452 15.9382C20.8349 18.0306 18.3803 20.2611 15.3749 22.9923L15.3565 23.009L15.3554 23.01L14.0013 24.2333L12.6449 22.9986Z"
+									 stroke="black" />
+								</svg>
+							</button>
+							<img src="img/image_auction/3.jpg" alt="Image" class="img_likes" width="219" height="229">
+							<div class="box_forSale">
+								<p class="text_forSale">For sale<span class="price_forSale">Ξ 0.07</span></p>
+							</div>
+						</div>
+						<footer class="footer_data">
+							<span class="data_author">Gail Frazier</span>
+							<span class="data_number">#12343</span>
+						</footer>
+					</div>
+					<div class="box_all">
+						<div class="img_data">
+							<button type="button" class="btn_auction-like">
+								<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12.6449 22.9986L12.6442 22.9979C9.62999 20.2647 7.1686 18.0319 5.45474 15.9366C3.74663 13.8482 2.83334 11.9574 2.83334 9.91667C2.83334 6.59948 5.43282 4 8.75001 4C10.6286 4 12.4395 4.87697 13.6193 6.2625L14 6.70954L14.3807 6.2625C15.5606 4.87697 17.3714 4 19.25 4C22.5672 4 25.1667 6.59948 25.1667 9.91667C25.1667 11.9574 24.2534 13.8483 22.5452 15.9382C20.8349 18.0306 18.3803 20.2611 15.3749 22.9923L15.3565 23.009L15.3554 23.01L14.0013 24.2333L12.6449 22.9986Z"
+									 stroke="black" />
+								</svg>
+							</button>
+							<img src="img/image_auction/4.jpg" alt="Image" class="img_likes" width="219" height="229">
+							<div class="box_forSale">
+								<p class="text_forSale">For sale<span class="price_forSale">Ξ 0.07</span></p>
+							</div>
+						</div>
+						<footer class="footer_data">
+							<span class="data_author">Gail Frazier</span>
+							<span class="data_number">#12343</span>
+						</footer>
+					</div>
+					<div class="box_all">
+						<div class="img_data">
+							<button type="button" class="btn_auction-like">
+								<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12.6449 22.9986L12.6442 22.9979C9.62999 20.2647 7.1686 18.0319 5.45474 15.9366C3.74663 13.8482 2.83334 11.9574 2.83334 9.91667C2.83334 6.59948 5.43282 4 8.75001 4C10.6286 4 12.4395 4.87697 13.6193 6.2625L14 6.70954L14.3807 6.2625C15.5606 4.87697 17.3714 4 19.25 4C22.5672 4 25.1667 6.59948 25.1667 9.91667C25.1667 11.9574 24.2534 13.8483 22.5452 15.9382C20.8349 18.0306 18.3803 20.2611 15.3749 22.9923L15.3565 23.009L15.3554 23.01L14.0013 24.2333L12.6449 22.9986Z"
+									 stroke="black" />
+								</svg>
+							</button>
+							<img src="img/image_auction/1.jpg" alt="Image" class="img_likes" width="219" height="229">
+							<div class="box_forSale">
+								<p class="text_forSale">For sale<span class="price_forSale">Ξ 0.07</span></p>
+							</div>
+						</div>
+						<footer class="footer_data">
+							<span class="data_author">Gail Frazier</span>
+							<span class="data_number">#12343</span>
+						</footer>
+					</div>
+					<div class="box_all">
+						<div class="img_data">
+							<button type="button" class="btn_auction-like">
+								<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12.6449 22.9986L12.6442 22.9979C9.62999 20.2647 7.1686 18.0319 5.45474 15.9366C3.74663 13.8482 2.83334 11.9574 2.83334 9.91667C2.83334 6.59948 5.43282 4 8.75001 4C10.6286 4 12.4395 4.87697 13.6193 6.2625L14 6.70954L14.3807 6.2625C15.5606 4.87697 17.3714 4 19.25 4C22.5672 4 25.1667 6.59948 25.1667 9.91667C25.1667 11.9574 24.2534 13.8483 22.5452 15.9382C20.8349 18.0306 18.3803 20.2611 15.3749 22.9923L15.3565 23.009L15.3554 23.01L14.0013 24.2333L12.6449 22.9986Z"
+									 stroke="black" />
+								</svg>
+							</button>
+							<img src="img/image_auction/2.jpg" alt="Image" class="img_likes" width="219" height="229">
+							<div class="box_forSale">
+								<p class="text_forSale">For sale<span class="price_forSale">Ξ 0.07</span></p>
+							</div>
+						</div>
+						<footer class="footer_data">
+							<span class="data_author">Gail Frazier</span>
+							<span class="data_number">#12343</span>
+						</footer>
+					</div>
+					<div class="box_all">
+						<div class="img_data">
+							<button type="button" class="btn_auction-like">
+								<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12.6449 22.9986L12.6442 22.9979C9.62999 20.2647 7.1686 18.0319 5.45474 15.9366C3.74663 13.8482 2.83334 11.9574 2.83334 9.91667C2.83334 6.59948 5.43282 4 8.75001 4C10.6286 4 12.4395 4.87697 13.6193 6.2625L14 6.70954L14.3807 6.2625C15.5606 4.87697 17.3714 4 19.25 4C22.5672 4 25.1667 6.59948 25.1667 9.91667C25.1667 11.9574 24.2534 13.8483 22.5452 15.9382C20.8349 18.0306 18.3803 20.2611 15.3749 22.9923L15.3565 23.009L15.3554 23.01L14.0013 24.2333L12.6449 22.9986Z"
+									 stroke="black" />
+								</svg>
+							</button>
+							<img src="img/image_auction/3.jpg" alt="Image" class="img_likes" width="219" height="229">
+							<div class="box_forSale">
+								<p class="text_forSale">For sale<span class="price_forSale">Ξ 0.07</span></p>
+							</div>
+						</div>
+						<footer class="footer_data">
+							<span class="data_author">Gail Frazier</span>
+							<span class="data_number">#12343</span>
+						</footer>
+					</div>
+					<div class="box_all">
+						<div class="img_data">
+							<button type="button" class="btn_auction-like">
+								<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12.6449 22.9986L12.6442 22.9979C9.62999 20.2647 7.1686 18.0319 5.45474 15.9366C3.74663 13.8482 2.83334 11.9574 2.83334 9.91667C2.83334 6.59948 5.43282 4 8.75001 4C10.6286 4 12.4395 4.87697 13.6193 6.2625L14 6.70954L14.3807 6.2625C15.5606 4.87697 17.3714 4 19.25 4C22.5672 4 25.1667 6.59948 25.1667 9.91667C25.1667 11.9574 24.2534 13.8483 22.5452 15.9382C20.8349 18.0306 18.3803 20.2611 15.3749 22.9923L15.3565 23.009L15.3554 23.01L14.0013 24.2333L12.6449 22.9986Z"
+									 stroke="black" />
+								</svg>
+							</button>
+							<img src="img/image_auction/4.jpg" alt="Image" class="img_likes" width="219" height="229">
+							<div class="box_forSale">
+								<p class="text_forSale">For sale<span class="price_forSale">Ξ 0.07</span></p>
+							</div>
+						</div>
+						<footer class="footer_data">
+							<span class="data_author">Gail Frazier</span>
+							<span class="data_number">#12343</span>
+						</footer>
+					</div>
+				</div>
+				<nav class="btn-nav_box">
+					<button type="button" class="btn_nav active_btn-nav">1</button>
+					<button type="button" class="btn_nav">2</button>
+					<button type="button" class="btn_nav">3</button>
+					<button type="button" class="btn_nav">4</button>
+				</nav>
+			</div>
+		</div>
+	</section>
+</body>
+
+</html>
