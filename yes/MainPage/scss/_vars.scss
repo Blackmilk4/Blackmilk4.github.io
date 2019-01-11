@@ -1,0 +1,11 @@
+$blue: orange;
+
+@mixin btn {
+	outline: none;
+	background-color: #12141B;
+	color: #ffffff;
+	font-family: Axiforma;
+	font-weight: 700;
+	border: none;
+	cursor: pointer;
+}

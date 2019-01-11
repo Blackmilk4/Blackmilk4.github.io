@@ -1,0 +1,152 @@
+@import "../../../MainPage/scss/fonts";
+@import "../../../MainPage/scss/main";
+
+.MyProfile_btn {
+	margin-bottom: 0;
+}
+
+.main_item {
+	padding-top: 2.375rem;
+}
+
+.section_AnyActivities,
+.section_header {
+	background-image: url(../img/fon.png);
+	background-size: cover;
+	padding-bottom: 0.5rem;
+}
+
+.section_NoActivity {
+	background-color: #12151E;
+}
+
+.section_AnyActivities {
+	padding-bottom: 6.5rem;
+	min-height: 60vh;
+}
+
+.title_NoActivity {
+	font-size: 2rem;
+	font-family: Anton;
+	font-weight: 400;
+	color: #fff;
+	padding-bottom: 0.7rem;
+	padding-top: 0.7rem;
+	margin-left: 0rem;
+	margin-top: 0;
+	margin-bottom: 0;
+
+	&:before {
+		background-image: url(../img/arrow_down.svg);
+		display: inline-block;
+		content: "";
+		width: 32px;
+		height: 32px;
+		position: relative;
+		top: 2px;
+		right: 6px;
+	}
+}
+
+.title_AnyActivities {
+	font-size: 2rem;
+	font-family: Axiforma;
+	font-weight: 700;
+	padding-top: 4.5rem;
+	margin-top: 0;
+	padding-bottom: 3.5rem;
+	text-align: center;
+
+	br {
+		display: none;
+	}
+}
+
+
+.AnyActivities_img {
+	text-align: center;
+	padding-bottom: 2rem;
+	margin-right: 2rem;
+}
+
+.box_NoActivity {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.btn_wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	a {
+		text-decoration: none;
+	}
+}
+
+.btn_NoActivity_big,
+.btn_NoActivity {
+	display: block;
+	font-size: 1.125rem;
+	font-family: Axiforma;
+	font-weight: 700;
+	background-color: #000;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	margin-right: 0.7rem;
+	text-decoration: none;
+ a {
+	 text-decoration: none;
+ }
+
+
+ 
+
+	&:active {
+		border: none;
+		outline: none;
+	}
+
+	&:focus {
+		border: none;
+		outline: none;
+	}
+}
+
+.btn_NoActivity {
+	width: 187px;
+	height: 52px;
+}
+
+.btn_NoActivity_big {
+	width: 197px;
+	height: 52px;
+}
+
+.btn_ViewFAQs {
+	width: 392px;
+	height: 54px;
+	outline: 2px solid #12141B;
+	background-color: #fff;
+	font-size: 1.125rem;
+	border: none;
+	font-family: ProductSans;
+	font-weight: 700;
+	margin-top: 0.7rem;
+	padding: 0;
+	margin-right: 0.6rem;
+	cursor: pointer;
+
+	&:active {
+		border: none;
+	}
+
+	&:focus {
+		border: none;
+	}
+}
