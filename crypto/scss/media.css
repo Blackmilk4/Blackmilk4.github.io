@@ -1,10 +1,6 @@
 @media (max-width: 56.25em) {
   .container {
-    max-width: 320px;
-  }
-  .section_header,
-  .main_header {
-    background-size: auto;
+    max-width: 360px;
   }
   .main_menu,
   .main_nav,
@@ -18,6 +14,15 @@
   }
   .main_nav {
     margin-left: 2.5rem;
+  }
+  .section_sellValue,
+  .section_sell_filtr,
+  .section_gift,
+  .section_BuyValue,
+  .section_AnyActivities,
+  .section_ActivityDetails,
+  .section_header {
+    background-size: auto;
   }
   .main_logo {
     margin-right: 0;
@@ -49,55 +54,16 @@
     border-color: #fff;
     margin-bottom: 0;
   }
-  .section_TermsList,
-  .section_PrivacyPolicyList {
-    background-size: auto;
-  }
-  .section_FAQs {
-    background-size: auto;
-    padding-bottom: 0;
-    padding-top: 0;
-  }
-  .section_question {
-    padding-bottom: 1.5rem;
-    background-size: auto;
-  }
-  .title_question {
-    font-size: 1.25rem;
-  }
-  .text_question {
-    font-size: 0.875rem;
-    padding-left: 0.63rem;
-    padding-right: 0.5rem;
-  }
-  .titleWhatIsCP,
-  .titleCreating {
-    background-position: 98% 80%;
-    padding-top: 1rem;
-    background-size: 12px 15px;
-    padding-left: 0.5rem;
-  }
-  .titleTransactions,
-  .titleTechnical {
-    background-position: 98% 50%;
-    padding-top: 1rem;
-    background-size: 12px 15px;
-    padding-left: 0.5rem;
-  }
-  .img_FAQs {
-    max-height: 275px;
-    margin-top: 1rem;
-  }
-  .title_TermsOfUse,
-  .title_PrivacyPolicy {
+  .title_CreateThePainting,
+  .title_SellThePainting {
     font-size: 1rem;
     margin: 0;
     margin-left: 2rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
-  .title_TermsOfUse:before,
-  .title_PrivacyPolicy:before {
+  .title_CreateThePainting:before,
+  .title_SellThePainting:before {
     background-repeat: no-repeat;
     background-size: 15px 15px;
     background-position: center;
@@ -109,28 +75,254 @@
     top: -2px;
     right: 6px;
   }
-  .last_update-PrivacyPolicy {
-    padding-top: 40px;
-    margin-bottom: 2rem;
-    padding-bottom: 0;
+  .title_filtr {
+    font-size: 1.5rem;
+    text-align-last: left;
+    margin-left: 0.5rem;
   }
-  .text_list,
-  .title_text-TermsOfUse,
-  .last_update,
-  .text_list-PrivacyPolicy,
-  .title_text-PrivacyPolicy,
-  .last_update-PrivacyPolicy {
-    font-size: 1.125rem;
+  .text_filtr {
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 0.6rem;
+    line-height: 150%;
+  }
+  .img_share {
+    padding-top: 1.5rem;
+    margin-left: 0;
+    padding-bottom: 5rem;
+  }
+  .text_create,
+  .text_gift {
+    font-size: 1rem;
+    text-align: center;
+    width: 332px;
+  }
+  .text_create br,
+  .text_gift br {
+    display: none;
+  }
+  .text_buy {
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-size: 0.875rem;
+  }
+  .section_gift {
+    text-align: left;
+  }
+  .box_group {
+    width: 332px;
+    height: 253px;
+    margin-bottom: 0;
+  }
+  .filtr_price-text {
+    font-size: 0.875rem;
+  }
+  .filtr_price-text,
+  .wallel_text {
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .filtr_price-value {
+    font-size: 1rem;
+    max-width: 66px;
+    margin-top: 2rem;
+  }
+  .filtr_price-value:last-child {
+    padding-bottom: 1rem;
+  }
+  .gift_input {
+    display: block;
+    width: 285px;
+    height: 50px;
     margin-left: 1rem;
-    margin-right: 1rem;
+    margin-top: 0.5rem;
+    border: 1px solid #cacaca;
+    font-family: Axiforma;
+    font-weight: 600;
   }
-  .last_update {
-    padding-top: 40px;
-    margin-bottom: 2rem;
+  .filtr_price-text {
+    display: block;
+    width: 108px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 1rem;
+    line-height: 150%;
   }
-  .title_text-TermsOfUse,
-  .text_list {
-    padding-left: 0;
+  .filtr_price-text br {
+    display: block;
+  }
+  .wallel_text {
+    width: 200px;
+  }
+  .filtr_price-value {
+    display: block;
+  }
+  .total_price {
+    margin-top: 1rem;
+  }
+  .Estimated_value {
+    padding-bottom: 1rem;
+  }
+  .total_text {
+    padding-bottom: 1rem;
+  }
+  .total_text-mobile {
+    padding-top: 1.5rem;
+  }
+  .total_value-mobile {
+    margin-top: 1.5rem;
+  }
+  .now_text {
+    padding-top: 1.3rem;
+    padding-left: 0.7rem;
+  }
+  .price_sellNow {
+    margin-top: 1.3rem;
+  }
+  .fee_text {
+    width: 108px;
+    text-align: left;
+  }
+  .fee_value {
+    padding-top: 0;
+    margin-top: 1.5rem;
+  }
+  .total_value-price {
+    margin-top: 1rem;
+  }
+  .box_filtr-mobile {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .group_final-price {
+    height: 200px;
+  }
+  .default {
+    text-align: left;
+  }
+  .box_filtr:first-child {
+    display: block;
+  }
+  .creation_text {
+    padding-top: 2rem;
+  }
+  .EstimatedTotal_text {
+    padding-top: 2rem;
+  }
+  .EstimatedTransactionFee_value {
+    margin-top: 2rem;
+  }
+  .group_BuyThePainting {
+    height: 209px;
+  }
+  .btn_create,
+  .btn_filtr-gift {
+    margin-left: 5.8125rem;
+  }
+  input[type="text"]::-webkit-input-placeholder {
+    font-size: 1.25rem;
+    font-family: Axiforma;
+    font-weight: 600;
+  }
+  input[type="text"]:-ms-input-placeholder {
+    font-size: 1.25rem;
+    font-family: Axiforma;
+    font-weight: 600;
+  }
+  input[type="text"]::-ms-input-placeholder {
+    font-size: 1.25rem;
+    font-family: Axiforma;
+    font-weight: 600;
+  }
+  input[type="text"]::placeholder {
+    font-size: 1.25rem;
+    font-family: Axiforma;
+    font-weight: 600;
+  }
+  .price_sell-text {
+    font-size: 1rem;
+    padding-top: 2.3rem;
+    margin-left: 0;
+    padding-left: 13px;
+    width: 40px;
+  }
+  .price_sell-textDuration {
+    font-size: 1rem;
+    padding-left: 11px;
+    padding-top: 39px;
+    width: 70px;
+  }
+  .price_input {
+    border: 1px solid black;
+  }
+  .price_days {
+    -webkit-transform: translateY(-30%) translateX(14%);
+            transform: translateY(-30%) translateX(14%);
+    border: 1px solid black;
+  }
+  .btn_filtr-sell {
+    margin-top: 1.5rem;
+  }
+  .btn_down-days,
+  .btn_up-days,
+  .btn_down,
+  .btn_up {
+    width: 20px;
+    height: 35px;
+  }
+  .btn_up {
+    right: 6px;
+    top: 11px;
+  }
+  .btn_down {
+    right: 6px;
+    top: 46px;
+  }
+  .btn_up-days {
+    bottom: 67px;
+    right: 5px;
+  }
+  .btn_down-days {
+    bottom: 32px;
+    right: 5px;
+  }
+  .span_days {
+    position: relative;
+    right: 75px;
+    top: 37px !important;
+  }
+  .group_sell {
+    max-height: 194px;
+  }
+  .box_btn {
+    width: 158px;
+    margin-right: 0.5rem;
+  }
+  .filtr_sell-box {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .price_input {
+    height: 66px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+  }
+  .frame_text {
+    margin-top: 0.5rem;
+  }
+  .frame_price {
+    margin-top: 1.5rem;
+    padding-right: 1.7rem;
+  }
+  .EstimatedTotal_text-frame {
+    margin-top: 1rem;
+  }
+  .group_frame {
+    min-height: 297px;
   }
   .footer_menuList-box {
     padding-top: 2rem;
@@ -219,12 +411,156 @@
     display: -ms-flexbox;
     display: flex;
   }
+  .btn_up {
+    right: 5px;
+    top: 11px;
+  }
+  .btn_down {
+    right: 5px;
+    top: 46px;
+  }
+  .btn_up-days {
+    bottom: 67px;
+    right: 5px;
+  }
+  .btn_down-days {
+    bottom: 32px;
+    right: 5px;
+  }
+  .info_btn {
+    left: 130px;
+    top: 27px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/info_mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 13.5px 13.5px;
+  }
+  .block {
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 66px;
+    width: 210px;
+    height: 130px;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: left;
+    padding-top: 0rem;
+    margin-top: 0rem;
+  }
+  .block::before {
+    position: relative;
+    left: 95px;
+    top: -16.5px;
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/Polygon21.svg);
+    background-repeat: no-repeat;
+  }
+  .block2 {
+    text-align: left;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 130px;
+    width: 210px;
+    height: 130px;
+    font-size: 12px;
+    line-height: 130%;
+    padding-top: 0rem;
+    margin-top: 0rem;
+  }
+  .block2::before {
+    position: relative;
+    left: 95px;
+    top: -16.5px;
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/Polygon21.svg);
+    background-repeat: no-repeat;
+  }
+  .block3 {
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 66px;
+    width: 210px;
+    height: 130px;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: left;
+    padding-top: 0rem;
+    margin-top: 0rem;
+  }
+  .block3::before {
+    position: relative;
+    left: 95px;
+    top: -16.5px;
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/Polygon21.svg);
+    background-repeat: no-repeat;
+  }
+  .block4 {
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 66px;
+    width: 210px;
+    height: 130px;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: left;
+    padding-top: 0rem;
+    margin-top: 0rem;
+  }
+  .block4::before {
+    position: relative;
+    left: 95px;
+    top: -16.5px;
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/Polygon21.svg);
+    background-repeat: no-repeat;
+  }
+  .block5 {
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 66px;
+    width: 210px;
+    height: 130px;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: left;
+    padding-top: 0rem;
+    margin-top: 0rem;
+  }
+  .block5::before {
+    position: relative;
+    left: 95px;
+    top: -16.5px;
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/Polygon21.svg);
+    background-repeat: no-repeat;
+  }
 }
 
-@media (max-width: 20em) {
+@media (min-width: 15em) and (max-width: 20.5em) {
   .container {
-    max-width: 320px;
-    padding: 0;
+    max-width: 320px !important;
   }
   .MyProfile_btn {
     padding-right: 0;
@@ -238,6 +574,60 @@
   }
   .main_nav {
     margin-left: 3.1rem;
+  }
+  .box_group {
+    width: 310px;
+  }
+  .text_create,
+  .text_gift {
+    width: 310px;
+  }
+  .gift_input {
+    width: 265px;
+    font-family: Axiforma;
+    font-weight: 600;
+  }
+  .btn_filtr-gift {
+    margin-left: 3.8rem;
+  }
+  .btn_up {
+    right: 5px;
+    top: 11px;
+  }
+  .btn_down {
+    right: 5px;
+    top: 46px;
+  }
+  .btn_up-days {
+    bottom: 67px;
+    right: 5px;
+  }
+  .btn_down-days {
+    bottom: 32px;
+    right: 5px;
+  }
+  .btn_create {
+    margin-left: 4.7rem;
+  }
+  input[type="text"]::-webkit-input-placeholder {
+    font-size: 1.25rem;
+    font-family: Axiforma !important;
+    font-weight: 600;
+  }
+  input[type="text"]:-ms-input-placeholder {
+    font-size: 1.25rem;
+    font-family: Axiforma !important;
+    font-weight: 600;
+  }
+  input[type="text"]::-ms-input-placeholder {
+    font-size: 1.25rem;
+    font-family: Axiforma !important;
+    font-weight: 600;
+  }
+  input[type="text"]::placeholder {
+    font-size: 1.25rem;
+    font-family: Axiforma !important;
+    font-weight: 600;
   }
 }
 /*# sourceMappingURL=media.css.map */
