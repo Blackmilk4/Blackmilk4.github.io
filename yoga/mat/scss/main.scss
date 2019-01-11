@@ -1,5 +1,5 @@
-// @import "../../../MainPage/scss/fonts";
-// @import "../../../MainPage/scss/main";
+@import "../../../MainPage/scss/fonts";
+@import "../../../MainPage/scss/main";
 
 .MyProfile_btn {
 	margin-bottom: 0;
@@ -17,11 +17,11 @@
 	padding-bottom: 0.5rem;
 }
 
-.section_CreateThePainting {
+.section_SellThePainting {
 	background-color: #12151E;
 }
 
-.title_CreateThePainting {
+.title_SellThePainting {
 	font-size: 2rem;
 	font-family: Anton;
 	font-weight: 400;
@@ -66,11 +66,6 @@
 	padding-top: 2.875rem;
 }
 
-.box_filtr {
-	.creation_price {
-		margin-top: 2rem;
-	}
-}
 
 .filtr_price-value,
 .filtr_price-text {
@@ -89,9 +84,8 @@
 	margin-top: 1.5rem;
 }
 
-.creation_text {
-	margin-top: 2rem;
-	margin-bottom: 1.5rem;
+.wallel_text {
+	margin-top: 2.4375rem;
 }
 
 .total_text {
@@ -123,25 +117,18 @@ hr {
 	margin-bottom: 2.9375rem;
 }
 
+.filtr_price-text {
+	br {
+		display: none;
+	}
+}
+
 .box_filtr {
 	display: flex;
 	justify-content: space-between;
 }
 
-.text_create {
-	text-align: center;
-	width: 704px;
-	margin: 0 auto;
-	font-size: 1.5rem;
-	font-family: ProductSans;
-	font-weight: 400;
-	margin-top: 2.8125rem;
-	margin-bottom: 2rem;
-	color: #000;
-	opacity: .54;
-}
-
-.btn_create {
+.btn_filtr-gift {
 	width: 176px;
 	height: 56px;
 	background-color: #000;
@@ -152,12 +139,6 @@ hr {
 	font-weight: 700;
 	cursor: pointer;
 
-	&:focus,
-	&:active {
-		border: none;
-		outline: none;
-	}
-
 	&:hover {
 		background-color: #1B1E28;
 	}
@@ -165,6 +146,49 @@ hr {
 	&:active {
 		background-color: #000;
 	}
+
+	&:focus,
+	&:active {
+		border: none;
+		outline: none;
+	}
+}
+
+.gift_input {
+	width: 224px;
+	height: 60px;
+	outline: none;
+	border: 1px solid #BDBDBD;
+	background-color: #fff;
+	font-family: Axiforma;
+	font-weight: 600;
+	font-size: 1.25rem;
+	padding-left: 1rem;
+	margin-top: 1.125rem;
+	margin-bottom: 1rem;
+	margin-right: 1.5rem;
+	padding-top: 0.25rem;
+
+	&:focus,
+	&:active {
+		font-family: Axiforma;
+		font-weight: 600;
+		font-size: 1.25rem;
+		outline: none;
+	}
+}
+
+.text_gift {
+	text-align: center;
+	width: 704px;
+	margin: 0 auto;
+	font-size: 1.5rem;
+	font-family: ProductSans;
+	font-weight: 400;
+	margin-top: 2.8125rem;
+	margin-bottom: 2rem;
+	color: #000;
+	opacity: .54;
 }
 
 
@@ -189,7 +213,7 @@ hr {
 }
 
 
-.block4 {
+.block {
 	border: 2px solid rgb(179, 179, 179);
 	padding: 1rem;
 	text-align: left;
@@ -207,7 +231,6 @@ hr {
 	background-color: #fff;
 	display: none;
 	z-index: 9999;
-
 	&::before {
 		position: relative;
 		right: 33px;
@@ -225,10 +248,8 @@ hr {
 	display: block;
 }
 
-
-.body {
-	position: relative;
-	min-height: 100%;
+input[type="text"]::placeholder {
+	font-size: 1.25rem;
+	font-family: Axiforma !important;
+	font-weight: 600 ;
 }
-
-@import "../../yoga/mat/scss/media";
