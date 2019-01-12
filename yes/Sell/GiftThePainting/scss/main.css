@@ -603,8 +603,8 @@ hr {
 }
 
 .gift_input {
-  width: 224px !important;
-  height: 60px !important;
+  width: 224px;
+  height: 60px;
   outline: none;
   border: 1px solid #BDBDBD;
   background-color: #fff;
@@ -616,7 +616,7 @@ hr {
   margin-bottom: 1rem;
   margin-right: 1.5rem;
   padding-top: 0.25rem;
-  line-height: 22px !important;
+  line-height: 22px;
 }
 
 .gift_input:focus, .gift_input:active {
@@ -697,29 +697,29 @@ hr {
 
 input[type="text"]::-webkit-input-placeholder {
   font-size: 1.25rem;
-  font-family: Axiforma !important;
+  font-family: Axiforma;
   font-weight: 600;
-  line-height: 22px !important;
+  line-height: 40px !important;
 }
 
 input[type="text"]:-ms-input-placeholder {
   font-size: 1.25rem;
-  font-family: Axiforma !important;
+  font-family: Axiforma;
   font-weight: 600;
-  line-height: 22px !important;
+  line-height: 40px !important;
 }
 
 input[type="text"]::-ms-input-placeholder {
   font-size: 1.25rem;
-  font-family: Axiforma !important;
+  font-family: Axiforma;
   font-weight: 600;
-  line-height: 22px !important;
+  line-height: 40px !important;
 }
 
 input[type="text"]::placeholder {
   font-size: 1.25rem;
-  font-family: Axiforma !important;
+  font-family: Axiforma;
   font-weight: 600;
-  line-height: 22px !important;
+  line-height: 40px !important;
 }
 /*# sourceMappingURL=main.css.map */
