@@ -170,13 +170,13 @@
 
 	.btn_sale-cancel2 {
 		display: none;
+		width: 164px;
 	}
 
 	.btn_sale-cancel {
 		display: block;
+		width: 164px;
 	}
- 
-
 
 	.text_buyNow {
 		margin-top: 6rem;
@@ -210,7 +210,6 @@
 	.ouwner_avatar {
 		font-size: 0.875rem;
 	}
-
 
 	.box_avatar {
 		position: absolute;
@@ -369,7 +368,8 @@
 		margin-left: 0.5rem;
 	}
 
-	.btn_report, .btn_likes {
+	.btn_report,
+	.btn_likes {
 		min-width: 130px;
 	}
 
