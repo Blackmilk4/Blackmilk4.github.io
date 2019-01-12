@@ -359,7 +359,7 @@ input[type="checkbox"]:disabled {
 	background-position: 85% 50%;
 	appearance: none;
 	cursor: pointer;
-	border: 1px solid #BDBDBD;
+	border: 1px solid #BDBDBD !important;
 }
 
 .img_group {

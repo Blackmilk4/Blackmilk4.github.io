@@ -809,7 +809,7 @@ input[type="checkbox"]:disabled {
      -moz-appearance: none;
           appearance: none;
   cursor: pointer;
-  border: 1px solid #BDBDBD;
+  border: 1px solid #BDBDBD !important;
 }
 
 .img_group {
