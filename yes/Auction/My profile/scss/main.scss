@@ -80,7 +80,7 @@
 		top: 8px;
 		left: 144px;
 		background-image: url(../img/Ellipse.svg);
-		cursor: none;
+		cursor: auto;
 	}
 }
 
@@ -172,6 +172,7 @@
 
 input[type="search"]::placeholder {
 	opacity: .32;
+	line-height: 40px !important;
 }
 
 .BrowesAll_search {
