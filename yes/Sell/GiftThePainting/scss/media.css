@@ -586,6 +586,7 @@
     width: 265px;
     font-family: Axiforma;
     font-weight: 600;
+    line-height: 22px;
   }
   .btn_filtr-gift {
     margin-left: 3.8rem;
@@ -614,21 +615,25 @@
     font-size: 1.25rem;
     font-family: Axiforma !important;
     font-weight: 600;
+    line-height: 22px;
   }
   input[type="text"]:-ms-input-placeholder {
     font-size: 1.25rem;
     font-family: Axiforma !important;
     font-weight: 600;
+    line-height: 22px;
   }
   input[type="text"]::-ms-input-placeholder {
     font-size: 1.25rem;
     font-family: Axiforma !important;
     font-weight: 600;
+    line-height: 22px;
   }
   input[type="text"]::placeholder {
     font-size: 1.25rem;
     font-family: Axiforma !important;
     font-weight: 600;
+    line-height: 22px;
   }
 }
 /*# sourceMappingURL=media.css.map */

@@ -616,6 +616,7 @@ hr {
   margin-bottom: 1rem;
   margin-right: 1.5rem;
   padding-top: 0.25rem;
+  line-height: 22px !important;
 }
 
 .gift_input:focus, .gift_input:active {
@@ -698,23 +699,27 @@ input[type="text"]::-webkit-input-placeholder {
   font-size: 1.25rem;
   font-family: Axiforma !important;
   font-weight: 600;
+  line-height: 22px !important;
 }
 
 input[type="text"]:-ms-input-placeholder {
   font-size: 1.25rem;
   font-family: Axiforma !important;
   font-weight: 600;
+  line-height: 22px !important;
 }
 
 input[type="text"]::-ms-input-placeholder {
   font-size: 1.25rem;
   font-family: Axiforma !important;
   font-weight: 600;
+  line-height: 22px !important;
 }
 
 input[type="text"]::placeholder {
   font-size: 1.25rem;
   font-family: Axiforma !important;
   font-weight: 600;
+  line-height: 22px !important;
 }
 /*# sourceMappingURL=main.css.map */
