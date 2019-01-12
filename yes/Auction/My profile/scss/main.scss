@@ -170,11 +170,6 @@
 	display: flex;
 }
 
-input[type="search"]::placeholder {
-	opacity: .32;
-	line-height: 40px !important;
-}
-
 .BrowesAll_search {
 	width: 642px;
 	height: 61px;
@@ -189,11 +184,17 @@ input[type="search"]::placeholder {
 	font-family: Axiforma;
 	font-weight: 400;
 	padding-left: 3rem;
+	line-height: 22px;
 
 	&:active,
 	&:focus {
 		outline: none;
 	}
+}
+
+input[type="search"]::placeholder {
+	opacity: .32;
+	line-height: 40px !important;
 }
 
 
