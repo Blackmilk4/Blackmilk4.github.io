@@ -295,7 +295,7 @@
 
 		&:after {
 			left: 118px;
-			cursor: none;
+			cursor: auto;
 		}
 	}
 
@@ -441,6 +441,12 @@
 		background: url(../img/footer/fon_footer-mobile.png) center repeat-x, url(../img/Fon1.jpg) no-repeat;
 		background-size: contain, auto;
 	}
+	.btn_TheMostExpensive,
+	.btn_TheCheapest,
+	.btn_likes,
+	.btn_TheNewest {
+		width: 159px;
+	}
 }
 
 @media (max-width: 22em) {
@@ -532,6 +538,13 @@
 
 	.form_BrowesAll {
 		margin-left: 0.3rem;
+	}
+
+	.btn_TheMostExpensive,
+	.btn_TheCheapest,
+	.btn_likes,
+	.btn_TheNewest {
+		width: 159px;
 	}
 }
 
