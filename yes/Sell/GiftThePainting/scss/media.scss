@@ -269,6 +269,10 @@
 		margin-left: 5.8125rem;
 	}
 
+	.btn_create {
+		width: 180px;
+	}
+
 
 
 	input[type="text"]::placeholder {
@@ -702,8 +706,8 @@
 
 	input[type="text"]::placeholder {
 		font-size: 1.25rem;
-		font-family: Axiforma ;
+		font-family: Axiforma !important;
 		font-weight: 600;
-		line-height: 40px !important;
+		line-height: 22px;
 	}
 }

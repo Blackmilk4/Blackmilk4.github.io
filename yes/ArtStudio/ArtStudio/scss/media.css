@@ -213,7 +213,7 @@
     display: block;
     background-size: 18px 18px;
     background-position: 5% 50%;
-    border: #bdbdbd 1px solid;
+    border: 1px solid #BDBDBD;
   }
   .box_wantUpdate {
     display: none;
@@ -232,7 +232,7 @@
     width: 10.2rem;
     left: 196px;
     top: -62px;
-    border: #bdbdbd 1px solid;
+    border: 1px solid #BDBDBD !important;
   }
   input[type="search"]::-webkit-input-placeholder {
     font-size: 1.2rem;
@@ -448,7 +448,7 @@
     left: -5px;
     top: -1px;
     background-position: 95% 50%;
-    border: 1px solid grey;
+    border: 1px solid #BDBDBD !important;
   }
   .footer_profile-btnPaint {
     margin-right: 1rem;

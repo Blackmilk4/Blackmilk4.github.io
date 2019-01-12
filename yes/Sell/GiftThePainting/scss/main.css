@@ -616,7 +616,7 @@ hr {
   margin-bottom: 1rem;
   margin-right: 1.5rem;
   padding-top: 0.25rem;
-  line-height: 22px;
+  line-height: 22px !important;
 }
 
 .gift_input:focus, .gift_input:active {

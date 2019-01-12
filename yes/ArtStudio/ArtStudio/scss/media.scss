@@ -269,7 +269,7 @@
 		width: 10.2rem;
 		left: 196px;
 		top: -62px;
-		border: 1px solid #BDBDBD;
+		border: 1px solid #BDBDBD !important;
 	}
 
 	input[type="search"]::placeholder {
@@ -505,7 +505,7 @@
 		left: -5px;
 		top: -1px;
 		background-position: 95% 50%;
-		border: 1px solid #BDBDBD;
+		border: 1px solid #BDBDBD !important;
 	}
 
 	.footer_profile-btnPaint {

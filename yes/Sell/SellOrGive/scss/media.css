@@ -143,9 +143,11 @@
   }
   .btn_sale-cancel2 {
     display: none;
+    width: 164px;
   }
   .btn_sale-cancel {
     display: block;
+    width: 164px;
   }
   .text_buyNow {
     margin-top: 6rem;
@@ -309,7 +311,8 @@
     margin-top: 1rem;
     margin-left: 0.5rem;
   }
-  .btn_report, .btn_likes {
+  .btn_report,
+  .btn_likes {
     min-width: 130px;
   }
   .btn_likes {

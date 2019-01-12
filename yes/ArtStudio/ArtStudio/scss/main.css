@@ -765,21 +765,21 @@ html {
 
 input[type="text"]::-webkit-input-placeholder {
   font-size: 1.25rem;
-  line-height: 40px !important;
+  line-height: 37px !important;
 }
 
 input[type="text"]:-ms-input-placeholder {
   font-size: 1.25rem;
-  line-height: 40px !important;
+  line-height: 37px !important;
 }
 
 input[type="text"]::-ms-input-placeholder {
   font-size: 1.25rem;
-  line-height: 40px !important;
+  line-height: 37px !important;
 }
 
 input[type="text"]::placeholder {
   font-size: 1.25rem;
-  line-height: 40px !important;
+  line-height: 37px !important;
 }
 /*# sourceMappingURL=main.css.map */

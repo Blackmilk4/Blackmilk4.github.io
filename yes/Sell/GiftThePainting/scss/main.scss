@@ -168,7 +168,7 @@ hr {
 	margin-bottom: 1rem;
 	margin-right: 1.5rem;
 	padding-top: 0.25rem;
-	line-height: 22px;
+	line-height: 22px !important;
 
 	&:focus,
 	&:active {
@@ -192,6 +192,7 @@ hr {
 	opacity: .54;
 }
 
+
 .box_filtr {
 	position: relative;
 }
@@ -211,6 +212,7 @@ hr {
 	background-color: #fff;
 	cursor: pointer;
 }
+
 
 .block {
 	border: 2px solid rgb(179, 179, 179);
