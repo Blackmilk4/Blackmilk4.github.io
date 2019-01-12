@@ -702,8 +702,8 @@
 
 	input[type="text"]::placeholder {
 		font-size: 1.25rem;
-		font-family: Axiforma !important;
+		font-family: Axiforma ;
 		font-weight: 600;
-		line-height: 22px;
+		line-height: 40px !important;
 	}
 }

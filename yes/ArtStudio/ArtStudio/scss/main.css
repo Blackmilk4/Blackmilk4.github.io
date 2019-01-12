@@ -758,4 +758,36 @@ html {
   text-align: center;
   margin-bottom: 5.5rem;
 }
+
+.input_name-create {
+  line-height: 22px !important;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+  font-size: 1.25rem;
+  font-family: Axiforma;
+  font-weight: 600;
+  line-height: 40px !important;
+}
+
+input[type="text"]:-ms-input-placeholder {
+  font-size: 1.25rem;
+  font-family: Axiforma;
+  font-weight: 600;
+  line-height: 40px !important;
+}
+
+input[type="text"]::-ms-input-placeholder {
+  font-size: 1.25rem;
+  font-family: Axiforma;
+  font-weight: 600;
+  line-height: 40px !important;
+}
+
+input[type="text"]::placeholder {
+  font-size: 1.25rem;
+  font-family: Axiforma;
+  font-weight: 600;
+  line-height: 40px !important;
+}
 /*# sourceMappingURL=main.css.map */

@@ -613,27 +613,27 @@
   }
   input[type="text"]::-webkit-input-placeholder {
     font-size: 1.25rem;
-    font-family: Axiforma !important;
+    font-family: Axiforma;
     font-weight: 600;
-    line-height: 22px;
+    line-height: 40px !important;
   }
   input[type="text"]:-ms-input-placeholder {
     font-size: 1.25rem;
-    font-family: Axiforma !important;
+    font-family: Axiforma;
     font-weight: 600;
-    line-height: 22px;
+    line-height: 40px !important;
   }
   input[type="text"]::-ms-input-placeholder {
     font-size: 1.25rem;
-    font-family: Axiforma !important;
+    font-family: Axiforma;
     font-weight: 600;
-    line-height: 22px;
+    line-height: 40px !important;
   }
   input[type="text"]::placeholder {
     font-size: 1.25rem;
-    font-family: Axiforma !important;
+    font-family: Axiforma;
     font-weight: 600;
-    line-height: 22px;
+    line-height: 40px !important;
   }
 }
 /*# sourceMappingURL=media.css.map */
