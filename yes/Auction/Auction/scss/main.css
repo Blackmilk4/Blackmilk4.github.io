@@ -1,0 +1,731 @@
+@font-face {
+  font-family: Anton;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/Anton/AntonRegular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: ProductSans;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/ProductSans/ProductSansBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: ProductSans;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/ProductSans/ProductSansRegular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Plakette;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/Plakette/PlaketteSerialBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 600;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaSemiBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 500;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaMedium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaRegular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 800;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaExtraBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Anton;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/Anton/AntonRegular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: ProductSans;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/ProductSans/ProductSansBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: ProductSans;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/ProductSans/ProductSansRegular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Plakette;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/Plakette/PlaketteSerialBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 600;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaSemiBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 500;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaMedium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaRegular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 800;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaExtraBold.otf) format("opentype");
+}
+
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.section_create,
+.section_start,
+.section_header {
+  background-image: url(../img/Fon.jpg);
+  background-size: cover;
+}
+
+.main_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main_logo {
+  padding-top: 1rem;
+}
+
+.main_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.main_menu li:first-child {
+  padding-left: 0;
+}
+
+.main_item {
+  padding-top: 2.1rem;
+  padding-left: 1.75rem;
+}
+
+.main_item-link {
+  text-decoration: none;
+  color: #12141B;
+  font-family: Axiforma;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+.btn_start,
+.profile_btn,
+.create-btn {
+  outline: none;
+  background-color: #12141B;
+  color: #ffffff;
+  font-family: Axiforma;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.profile_btn {
+  font-size: 1.125rem;
+  margin-top: 1.375rem;
+  margin-left: 2.5rem;
+  width: 92px;
+  height: 48px;
+}
+
+.profile_btn:hover {
+  background-color: #1B1E28;
+}
+
+.profile_btn:active {
+  background-color: #000;
+}
+
+.MyProfile_btn {
+  font-size: 1.125rem;
+  margin-top: 1.125rem;
+  margin-left: 2.5rem;
+  width: 156px;
+  height: 57px;
+  outline: none;
+  background-color: #fff;
+  border: 1px solid #BDBDBD;
+  color: #12141B;
+  font-family: Axiforma;
+  font-weight: 700;
+  cursor: pointer;
+  background-image: url(../img/dali.png);
+  background-repeat: no-repeat;
+  background-size: 32px 32px;
+  background-position: 9% center;
+  padding-left: 3rem;
+  padding-top: 0.2rem;
+  margin-bottom: 2rem;
+}
+
+.create-btn {
+  font-size: 1.5rem;
+  width: 229px;
+  height: 56px;
+  margin-top: 3rem;
+  margin-bottom: 7.25rem;
+  display: block;
+}
+
+.create-btn:hover {
+  background-color: #1B1E28;
+}
+
+.create-btn:active {
+  background-color: #000;
+}
+
+.painting_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.create-img {
+  margin-top: 6.75rem;
+  max-width: 100%;
+}
+
+.create_img-framed {
+  max-width: 100%;
+}
+
+.create_img-framed-large {
+  max-width: 100%;
+  position: relative;
+  left: 90px;
+  display: none;
+}
+
+.create_img-quote {
+  max-width: 100%;
+}
+
+.link_telegram {
+  display: block;
+  text-align: right;
+  margin-top: 1rem;
+  position: fixed;
+  -webkit-transform: translateX(800%);
+          transform: translateX(800%);
+}
+
+.section_cryptopainters {
+  background-image: url(../img/Fon_blue.png);
+  background-size: cover;
+  padding-bottom: 3.8rem;
+}
+
+.cryptopainters_box {
+  text-align: center;
+}
+
+.img_cryptopainters {
+  margin-top: 3rem;
+  max-width: 100%;
+}
+
+.text_cryptopainters {
+  margin: 0;
+  margin-top: 1.7rem;
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: Axiforma;
+  font-weight: 700;
+  line-height: 140%;
+  color: #111219;
+}
+
+.section_start {
+  text-align: center;
+}
+
+.start_text-anyuser,
+.start_text-join {
+  font-size: 1.5rem;
+}
+
+.start_text-anyuser {
+  font-family: Axiforma;
+  font-weight: 400;
+  color: #11131A;
+  opacity: .5;
+  margin: 0;
+  padding-top: 4rem;
+}
+
+.start_text-anyuser {
+  padding-top: 2rem;
+}
+
+.start_text-join {
+  font-weight: 800;
+  color: #12141B;
+  margin-bottom: 2rem;
+  font-family: Axiforma;
+  font-weight: 800;
+}
+
+.btn_start {
+  text-align: center;
+  width: 143px;
+  height: 53px;
+  font-size: 1.5rem;
+  position: relative;
+  padding-right: 2rem;
+  padding-top: 0.2rem;
+  margin-bottom: 7.5rem;
+  margin-right: 4rem;
+}
+
+.btn_start:hover {
+  background-color: #1B1E28;
+}
+
+.btn_start:active {
+  background-color: #000;
+}
+
+.btn_start:after {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-image: url(../img/Vector.svg);
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+  position: absolute;
+  right: 22px;
+  top: 20px;
+}
+
+.main_footer {
+  padding-bottom: 2.5rem;
+  background: url(../img/footer/fon_footer.png) no-repeat, url(../img/Fon.jpg) no-repeat;
+  background-size: cover;
+}
+
+.footer_menuList-box {
+  padding-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer_group {
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer_menu {
+  padding-left: 0;
+}
+
+.footer_item {
+  margin-bottom: 1rem;
+  margin-right: 4.125rem;
+  list-style: none;
+}
+
+.footer_item-link {
+  font-size: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: ProductSans;
+  font-weight: 400;
+  padding-top: 1.33333333333rem;
+}
+
+.line,
+.line2 {
+  position: relative;
+}
+
+.line:after,
+.line2:after {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  height: 84px;
+  width: 1px;
+  background-image: url(../img/footer/Line.svg);
+}
+
+.line:after {
+  left: 310px;
+  top: 35px;
+}
+
+.line2:after {
+  left: 310px;
+  top: 35px;
+}
+
+.MyProfile_btn {
+  margin-bottom: 0;
+}
+
+.main_item {
+  padding-top: 2.375rem;
+}
+
+.section_TheMostExpensive,
+.section_TheCheapest,
+.section_likes,
+.section_TheNewest,
+.section_header {
+  background-image: url(../img/fon.png);
+  background-size: cover;
+  padding-bottom: 0.5rem;
+}
+
+.section_auction {
+  background-color: #12151E;
+}
+
+.title_auction {
+  font-size: 2rem;
+  font-family: Anton;
+  font-weight: 400;
+  color: #fff;
+  padding-bottom: 0.7rem;
+  padding-top: 0.7rem;
+  margin-left: 0rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.title_auction:before {
+  background-image: url(../img/arrow_down.svg);
+  display: inline-block;
+  content: "";
+  width: 32px;
+  height: 32px;
+  position: relative;
+  top: 2px;
+  right: 6px;
+}
+
+.title_TheMostExpensive,
+.title_TheCheapest,
+.title_likes,
+.title_TheNewest {
+  font-family: Anton;
+  font-weight: 400;
+  font-size: 1.75rem;
+  position: relative;
+  margin-top: 0;
+  padding-top: 2rem;
+  text-transform: uppercase;
+}
+
+.title_TheMostExpensive span,
+.title_TheCheapest span,
+.title_likes span,
+.title_TheNewest span {
+  font-family: Axiforma;
+  font-weight: 800;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.title_TheMostExpensive:after,
+.title_TheCheapest:after,
+.title_likes:after,
+.title_TheNewest:after {
+  display: inline-block;
+  position: absolute;
+  content: "";
+}
+
+.title_TheNewest:after {
+  width: 143px;
+  height: 10px;
+  background-image: url(../img/The_newest.svg);
+  top: 65px;
+  left: 2px;
+}
+
+.title_likes:after {
+  width: 72px;
+  height: 10px;
+  background-image: url(../img/likes.svg);
+  top: 65px;
+  left: 1px;
+}
+
+.title_TheCheapest:after {
+  width: 171px;
+  height: 10px;
+  background-image: url(../img/Cheapest.svg);
+  top: 65px;
+  left: 1px;
+}
+
+.title_TheMostExpensive:after {
+  width: 236px;
+  height: 10px;
+  background-image: url(../img/Expensive.svg);
+  top: 65px;
+  left: 1px;
+}
+
+.text_TheMostExpensive,
+.text_TheCheapest,
+.text_likes,
+.text_TheNewest {
+  max-width: 58rem;
+  word-wrap: break-word;
+  font-family: Axiforma;
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #000;
+  opacity: .54;
+  line-height: 150%;
+  padding-bottom: 1.5rem;
+  margin-bottom: 0;
+}
+
+.img_group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.btn_TheMostExpensive,
+.btn_TheCheapest,
+.btn_likes,
+.btn_TheNewest {
+  min-width: 156px;
+  height: 48px;
+  outline: 2px solid #12141B;
+  background-color: #fff;
+  color: #12141B;
+  border: none;
+  font-size: 1.125rem;
+  font-family: Axiforma;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-top: 0.25rem;
+  cursor: pointer;
+}
+
+.btn_TheMostExpensive:focus, .btn_TheMostExpensive:active,
+.btn_TheCheapest:focus,
+.btn_TheCheapest:active,
+.btn_likes:focus,
+.btn_likes:active,
+.btn_TheNewest:focus,
+.btn_TheNewest:active {
+  border: none;
+}
+
+.btn_TheMostExpensive:hover,
+.btn_TheCheapest:hover,
+.btn_likes:hover,
+.btn_TheNewest:hover {
+  background-color: #f0f0f0;
+}
+
+.btn_TheMostExpensive:active,
+.btn_TheCheapest:active,
+.btn_likes:active,
+.btn_TheNewest:active {
+  background-color: #D6D6D6;
+}
+
+.btn_TheMostExpensive {
+  margin-bottom: 3rem;
+}
+
+.box_all {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.img_data {
+  background-image: url(../img/border_metal/2.png);
+  background-repeat: no-repeat;
+  width: 284px;
+  height: 294px;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.img_likes {
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+}
+
+.box_forSale {
+  background-color: #fff;
+  max-width: 133px;
+  height: 34px;
+  margin: 0 auto;
+  -webkit-transform: translateY(-11%);
+          transform: translateY(-11%);
+  text-align: center;
+}
+
+.text_forSale {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0.5rem;
+  padding-right: 0.7rem;
+  padding-left: 0.2rem;
+}
+
+.text_forSale .price_forSale {
+  color: #000;
+  opacity: .54;
+  padding-left: 0.6rem;
+}
+
+.footer_data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.data_author,
+.data_number {
+  font-family: Axiforma;
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: #000000;
+  opacity: .54;
+}
+
+.data_author {
+  -webkit-transform: translateY(-130%) translateX(-30%);
+          transform: translateY(-130%) translateX(-30%);
+}
+
+.data_number {
+  -webkit-transform: translateY(-130%) translateX(30%);
+          transform: translateY(-130%) translateX(30%);
+}
+
+.btn_auction-like {
+  position: absolute;
+  left: 205px;
+  top: 35px;
+  width: 28px;
+  height: 28px;
+  opacity: 1;
+  z-index: 1;
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+svg:hover {
+  fill: black;
+}
+/*# sourceMappingURL=main.css.map */

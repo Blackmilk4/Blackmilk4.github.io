@@ -1,0 +1,528 @@
+@font-face {
+  font-family: Anton;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/Anton/AntonRegular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: ProductSans;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/ProductSans/ProductSansBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: ProductSans;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/ProductSans/ProductSansRegular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Plakette;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/Plakette/PlaketteSerialBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 600;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaSemiBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 500;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaMedium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaRegular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 800;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaExtraBold.otf) format("opentype");
+}
+
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.section_create,
+.section_start,
+.section_header {
+  background-image: url(../img/Fon.jpg);
+  background-size: cover;
+}
+
+.main_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main_logo {
+  padding-top: 1rem;
+}
+
+.main_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.main_menu li:first-child {
+  padding-left: 0;
+}
+
+.main_item {
+  padding-top: 2.1rem;
+  padding-left: 1.75rem;
+}
+
+.main_item-link {
+  text-decoration: none;
+  color: #12141B;
+  font-family: Axiforma;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+.btn_start,
+.profile_btn,
+.create-btn {
+  outline: none;
+  background-color: #12141B;
+  color: #ffffff;
+  font-family: Axiforma;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.profile_btn {
+  font-size: 1.125rem;
+  margin-top: 1.375rem;
+  margin-left: 2.5rem;
+  width: 92px;
+  height: 48px;
+}
+
+.profile_btn:hover {
+  background-color: #1B1E28;
+}
+
+.profile_btn:active {
+  background-color: #000;
+}
+
+.MyProfile_btn {
+  font-size: 1.125rem;
+  margin-top: 1.125rem;
+  margin-left: 2.5rem;
+  width: 156px;
+  height: 57px;
+  outline: none;
+  background-color: #fff;
+  border: 1px solid #BDBDBD;
+  color: #12141B;
+  font-family: Axiforma;
+  font-weight: 700;
+  cursor: pointer;
+  background-image: url(../img/dali.png);
+  background-repeat: no-repeat;
+  background-size: 32px 32px;
+  background-position: 9% center;
+  padding-left: 3rem;
+  padding-top: 0.2rem;
+  margin-bottom: 2rem;
+}
+
+.create-btn {
+  font-size: 1.5rem;
+  width: 229px;
+  height: 56px;
+  margin-top: 3rem;
+  margin-bottom: 7.25rem;
+  display: block;
+}
+
+.create-btn:hover {
+  background-color: #1B1E28;
+}
+
+.create-btn:active {
+  background-color: #000;
+}
+
+.painting_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.create-img {
+  margin-top: 6.75rem;
+  max-width: 100%;
+}
+
+.create_img-framed {
+  max-width: 100%;
+}
+
+.create_img-framed-large {
+  max-width: 100%;
+  position: relative;
+  left: 90px;
+  display: none;
+}
+
+.create_img-quote {
+  max-width: 100%;
+}
+
+.link_telegram {
+  display: block;
+  text-align: right;
+  margin-top: 1rem;
+  position: fixed;
+  -webkit-transform: translateX(800%);
+          transform: translateX(800%);
+}
+
+.section_cryptopainters {
+  background-image: url(../img/Fon_blue.png);
+  background-size: cover;
+  padding-bottom: 3.8rem;
+}
+
+.cryptopainters_box {
+  text-align: center;
+}
+
+.img_cryptopainters {
+  margin-top: 3rem;
+  max-width: 100%;
+}
+
+.text_cryptopainters {
+  margin: 0;
+  margin-top: 1.7rem;
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: Axiforma;
+  font-weight: 700;
+  line-height: 140%;
+  color: #111219;
+}
+
+.section_start {
+  text-align: center;
+}
+
+.start_text-anyuser,
+.start_text-join {
+  font-size: 1.5rem;
+}
+
+.start_text-anyuser {
+  font-family: Axiforma;
+  font-weight: 400;
+  color: #11131A;
+  opacity: .5;
+  margin: 0;
+  padding-top: 4rem;
+}
+
+.start_text-anyuser {
+  padding-top: 2rem;
+}
+
+.start_text-join {
+  font-weight: 800;
+  color: #12141B;
+  margin-bottom: 2rem;
+  font-family: Axiforma;
+  font-weight: 800;
+}
+
+.btn_start {
+  text-align: center;
+  width: 143px;
+  height: 53px;
+  font-size: 1.5rem;
+  position: relative;
+  padding-right: 2rem;
+  padding-top: 0.2rem;
+  margin-bottom: 7.5rem;
+  margin-right: 4rem;
+}
+
+.btn_start:hover {
+  background-color: #1B1E28;
+}
+
+.btn_start:active {
+  background-color: #000;
+}
+
+.btn_start:after {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-image: url(../img/Vector.svg);
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+  position: absolute;
+  right: 22px;
+  top: 20px;
+}
+
+.main_footer {
+  padding-bottom: 2.5rem;
+  background: url(../img/footer/fon_footer.png) no-repeat, url(../img/Fon.jpg) no-repeat;
+  background-size: cover;
+}
+
+.footer_menuList-box {
+  padding-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer_group {
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer_menu {
+  padding-left: 0;
+}
+
+.footer_item {
+  margin-bottom: 1rem;
+  margin-right: 4.125rem;
+  list-style: none;
+}
+
+.footer_item-link {
+  font-size: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: ProductSans;
+  font-weight: 400;
+  padding-top: 1.33333333333rem;
+}
+
+.line,
+.line2 {
+  position: relative;
+}
+
+.line:after,
+.line2:after {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  height: 84px;
+  width: 1px;
+  background-image: url(../img/footer/Line.svg);
+}
+
+.line:after {
+  left: 310px;
+  top: 35px;
+}
+
+.line2:after {
+  left: 310px;
+  top: 35px;
+}
+
+@font-face {
+  font-family: Anton;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/Anton/AntonRegular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: ProductSans;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/ProductSans/ProductSansBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: ProductSans;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/ProductSans/ProductSansRegular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Plakette;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/Plakette/PlaketteSerialBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 600;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaSemiBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 500;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaMedium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaRegular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 800;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaExtraBold.otf) format("opentype");
+}
+
+.MyProfile_btn {
+  margin-bottom: 0;
+}
+
+.main_item {
+  padding-top: 2.375rem;
+}
+
+.section_TermsList,
+.section_header {
+  background-image: url(../img/fon.png);
+  background-size: cover;
+  padding-bottom: 0.5rem;
+}
+
+.section_TermsList {
+  padding-bottom: 5rem;
+}
+
+.section_TermsOfUse {
+  background-color: #12151E;
+}
+
+.title_TermsOfUse {
+  font-size: 2rem;
+  font-family: Anton;
+  font-weight: 400;
+  color: #fff;
+  padding-bottom: 0.7rem;
+  padding-top: 0.7rem;
+  margin-left: 0rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.title_TermsOfUse:before {
+  background-image: url(../img/arrow_down.svg);
+  display: inline-block;
+  content: "";
+  width: 32px;
+  height: 32px;
+  position: relative;
+  top: 2px;
+  right: 6px;
+}
+
+.text_TermsOfUse,
+.last_update {
+  font-size: 1.125rem;
+  font-family: Axiforma;
+  font-weight: 400;
+}
+
+.title_text-TermsOfUse {
+  margin-bottom: 0;
+}
+
+.last_update {
+  margin-top: 0;
+  padding-top: 2rem;
+  color: #000;
+}
+
+.text_TermsOfUse {
+  color: #000;
+  opacity: .54;
+  line-height: 150%;
+}
+
+.text_list {
+  padding-left: 0;
+}
+
+.section_TermsList {
+  min-height: 70vh;
+}
+/*# sourceMappingURL=main.css.map */

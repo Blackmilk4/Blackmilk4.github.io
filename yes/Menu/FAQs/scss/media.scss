@@ -1,0 +1,287 @@
+// @import "../../../MainPage/scss/media";
+
+@media (max-width: 56.25em) {
+	.container {
+		max-width: 320px;
+	}
+
+	.section_header,
+	.main_header {
+		background-size: auto;
+	}
+
+	.main_menu,
+	.main_nav,
+	.main_header {
+		display: flex;
+		justify-content: center;
+	}
+
+
+	.main_nav {
+		// margin-left: 4.0625rem;
+		margin-left: 2.5rem;
+	}
+
+	.main_logo {
+		margin-right: 0;
+	}
+
+	.logo {
+		width: 52px;
+		height: 39px;
+	}
+
+	.main_item {
+		padding-top: 1.5rem;
+		padding-left: 1.1rem;
+	}
+
+	.main_item-link {
+		font-size: 0.75rem;
+		margin-top: 2rem;
+	}
+
+	.MyProfile_btn {
+		width: 40px;
+		height: 40px;
+		font-size: 0;
+		padding-left: 0;
+		margin-left: 1.5rem;
+		margin-top: 1rem;
+		padding-top: 0;
+		outline: none;
+		background-position: center center;
+		background-color: #fff;
+		border-radius: 50%;
+		border-color: #fff;
+		margin-bottom: 0;
+	}
+
+	.section_TermsList,
+	.section_PrivacyPolicyList {
+		background-size: auto;
+	}
+
+
+	//Медиа для header по всем страницам 
+
+
+	.section_FAQs {
+		background-size: auto;
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+
+	.section_question {
+		padding-bottom: 1.5rem;
+		background-size: auto;
+
+	}
+
+	.title_question {
+		font-size: 1.25rem;
+	}
+
+	.text_question {
+		font-size: 0.875rem;
+		padding-left: 0.63rem;
+		padding-right: 0.5rem;
+
+	}
+
+	.titleWhatIsCP,
+	.titleCreating {
+		background-position: 98% 80%;
+		padding-top: 1rem;
+		background-size: 12px 15px;
+		padding-left: 0.5rem;
+	}
+
+	.titleTransactions,
+	.titleTechnical {
+		background-position: 98% 50%;
+		padding-top: 1rem;
+		background-size: 12px 15px;
+		padding-left: 0.5rem;
+
+	}
+
+	.img_FAQs {
+		max-height: 275px;
+		margin-top: 1rem;
+	}
+
+
+	.title_TermsOfUse,
+	.title_PrivacyPolicy {
+		font-size: 1rem;
+		margin: 0;
+		margin-left: 2rem;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+
+		&:before {
+			background-repeat: no-repeat;
+			background-size: 15px 15px;
+			background-position: center;
+			display: inline-block;
+			content: "";
+			width: 8px;
+			height: 8px;
+			position: relative;
+			top: -2px;
+			right: 6px;
+		}
+	}
+
+	.last_update-PrivacyPolicy {
+		padding-top: 40px;
+		margin-bottom: 2rem;
+		padding-bottom: 0;
+	}
+
+	.text_list,
+	.title_text-TermsOfUse,
+	.last_update,
+	.text_list-PrivacyPolicy,
+	.title_text-PrivacyPolicy,
+	.last_update-PrivacyPolicy {
+		font-size: 1.125rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+
+	.last_update {
+		padding-top: 40px;
+		margin-bottom: 2rem;
+	}
+
+	.title_text-TermsOfUse,
+	.text_list {
+		padding-left: 0;
+	}
+
+	//footer
+
+	.footer_menuList-box {
+		padding-top: 2rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin: 0 auto;
+	}
+
+	.footer_item-link {
+		font-size: 1rem;
+	}
+
+	.main_footer {
+		flex-wrap: wrap;
+		display: flex;
+		background: url(../img/footer/fon_footer-mobile.png) center repeat-x,
+			url(../img/Fon.jpg) no-repeat;
+		background-size: contain, auto;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+
+	.mobile_menu {
+		margin-bottom: 0;
+		margin-top: 0;
+		padding-bottom: 1rem;
+	}
+
+	.mobile_item {
+		margin-left: -3rem;
+	}
+
+	.mobile_group {
+		padding-bottom: 0;
+	}
+
+	.footer_item {
+		margin-right: 7.125rem;
+	}
+
+	.mobile_item {
+		margin-right: 0;
+	}
+
+	.mobile_item2 {
+		width: 96px;
+		margin-right: 4rem;
+		transform: translateX(40%) translateY(25%);
+
+		&:last-child {
+			padding-bottom: 0;
+			margin-bottom: 0;
+		}
+	}
+
+	.mobile_privacy {
+		transform: translateX(20%) translateY(15%);
+	}
+
+	.footer_group:nth-child(2) {
+		margin-left: -2rem;
+	}
+
+	.line2,
+	.line {
+		position: relative;
+
+		&:after {
+			position: absolute;
+			left: 0px;
+			top: 135px;
+			display: inline-block;
+			content: "";
+			height: 1px;
+			width: 240px;
+			background-image: url(../img/footer/Line2.png);
+		}
+	}
+
+	.line {
+		&:after {
+			left: -0px;
+			top: 135px;
+		}
+	}
+
+	.line2 {
+		&:after {
+			left: 1px;
+			top: 135px;
+		}
+	}
+
+	.mobile_menu {
+		display: flex;
+	}
+}
+
+@media (max-width: 20em) {
+	.container {
+		max-width: 320px;
+		padding: 0;
+	}
+
+	.MyProfile_btn {
+		padding-right: 0;
+		padding-left: 0;
+		margin-left: 0.8rem;
+		margin-right: 0;
+	}
+
+	.main_logo {
+		margin-right: 0;
+		margin-left: 1rem;
+	}
+
+	.main_nav {
+		margin-left: 3.1rem;
+	}
+
+}
