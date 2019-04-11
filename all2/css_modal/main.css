@@ -1,0 +1,1154 @@
+@font-face {
+  font-family: Anton;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/Anton/AntonRegular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: ProductSans;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/ProductSans/ProductSansBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: ProductSans;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/ProductSans/ProductSansRegular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Plakette;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/Plakette/PlaketteSerialBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 600;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaSemiBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 500;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaMedium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaRegular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Axiforma;
+  font-weight: 800;
+  font-style: normal;
+  src: url(../fonts/Axiforma/AxiformaExtraBold.otf) format("opentype");
+}
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 360px;
+  }
+  .modal_window-report,
+  .modal_window-browser,
+  .modal_window-WannaPaint,
+  .modal_window-SignInMetaMask,
+  .modal_window-signing {
+    max-width: 360px;
+    min-height: 640px;
+    background-color: #fff;
+    border: 1px solid black;
+  }
+  .modal_window-WannaPaint {
+    background-image: url(../img/Icon_paint-mobile.svg);
+    background-position: center 47%;
+  }
+  .WannaPaint_title,
+  .MetaMask_title,
+  .signing_title {
+    font-size: 2rem;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 0;
+    margin-top: 5.125rem;
+    margin-left: 14px;
+  }
+  .signing_title {
+    margin-bottom: 3rem;
+  }
+  .signing_title:after {
+    width: 120px;
+    height: 8px;
+    background-image: url(../img/Sign_in-mobile.png);
+    background-repeat: no-repeat;
+    top: 50px;
+    left: 0;
+  }
+  .WannaPaint_title {
+    margin-bottom: 1.5rem;
+  }
+  .WannaPaint_title:after {
+    width: 225px;
+    height: 13px;
+    top: 44px;
+    left: 0;
+    background-image: url(../img/Wanna_paint-mobile.png);
+  }
+  .WannaPaint_text,
+  .MetaMask_text,
+  .signing_text {
+    padding-left: 0;
+    margin-left: 14px;
+  }
+  .signing_btn {
+    padding-left: 0;
+    margin-left: 14px;
+  }
+  .signing_text-check {
+    padding-left: 0;
+    margin-left: 14px;
+  }
+  .MetaMask_title {
+    margin-bottom: 0;
+    position: relative;
+  }
+  .MetaMask_title:after {
+    content: "";
+    display: inline-block;
+    width: 332px;
+    height: 13px;
+    background-image: url(../img/SignintoMetamask.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    opacity: 1;
+  }
+  .MetaMask_text:after {
+    display: none;
+  }
+  .modal_window-CreateAccount {
+    max-width: 360px;
+    min-height: 750px;
+  }
+  .CreateAccount_title {
+    font-size: 1.5rem;
+    padding-left: 0;
+    margin-left: 14px;
+    padding-top: 72px;
+  }
+  .CreateAccount_title:after {
+    top: 106px;
+    left: 0;
+  }
+  .CreateAccount_text {
+    padding-left: 0;
+    margin-left: 14px;
+    font-size: 1rem;
+  }
+  .CreateAccount_text br {
+    display: none;
+  }
+  .form_email,
+  .form_text {
+    width: 314px;
+    max-height: 57px;
+    margin-left: 14px;
+    margin-top: 7px;
+    border-left: 1px solid #c4c4c4;
+    border-top: 1px solid #c4c4c4;
+  }
+  .form_email:focus, .form_email:active,
+  .form_text:focus,
+  .form_text:active {
+    outline: none;
+  }
+  .CreateAccount_text-privacy {
+    padding-left: 0;
+    margin-left: 14px;
+    color: #757575;
+    opacity: 1;
+  }
+  .CreateAccount_text-privacy a {
+    opacity: 1;
+    color: #2F80ED;
+  }
+  .CreateAccount_rules,
+  .CreateAccount_updates {
+    width: 332px;
+    padding-left: 0;
+    margin-left: 14px;
+  }
+  .btn_register {
+    -webkit-transform: translateX(170%);
+            transform: translateX(170%);
+    margin-bottom: 0;
+    width: 127px;
+    height: 48px;
+  }
+  .updates_text,
+  .rules_text {
+    font-size: 14px;
+    color: #6F6F6F;
+  }
+  .floating-label {
+    left: 27px;
+    top: 268px;
+  }
+  .floating-label2 {
+    left: 27px;
+    top: 341px;
+  }
+  .form_email:focus ~ .floating-label,
+  .form_email:not(:focus):valid ~ .floating-label {
+    top: 255px;
+  }
+  .form_text:focus ~ .floating-label2,
+  .form_text:not(:focus):valid ~ .floating-label2 {
+    top: 330px;
+  }
+  .btn_close-signing {
+    left: 310px;
+    top: 20px;
+  }
+  .btn_close-MetaMask {
+    left: 310px;
+    top: 20px;
+  }
+  .btn_close-CreateAccount {
+    left: 310px;
+    top: 20px;
+  }
+  .btn_close-WannaPaint {
+    left: 310px;
+    top: 20px;
+  }
+  .btn_close-browser {
+    left: 310px;
+    top: 20px;
+  }
+  .btn_close-report {
+    left: 310px;
+    top: -90px;
+  }
+  .btn_GetFirefox {
+    width: 298px;
+    font-size: 0.875rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .WannaPaint_text-secure {
+    padding-top: 9rem;
+    text-align: center;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .WannaPaint_text-secure br {
+    display: none;
+  }
+  .MetaMask_gif {
+    width: 330px;
+    height: 250px;
+    padding-left: 0.6rem;
+    margin-top: 4rem;
+  }
+  .browser_title {
+    font-size: 1.25rem;
+    padding-bottom: 10px;
+    padding-top: 0;
+    padding-left: 0;
+    margin-top: 5.125rem;
+    margin-left: 14px;
+  }
+  .modal_window-browser {
+    background-image: url(../img/painting_mobile.svg);
+    background-position: 43% 43%;
+  }
+  .btn_downloadChrome,
+  .btn_downloadFirefox {
+    margin-top: 12.5rem;
+    margin-left: 3rem;
+  }
+  .btn_downloadFirefox {
+    margin-top: 1.5rem;
+  }
+  .btn_report,
+  .input_url,
+  .label_reason,
+  .input_comments,
+  .label_reason,
+  .report_select,
+  .label_reason,
+  .report_text,
+  .report_title {
+    padding-left: 0;
+    margin-left: 14px;
+  }
+  .report_title {
+    margin-top: 4.5rem;
+  }
+  .input_url,
+  .input_comments,
+  .report_select {
+    width: 332px;
+    padding-left: 0.5rem;
+    border-left: 1px solid #c4c4c4;
+    border-top: 1px solid #c4c4c4;
+  }
+  .input_url,
+  .input_comments {
+    width: 322px;
+    height: 46px;
+  }
+  .report_select {
+    height: 50px;
+  }
+  .btn_report {
+    width: 183px;
+    height: 48px;
+  }
+  .btn_report {
+    margin-right: 0.8rem;
+  }
+}
+
+html {
+  font-size: 16px;
+}
+
+.btn_close-report,
+.btn_close-browser,
+.btn_close-WannaPaint,
+.btn_close-CreateAccount,
+.btn_close-signing,
+.btn_close-MetaMask {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  position: absolute;
+}
+
+.btn_close-reportfocus,
+.btn_close-browserfocus,
+.btn_close-WannaPaintfocus,
+.btn_close-CreateAccountfocus,
+.btn_close-signingfocus,
+.btn_close-MetaMaskfocus {
+  border: none;
+  outline: none;
+}
+
+.btn_close-report:active,
+.btn_close-browser:active,
+.btn_close-WannaPaint:active,
+.btn_close-CreateAccount:active,
+.btn_close-signing:active,
+.btn_close-MetaMask:active {
+  border: none;
+  outline: none;
+}
+
+.btn_close-report,
+.modal_window-browser,
+.modal_window-WannaPaint,
+.modal_window-CreateAccount,
+.modal_window-signing,
+.modal_window-SignInMetaMask {
+  position: relative;
+}
+
+.btn_close-signing {
+  left: 390px;
+  top: 30px;
+}
+
+.btn_close-MetaMask {
+  left: 640px;
+  top: 18px;
+}
+
+.btn_close-CreateAccount {
+  left: 390px;
+  top: 25px;
+}
+
+.btn_close-WannaPaint {
+  left: 530px;
+  top: 25px;
+}
+
+.btn_close-browser {
+  left: 530px;
+  top: 25px;
+}
+
+.btn_close-report {
+  left: 385px;
+  top: -56px;
+}
+
+.modal_window-signing {
+  max-width: 437px;
+  min-height: 404px;
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+.signing_title,
+.signing_text-check,
+.signing_text {
+  padding-left: 3.375rem;
+}
+
+.report_title,
+.browser_title,
+.WannaPaint_title,
+.CreateAccount_title,
+.MetaMask_title,
+.signing_title {
+  font-size: 1.5rem;
+  padding-top: 2.5625rem;
+  margin: 0;
+  font-family: Axiforma;
+  font-weight: 700;
+}
+
+.report_title,
+.WannaPaint_title,
+.signing_title,
+.CreateAccount_title,
+.MetaMask_title {
+  position: relative;
+}
+
+.report_title:after,
+.WannaPaint_title:after,
+.signing_title:after,
+.CreateAccount_title:after,
+.MetaMask_title:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+}
+
+.signing_title {
+  padding-bottom: 1.75rem;
+}
+
+.signing_title:after {
+  width: 80px;
+  height: 7px;
+  background-image: url(../img/Signin.png);
+  top: 75px;
+  left: 53px;
+}
+
+.CreateAccount_title {
+  padding-bottom: 1.5rem;
+}
+
+.CreateAccount_title:after {
+  width: 193px;
+  height: 9px;
+  background-image: url(../img/create_account.png);
+  top: 75px;
+  left: 40px;
+}
+
+.MetaMask_title:after {
+  width: 609px;
+  height: 13px;
+  background-image: url(../img/MetaMask_line.svg);
+  top: 96px;
+  left: 14px;
+}
+
+.WannaPaint_title {
+  padding-top: 2.375rem;
+  padding-bottom: 2.1rem;
+  margin: 0;
+}
+
+.WannaPaint_title:after {
+  width: 165px;
+  height: 13px;
+  background-image: url(../img/wanna_paint.png);
+  top: 75px;
+  left: 40px;
+}
+
+.WannaPaint_text-secure,
+.WannaPaint_text,
+.CreateAccount_text,
+.MetaMask_text,
+.signing_text-check,
+.signing_text {
+  font-size: 1rem;
+  color: #000000;
+  opacity: .54;
+  font-family: Axiforma;
+  font-weight: 400;
+  padding-bottom: 1.6rem;
+  margin: 0;
+}
+
+.signing_text-check {
+  padding-bottom: 3.5rem;
+}
+
+.signing_btn,
+.sign_btn {
+  font-family: Axiforma;
+  font-weight: 700;
+  font-size: 1.125rem;
+  margin-left: 3.375rem;
+  margin-bottom: 2rem;
+  padding-top: 0.2rem;
+}
+
+.signing_btn {
+  width: 143px;
+  height: 48px;
+  background-color: #eeeeee;
+  color: #C4C4C4;
+}
+
+.sign_btn {
+  color: #fff;
+  background-color: #12141B;
+  width: 107px;
+  height: 48px;
+}
+
+.sign_btn:hover {
+  background-color: #1B1E28;
+}
+
+.sign_btn:active {
+  background-color: #000;
+}
+
+.btn_report,
+.btn_GetFirefox,
+.btn_register,
+.sign_btn,
+.signing_btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.btn_reportfocus,
+.btn_GetFirefoxfocus,
+.btn_registerfocus,
+.sign_btnfocus,
+.signing_btnfocus {
+  border: none;
+  outline: none;
+}
+
+.btn_report:active,
+.btn_GetFirefox:active,
+.btn_register:active,
+.sign_btn:active,
+.signing_btn:active {
+  border: none;
+  outline: none;
+}
+
+.modal_window-SignInMetaMask {
+  width: 696px;
+  height: 450px;
+  background-color: #fff;
+  border: 1px solid black;
+  margin-top: 2rem;
+}
+
+.MetaMask_title,
+.MetaMask_text {
+  padding-left: 1.25rem;
+}
+
+.MetaMask_title {
+  padding-bottom: 0.5rem;
+  padding-top: 1.5rem;
+  margin: 0;
+}
+
+.MetaMask_text {
+  padding-bottom: 0;
+}
+
+.MetaMask_gif {
+  width: 500px;
+  height: 300px;
+  padding-left: 5.5rem;
+  margin-top: 2rem;
+}
+
+.modal_window-CreateAccount {
+  width: 447px;
+  min-height: 699px;
+  background-color: #fff;
+  border: 1px solid black;
+  margin-top: 2rem;
+}
+
+.CreateAccount_text-privacy,
+.CreateAccount_text,
+.CreateAccount_title {
+  padding-left: 2.8125rem;
+  margin: 0;
+}
+
+.CreateAccount_text {
+  padding-bottom: 0.6rem;
+}
+
+.form_email,
+.form_text {
+  width: 347px;
+  height: 38px;
+  font-family: Axiforma;
+  font-weight: 400;
+  font-size: 1.125rem;
+  margin-left: 2.8125rem;
+  padding-top: 0.8rem;
+  padding-left: 0.9rem;
+}
+
+.form_email {
+  margin-bottom: 0.7rem;
+}
+
+.CreateAccount_text-privacy {
+  font-family: Axiforma;
+  font-weight: 700;
+  font-size: 1rem;
+  padding-top: 1rem;
+  color: #757575;
+  padding-bottom: 1rem;
+}
+
+.CreateAccount_text-privacy a {
+  text-decoration: none;
+  opacity: 1;
+  color: #2F80ED;
+}
+
+.CreateAccount_rules,
+.CreateAccount_updates {
+  width: 347px;
+  height: 74px;
+  background-color: #f7f7f7;
+  margin-left: 2.8125rem;
+  text-align: left;
+  border: 1px solid #E0E0E0;
+}
+
+.CreateAccount_rules {
+  margin-bottom: 0.6rem;
+}
+
+.rules_text,
+.updates_text {
+  font-family: Axiforma;
+  font-weight: 400;
+  line-height: 80%;
+  padding-top: 0.9rem;
+  margin: 0;
+  color: #6F6F6F;
+  position: relative;
+  top: 16px;
+  left: 20px;
+}
+
+label:not(:empty),
+input[type="checkbox"]:not(:empty),
+input[type="checkbox"],
+.md-checkbox,
+label,
+label:before,
+label:after,
+input[type="checkbox"]:checked,
+input[type="checkbox"]:disabled {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.md-checkbox.md-checkbox-inline {
+  display: inline-block;
+}
+
+.md-checkbox .rules_text {
+  cursor: pointer;
+  display: inline;
+  line-height: 1.45em;
+  vertical-align: top;
+  clear: both;
+  padding-left: 1px;
+}
+
+.md-checkbox .rules_text:not(:empty) {
+  padding-left: .75em;
+}
+
+.md-checkbox .rules_text:before, .md-checkbox .rules_text:after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: -20px;
+}
+
+.md-checkbox .rules_text:before {
+  width: 1.25em;
+  height: 1.25em;
+  background: #fff;
+  border: 2px solid #333333;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-transition: background .3s;
+  transition: background .3s;
+}
+
+.md-checkbox .checkbox_rules[type="checkbox"] {
+  outline: 0;
+  visibility: hidden;
+  width: 1.25em;
+  margin: 0;
+  display: block;
+  float: left;
+  font-size: inherit;
+}
+
+.md-checkbox .checkbox_rules[type="checkbox"]:checked + .rules_text:before {
+  background: #333333;
+  border: none;
+}
+
+.md-checkbox .checkbox_rules[type="checkbox"]:checked + .rules_text:after {
+  -webkit-transform: translate(0.25em, 0.33654em) rotate(-45deg) translateX(1%) translateY(0%);
+          transform: translate(0.25em, 0.33654em) rotate(-45deg) translateX(1%) translateY(0%);
+  width: 0.75em;
+  height: 0.375em;
+  border: 0.125em solid #fff;
+  border-top-style: none;
+  border-right-style: none;
+}
+
+.md-checkbox .checkbox_rules[type="checkbox"]:disabled + .rules_text:before {
+  border-color: #333333;
+}
+
+.md-checkbox .checkbox_rules[type="checkbox"]:disabled:checked + .rules_text:before {
+  background: #333333;
+}
+
+.md-checkbox2.md-checkbox-inline {
+  display: inline-block;
+}
+
+.md-checkbox2 .updates_text {
+  cursor: pointer;
+  display: inline;
+  line-height: 1.45em;
+  vertical-align: top;
+  clear: both;
+  padding-left: 1px;
+}
+
+.md-checkbox2 .updates_text:not(:empty) {
+  padding-left: 0.75em;
+}
+
+.md-checkbox2 .updates_text:before, .md-checkbox2 .updates_text:after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: -20px;
+}
+
+.md-checkbox2 .updates_text:before {
+  width: 1.25em;
+  height: 1.25em;
+  background: #fff;
+  border: 2px solid #333333;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-transition: background .3s;
+  transition: background .3s;
+}
+
+.md-checkbox2 .checkbox_updates[type="checkbox"] {
+  outline: 0;
+  visibility: hidden;
+  width: 1.25em;
+  margin: 0;
+  display: block;
+  float: left;
+  font-size: inherit;
+}
+
+.md-checkbox2 .checkbox_updates[type="checkbox"]:checked + .updates_text:before {
+  background: #333333;
+  border: none;
+}
+
+.md-checkbox2 .checkbox_updates[type="checkbox"]:checked + .updates_text:after {
+  -webkit-transform: translate(0.25em, 0.33654em) rotate(-45deg) translateX(1%) translateY(0%);
+          transform: translate(0.25em, 0.33654em) rotate(-45deg) translateX(1%) translateY(0%);
+  width: 0.75em;
+  height: 0.375em;
+  border: 0.125em solid #fff;
+  border-top-style: none;
+  border-right-style: none;
+}
+
+.md-checkbox2 .checkbox_updates[type="checkbox"]:disabled + .updates_text:before {
+  border-color: #333333;
+}
+
+.md-checkbox2 .checkbox_updates[type="checkbox"]:disabled:checked + .updates_text:before {
+  background: #333333;
+}
+
+.form_email:focus ~ .floating-label,
+.form_email:not(:focus):valid ~ .floating-label {
+  top: 217px;
+  font-size: 12px;
+  color: #000000;
+  opacity: .5;
+}
+
+.form_text:focus ~ .floating-label2,
+.form_text:not(:focus):valid ~ .floating-label2 {
+  top: 285px;
+  font-size: 12px;
+  color: #000000;
+  opacity: .5;
+}
+
+.floating-label2,
+.floating-label {
+  font-family: Axiforma;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #ADADAD;
+  position: absolute;
+  pointer-events: none;
+  -webkit-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+
+.floating-label {
+  left: 60px;
+  top: 230px;
+}
+
+.floating-label2 {
+  left: 60px;
+  top: 297px;
+}
+
+.btn_register {
+  font-family: Axiforma;
+  font-weight: 700;
+  font-size: 1.125rem;
+  width: 127px;
+  height: 48px;
+  color: #fff;
+  background-color: #12141B;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  -webkit-transform: translateX(210%);
+          transform: translateX(210%);
+}
+
+.btn_register:hover {
+  background-color: #1B1E28;
+}
+
+.btn_register:active {
+  background-color: #000;
+}
+
+.modal_window-WannaPaint {
+  width: 581px;
+  height: 505px;
+  border: 1px solid black;
+  margin-top: 2rem;
+  background-image: url(../img/Icon_paint.svg);
+  background-position: 49% center;
+  background-repeat: no-repeat;
+}
+
+.WannaPaint_text-secure,
+.WannaPaint_text,
+.WannaPaint_title {
+  padding-left: 2.375rem;
+}
+
+.WannaPaint_text {
+  padding-bottom: 0.5rem;
+}
+
+.WannaPaint_text-secure {
+  padding-bottom: 0;
+  padding-top: 11.5rem;
+}
+
+.btn_GetFirefox {
+  font-family: Axiforma;
+  font-weight: 700;
+  font-size: 1.125rem;
+  width: 378px;
+  height: 48px;
+  background-color: #12141B;
+  color: #fff;
+  margin-top: 2.5rem;
+  margin-left: 6.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn_GetFirefox:hover {
+  background-color: #1B1E28;
+}
+
+.btn_GetFirefox:active {
+  background-color: #000;
+}
+
+.modal_window-browser {
+  width: 580px;
+  height: 510px;
+  margin-top: 2rem;
+  border: 1px solid black;
+  background-image: url(../img/painting.svg);
+  background-position: 50% 63%;
+  background-repeat: no-repeat;
+}
+
+.modal_window-browser hr {
+  margin: 0;
+}
+
+.browser_title {
+  padding-left: 2.3125rem;
+  padding-bottom: 1rem;
+  opacity: .9;
+}
+
+.btn_downloadChrome {
+  margin-left: 2.5rem;
+  margin-right: 1.125rem;
+}
+
+.btn_downloadChrome,
+.btn_downloadFirefox {
+  font-family: Axiforma;
+  font-weight: 700;
+  font-size: 1.125rem;
+  width: 241px;
+  height: 48px;
+  border: 2px solid #12141B;
+  background-color: #fff;
+  color: #12141B;
+  cursor: pointer;
+  margin-top: 15.33rem;
+}
+
+.btn_downloadChrome:hover,
+.btn_downloadFirefox:hover {
+  background-color: #f0f0f0;
+}
+
+.btn_downloadChrome:active,
+.btn_downloadFirefox:active {
+  background-color: #D6D6D6;
+  outline: none;
+  border: 2px solid #12141B;
+}
+
+.btn_downloadChrome:focus,
+.btn_downloadFirefox:focus {
+  border: 2px solid #12141B;
+  outline: none;
+}
+
+.modal_window-report {
+  width: 437px;
+  height: 595px;
+  border: 1px solid #000;
+  margin-top: 1rem;
+}
+
+.report_title {
+  margin-left: 2.8125rem;
+  margin-top: 2.875rem;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+
+.report_text {
+  font-size: 1rem;
+  font-family: Axiforma;
+  font-weight: 400;
+  color: #000;
+  opacity: .54;
+  margin-left: 2.8125rem;
+  margin-top: 0;
+  line-height: 140%;
+}
+
+.report_form .report_select,
+.report_form option {
+  background-color: #fff;
+  font-size: 0.85rem;
+  font-family: Axiforma;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.report_form option:checked {
+  color: #000;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.report_form option:not(:checked) {
+  color: #000;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+select:checked {
+  background-color: #fff;
+  padding-top: 1rem;
+  cursor: pointer;
+}
+
+.report_select {
+  margin-left: 2.8125rem;
+  width: 360px;
+  height: 50px;
+  padding-left: 0.6rem;
+  border: 1px solid #C4C4C4;
+  outline: none;
+  background-color: #fff;
+  margin-bottom: 1.5rem;
+  background-image: url(../img/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: poiner;
+}
+
+.label_reason {
+  display: block;
+  margin-left: 2.8125rem;
+  font-family: Axiforma;
+  font-weight: 600;
+  padding-bottom: 0.3rem;
+  font-size: 14px;
+}
+
+.input_comments {
+  margin-bottom: 1.5rem;
+}
+
+.input_url {
+  margin-bottom: 2rem;
+}
+
+.input_comments,
+.input_url {
+  width: 347px;
+  height: 50px;
+  margin-left: 2.8125rem;
+  padding-left: 0.6rem;
+  font-family: Axiforma;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.report_form input[type="text"]::-webkit-input-placeholder {
+  color: #b9b8b8;
+  font-family: Axiforma;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.report_form input[type="text"]:-ms-input-placeholder {
+  color: #b9b8b8;
+  font-family: Axiforma;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.report_form input[type="text"]::-ms-input-placeholder {
+  color: #b9b8b8;
+  font-family: Axiforma;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.report_form input[type="text"]::placeholder {
+  color: #b9b8b8;
+  font-family: Axiforma;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.btn_report {
+  font-family: Axiforma;
+  font-weight: 700;
+  font-size: 1.125rem;
+  width: 183px;
+  height: 48px;
+  color: #fff;
+  background-color: #12141B;
+  margin-bottom: 2rem;
+  float: right;
+  clear: both;
+  margin-right: 2.8125rem;
+}
+
+.btn_report:hover {
+  background-color: #1B1E28;
+}
+
+.btn_report:active {
+  background-color: #000;
+}
+
+.report_title:after {
+  width: 156px;
+  height: 7px;
+  background-image: url(../img/report.svg);
+  top: 35px;
+  left: 1px;
+}
+/*# sourceMappingURL=main.css.map */
