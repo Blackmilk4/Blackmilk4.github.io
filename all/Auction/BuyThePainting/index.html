@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>BUY THE PAINTING</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+	<link rel="stylesheet" href="css/normailize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+	<section class="section_header">
+		<div class="container">
+			<header class="main_header">
+				<div class="main_logo">
+						<a href="../../MainPage/index.html"><img src="img/logotype.svg" alt="CryptoPainters" class="logo"></a>
+				</div>
+				<nav class="main_nav">
+					<ul class="main_menu" id="menu">
+							<li class="main_item"><a href="../../ArtStudio/ArtStudio/index.html" class="main_item-link">Paint</a></li>
+							<li class="main_item"><a href="../../Auction/Auction/index.html" class="main_item-link">Auction</a></li>
+							<li class="main_item"><a href="../../Menu/FAQs/FAQs.html" class="main_item-link">FAQs</a></li>
+					</ul>
+					<!-- <button class="profile_btn">START</button> -->
+					<button class="MyProfile_btn">My profile</button>
+				</nav>
+			</header>
+		</div>
+	</section>
+
+	<section class="section_BuyThePainting">
+		<div class="container">
+			<h2 class="title_BuyThePainting">BUY THE PAINTING</h2>
+		</div>
+	</section>
+
+	<section class="section_share">
+		<div class="container">
+			<div class="box_img">
+				<picture>
+					<source srcset="img/image-mobile.png" media="(max-width: 900px)">
+					<img class="img_share" src="img/image.png" alt="ImageWithFrame">
+				</picture>
+			</div>
+		</div>
+	</section>
+
+	<section class="section_BuyValue">
+		<div class="container">
+			<div class="box_group group_BuyThePainting">
+				<div class="box_filtr box_filtr-mobile">
+					<p class="filtr_price-text now_text default">Buy now price</p>
+					<p class="filtr_price-value price_sellNow">Ξ 0.2707</p>
+				</div>
+				<hr>
+				<div class="box_filtr box_filtr-mobile">
+					<div class="block3">A fee must be charged to perform transactions on the blockchain.This doesn't go to
+						CryptoPainters. The amount depends on the congestion level of the network. Our fee estimation is calculated based
+						on the current gas price.
+					</div>
+					<p class="filtr_price-text default">Estimated transaction fee</p>
+					<button class="info_btn"></button>
+					<p class="filtr_price-value">Ξ 0.0007</p>
+				</div>
+				<hr>
+				<div class="box_filtr box_filtr-mobile">
+					<p class="filtr_price-text total_text total_text-mobile">Estimated total</p>
+					<p class="filtr_price-value total_value-mobile">Ξ 0.2714</p>
+				</div>
+			</div>
+			<p class="text_gift text_buy">This is your best estimation. By clicking the button bellow you will be
+				prompted with the final transaction costs.</p>
+			<button class="btn_filtr-sell">OK, BUY THIS PAINTING</button>
+		</div>
+	</section>
+
+	<footer class="main_footer">
+			<div class="container">
+				<div class="footer_menuList-box">
+					<div class="footer_group line">
+						<div class="footer_box mobile_box">
+							<ul class="footer_menu">
+									<li class="footer_item"><a href="../../Auction/My profile/index.html" class="footer_item-link">My profile</a></li>
+									<li class="footer_item"><a href="../../ArtStudio/ArtStudio/index.html" class="footer_item-link">Paint</a></li>
+									<li class="footer_item"><a href="../../Auction/Auction/index.html" class="footer_item-link">Auction</a></li>
+							</ul>
+						</div>
+						<div class="footer_box mobile_box mobile_box2">
+							<ul class="footer_menu">
+									<li class="footer_item mobile_item"><a href="../../Menu/Activity/index.html" class="footer_item-link">Activity</a></li>
+									<li class="footer_item mobile_item"><a href="../../Menu/FAQs/FAQs.html" class="footer_item-link">FAQs</a></li>
+									<li class="footer_item mobile_item"><a href="#" class="footer_item-link">Help & Support</a></li>
+							</ul>
+						</div>
+	
+					</div>
+					<div class="footer_group line2">
+						<div class="footer_box">
+							<ul class="footer_menu">
+								<li class="footer_item"><a href="" class="footer_item-link">Twitter</a></li>
+								<li class="footer_item"><a href="" class="footer_item-link">Bitcointalk</a></li>
+								<li class="footer_item"><a href="" class="footer_item-link">Telegram</a></li>
+							</ul>
+						</div>
+						<div class="footer_box">
+							<ul class="footer_menu">
+								<li class="footer_item mobile_item"><a href="" class="footer_item-link">Instagram</a></li>
+								<li class="footer_item mobile_item"><a href="" class="footer_item-link">Youtube</a></li>
+								<li class="footer_item mobile_item"><a href="" class="footer_item-link">E-mail us</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer_group mobile_group">
+						<div class="footer_box">
+							<ul class="footer_menu mobile_menu">
+									<li class="footer_item mobile_item2"><a href="../../Menu/Terms/index.html" class="footer_item-link mobile_link">Terms
+										of use</a></li>
+								<li class="footer_item mobile_item2 mobile_privacy"><a href="../../Menu/Policy/index.html" class="footer_item-link mobile_link">Privacy
+										policy</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$('.info_btn').click(function () {
+			$('.block3').css('display', 'block');
+		});
+
+		$('.info_btn').mouseout(function () {
+			$('.block3').css('display', 'none');
+		});
+	</script>
+</body>
+
+</html>
