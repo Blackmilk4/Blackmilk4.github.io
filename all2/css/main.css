@@ -2925,7 +2925,7 @@ input[type=search]::placeholder {
 	position: absolute;
 	left: 198px;
 	top: 35px;
-	width: 28px;
+	width: 50px;
 	height: 28px;
 	opacity: 1 !important;
 	z-index: 999;
@@ -3270,7 +3270,7 @@ svg:hover {
 	.btn_TheMostExpensive,
 	.btn_TheNewest,
 	.btn_like-auction {
-		width: 156px;
+		width: 158.5px;
 		height: 48px;
 		font-size: 1.125rem;
 		margin-left: 0.9rem
