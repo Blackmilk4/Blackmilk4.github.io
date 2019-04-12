@@ -5,6 +5,13 @@ body {
 }
 
 @font-face {
+	font-family: OpenSansSemibold;
+	font-weight: 600;
+	font-style: normal;
+	src: url(../fonts/OpenSans/OpenSansSemibold.ttf) format("truetype");
+}
+
+@font-face {
 	font-family: Anton;
 	font-weight: 400;
 	font-style: normal;
@@ -2377,7 +2384,9 @@ select:checked {
 
 .text_forSale .price_forSale {
 	opacity: .54;
-	opacity: .54
+	opacity: .54;
+	font-family: OpenSansSemibold;
+	font-weight: 600;
 }
 
 .section_auction {
@@ -2893,7 +2902,7 @@ input[type=search]::placeholder {
 
 .btn_auction-like {
 	position: absolute;
-	left: 215px;
+	left: 205px;
 	top: 35px;
 	width: 28px;
 	height: 28px;
@@ -2949,7 +2958,7 @@ svg:hover {
 
 .box_forSale {
 	background-color: #fff;
-	max-width: 130px;
+	max-width: 55%;
 	height: 33px;
 	margin: 0 auto;
 	-webkit-transform: translateY(-11%);
@@ -2972,7 +2981,10 @@ svg:hover {
 .text_forSale .price_forSale {
 	color: #000;
 	opacity: .54;
-	padding-left: .55rem
+	padding-left: .35rem;
+	font-family: OpenSansSemibold;
+	font-weight: 600;
+
 }
 
 .btn_nav {
@@ -3184,11 +3196,11 @@ svg:hover {
 
 	.text_forSale {
 		font-size: .75rem;
-		padding-top: .2rem
+		padding-top: .2rem;
 	}
 
 	.box_forSale {
-		width: 127px;
+		max-width: 125px;
 		height: 20px;
 		-webkit-transform: translateY(-45.5%);
 		transform: translateY(-45.5%);
@@ -3571,7 +3583,7 @@ svg:hover {
 
 .img_FAQs {
 	text-align: center;
-	width: 100%
+	max-width: 100%
 }
 
 .title_question {
@@ -7613,5 +7625,35 @@ html {
 
 	.btn_create {
 		margin-left: 4.7rem;
+	}
+}
+
+@media screen and (max-width: 955px) and (min-width: 906px) {
+	.BrowesAll_search {
+		max-width: 305px;
+	}
+}
+
+@media screen and (max-width: 905px) and (min-width: 900px) {
+	.BrowesAll_search {
+		max-width: 305px;
+	}
+}
+
+@media screen and (max-width: 1130px) and (min-width: 973px) {
+	.line2:after {
+		left: 300px;
+	}
+}
+
+@media screen and (max-width: 993px) and (min-width: 970px) {
+	.line2:after {
+		left: 280px;
+	}
+}
+
+@media screen and (max-width: 970px) and (min-width: 900px) {
+	.line2:after {
+		left: 244px;
 	}
 }
