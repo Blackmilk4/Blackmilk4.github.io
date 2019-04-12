@@ -8,63 +8,63 @@ body {
 	font-family: Anton;
 	font-weight: 400;
 	font-style: normal;
-	src: url(../fonts/Anton/AntonRegular.ttf) format("truetype")
+	src: url(../fonts/Anton/AntonRegular.ttf) format("truetype");
 }
 
 @font-face {
 	font-family: ProductSans;
 	font-weight: 700;
 	font-style: normal;
-	src: url(../fonts/ProductSans/ProductSansBold.ttf) format("truetype")
+	src: url(../fonts/ProductSans/ProductSansBold.ttf) format("truetype");
 }
 
 @font-face {
 	font-family: ProductSans;
 	font-weight: 400;
 	font-style: normal;
-	src: url(../fonts/ProductSans/ProductSansRegular.ttf) format("truetype")
+	src: url(../fonts/ProductSans/ProductSansRegular.ttf) format("truetype");
 }
 
 @font-face {
 	font-family: Plakette;
 	font-weight: 700;
 	font-style: normal;
-	src: url(../fonts/Plakette/PlaketteSerialBold.ttf) format("truetype")
+	src: url(../fonts/Plakette/PlaketteSerialBold.ttf) format("truetype");
 }
 
 @font-face {
 	font-family: Axiforma;
 	font-weight: 700;
 	font-style: normal;
-	src: url(../fonts/Axiforma/AxiformaBold.otf) format("opentype")
+	src: url(../fonts/Axiforma/AxiformaBold.otf) format("opentype");
 }
 
 @font-face {
 	font-family: Axiforma;
 	font-weight: 600;
 	font-style: normal;
-	src: url(../fonts/Axiforma/AxiformaSemiBold.otf) format("opentype")
+	src: url(../fonts/Axiforma/AxiformaSemiBold.otf) format("opentype");
 }
 
 @font-face {
 	font-family: Axiforma;
 	font-weight: 500;
 	font-style: normal;
-	src: url(../fonts/Axiforma/AxiformaMedium.otf) format("opentype")
+	src: url(../fonts/Axiforma/AxiformaMedium.otf) format("opentype");
 }
 
 @font-face {
 	font-family: Axiforma;
 	font-weight: 400;
 	font-style: normal;
-	src: url(../fonts/Axiforma/AxiformaRegular.otf) format("opentype")
+	src: url(../fonts/Axiforma/AxiformaRegular.otf) format("opentype");
 }
 
 @font-face {
 	font-family: Axiforma;
 	font-weight: 800;
 	font-style: normal;
-	src: url(../fonts/Axiforma/AxiformaExtraBold.otf) format("opentype")
+	src: url(../fonts/Axiforma/AxiformaExtraBold.otf) format("opentype");
 }
 
 @media (min-width:1300px) and (max-width:5000px) {
@@ -1664,7 +1664,13 @@ select:checked {
 	}
 }
 
-.section_AddTheFrame,
+
+.section_AddTheFrame {
+	background-size: auto;
+	background-image: url(../img/fon.png);
+	padding-bottom: .5rem
+}
+
 .section_ArtStudio,
 .section_header {
 	background-image: url(../img/fon.png);
@@ -1900,13 +1906,28 @@ select:checked {
 	.section_AddTheFrame,
 	.section_ArtStudio,
 	.section_header {
-		background-size: auto !important
+		background-size: auto !important;
+	}
+}
+
+@media (max-width: 1136px) and (min-width: 900px) {
+	.title_AddTheFrame:after {
+		display: none;
 	}
 }
 
 @media (max-width:56.25em) {
 	.container {
-		max-width: 360px
+		max-width: 360px;
+	}
+
+	.container_BuyNow,
+	.container_description {
+		max-width: 320px !important;
+	}
+
+	.container_SellAndGift {
+		max-width: 340px !important;
 	}
 
 	.main_header,
@@ -1917,24 +1938,24 @@ select:checked {
 		display: flex;
 		-webkit-box-pack: center;
 		-ms-flex-pack: center;
-		justify-content: center
+		justify-content: center;
 	}
 
 	.main_item-link {
-		font-size: .75rem
+		font-size: .75rem;
 	}
 
 	.main_logo {
-		margin-right: 2rem
+		margin-right: 2rem;
 	}
 
 	.logo {
 		width: 52px;
-		height: 39px
+		height: 39px;
 	}
 
 	.main_item {
-		padding-top: 1.5rem
+		padding-top: 1.5rem;
 	}
 
 	.profile_btn {
@@ -2134,38 +2155,6 @@ select:checked {
 	}
 }
 
-.block4 {
-	border: 2px solid #b3b3b3;
-	padding: 1rem;
-	text-align: left;
-	font-size: 1rem;
-	color: #757575;
-	font-family: Axiforma;
-	font-weight: 400;
-	position: absolute;
-	left: 400px;
-	bottom: 0;
-	right: 100px;
-	top: -60px;
-	width: 239px;
-	height: 170px;
-	background-color: #fff;
-	display: none;
-	z-index: 9999
-}
-
-.block4::before {
-	position: relative;
-	right: 33px;
-	top: 68px;
-	content: "";
-	display: inline-block;
-	width: 25px;
-	height: 25px;
-	background-image: url(../img/Polygon2.svg);
-	background-repeat: no-repeat
-}
-
 .body {
 	position: relative;
 	min-height: 100%
@@ -2246,42 +2235,6 @@ select:checked {
 
 .btn_create:active {
 	background-color: #000
-}
-
-.block5 {
-	border: 2px solid #b3b3b3;
-	padding: 1rem;
-	text-align: left;
-	font-size: 1rem;
-	color: #757575;
-	font-family: Axiforma;
-	font-weight: 400;
-	position: absolute;
-	left: 400px;
-	bottom: 0;
-	right: 100px;
-	top: -60px;
-	width: 239px;
-	height: 170px;
-	background-color: #fff;
-	display: none;
-	z-index: 9999
-}
-
-.block5::before {
-	position: relative;
-	right: 33px;
-	top: 68px;
-	content: "";
-	display: inline-block;
-	width: 25px;
-	height: 25px;
-	background-image: url(../img/Polygon2.svg);
-	background-repeat: no-repeat
-}
-
-.info_btn:hover .block5 {
-	display: block
 }
 
 .section_TheCheapest,
@@ -2377,12 +2330,12 @@ select:checked {
 .btn_TheCheapest,
 .btn_TheMostExpensive,
 .btn_TheNewest,
-.btn_likes {
+.btn_like-auction {
 	min-width: 156px;
 	height: 48px;
-	outline: #12141b solid 2px;
-	background-color: #fff;
-	color: #12141b;
+	outline: #12141b solid 2px !important;
+	background-color: #fff !important;
+	color: #12141b !important;
 	border: none;
 	font-size: 1.125rem;
 	font-family: Axiforma;
@@ -2399,23 +2352,23 @@ select:checked {
 .btn_TheMostExpensive:focus,
 .btn_TheNewest:active,
 .btn_TheNewest:focus,
-.btn_likes:active,
-.btn_likes:focus {
+.btn_like-auction:active,
+.btn_like-auction:focus {
 	border: none
 }
 
 .btn_TheCheapest:hover,
 .btn_TheMostExpensive:hover,
 .btn_TheNewest:hover,
-.btn_likes:hover {
-	background-color: #f0f0f0
+.btn_like-auction:hover {
+	background-color: #f0f0f0 !important;
 }
 
 .btn_TheCheapest:active,
 .btn_TheMostExpensive:active,
 .btn_TheNewest:active,
-.btn_likes:active {
-	background-color: #d6d6d6
+.btn_like-auction:active {
+	background-color: #d6d6d6 !important;
 }
 
 .btn_TheMostExpensive {
@@ -2533,37 +2486,6 @@ select:checked {
 	opacity: .54
 }
 
-.block3 {
-	border: 2px solid #b3b3b3;
-	padding: 1rem;
-	text-align: left;
-	font-size: 1rem;
-	color: #757575;
-	font-family: Axiforma;
-	font-weight: 400;
-	position: absolute;
-	left: 400px;
-	bottom: 0;
-	right: 100px;
-	top: -60px;
-	width: 239px;
-	height: 170px;
-	background-color: #fff;
-	display: none;
-	z-index: 9999
-}
-
-.block3::before {
-	position: relative;
-	right: 33px;
-	top: 68px;
-	content: "";
-	display: inline-block;
-	width: 25px;
-	height: 25px;
-	background-image: url(../img/Polygon2.svg);
-	background-repeat: no-repeat
-}
 
 .section_BuyNow,
 .section_description,
@@ -2598,6 +2520,11 @@ select:checked {
 	outline: 0
 }
 
+
+.section_AddTheFrame {
+	background: cover !important;
+}
+
 .btn_buyNow:hover {
 	background-color: #1b1e28
 }
@@ -2615,8 +2542,7 @@ select:checked {
 
 .btn_likes2,
 .btn_report2 {
-	min-width: 151px;
-	height: 42px;
+	min-width: 141px;
 	text-align: text;
 	margin-right: 1rem;
 	background-color: #fff;
@@ -2628,6 +2554,17 @@ select:checked {
 	font-family: Axiforma;
 	font-weight: 700
 }
+
+.btn_likes2 {
+	height: 42px;
+}
+
+.btn_report2 {
+	height: 42px;
+	transform: translateY(-1.8%);
+}
+
+
 
 .btn_likes2 {
 	background-image: url(../img/icon.svg);
@@ -2662,16 +2599,15 @@ select:checked {
 	font-size: 1.2rem
 }
 
-
-
-.section_Author-profile,
 .section_header {
 	background-image: url(../img/fon.png);
-	background-size: cover
+	background-size: cover;
 }
 
 .section_Author-profile {
-	padding-bottom: 2rem
+	padding-bottom: 2rem;
+	background-image: url(../img/fon.png);
+	background-size: auto;
 }
 
 .Author-profile_box {
@@ -3070,9 +3006,10 @@ svg:hover {
 }
 
 .btn-nav_box {
-	margin-left: 3.6875rem;
+	/* margin-left: 3.6875rem;
 	margin-top: 0;
-	margin-bottom: 0
+	margin-bottom: 0; */
+	text-align: center;
 }
 
 @media (min-width:56.25em) and (max-width:71.0625em) {
@@ -3098,7 +3035,7 @@ svg:hover {
 	.btn_TheCheapest,
 	.btn_TheMostExpensive,
 	.btn_TheNewest,
-	.btn_likes {
+	.btn_like-auction {
 		margin-left: 7rem
 	}
 }
@@ -3127,8 +3064,10 @@ svg:hover {
 	.section_ArtStudio,
 	.section_Author-profile,
 	.section_header {
-		background-size: cover
+		background-size: cover;
 	}
+
+
 
 	.main_logo {
 		margin-right: 0
@@ -3221,9 +3160,9 @@ svg:hover {
 	.img_data {
 		background-image: url(../img/border_small.png);
 		background-repeat: no-repeat;
-		width: 156px;
+		width: 154px;
 		height: 166px;
-		margin-left: .5rem;
+		margin-left: 0.8rem;
 		margin-right: .8rem;
 		text-align: center;
 		padding-top: 1.2rem
@@ -3275,7 +3214,7 @@ svg:hover {
 	}
 
 	.btn_auction-like {
-		left: 114px;
+		left: 110px;
 		top: 20px
 	}
 
@@ -3292,11 +3231,11 @@ svg:hover {
 	.btn_TheCheapest,
 	.btn_TheMostExpensive,
 	.btn_TheNewest,
-	.btn_likes {
+	.btn_like-auction {
 		width: 156px;
 		height: 48px;
 		font-size: 1.125rem;
-		margin-left: .5rem
+		margin-left: 0.9rem
 	}
 
 	.title_TheCheapest,
@@ -3377,7 +3316,10 @@ svg:hover {
 		display: -ms-flexbox;
 		display: flex;
 		max-height: 30px;
-		/* margin-top: 5rem */
+	}
+
+	.title_paintings-MyProfile {
+		margin-top: 5rem
 	}
 
 	.quantity {
@@ -3738,7 +3680,7 @@ hr {
 .AnyActivities_img {
 	text-align: center;
 	padding-bottom: 2rem;
-	margin-right: 2rem
+	margin-right: 0rem;
 }
 
 .box_NoActivity {
@@ -3820,6 +3762,7 @@ hr {
 	margin-top: .7rem;
 	padding: 0;
 	margin-right: .6rem;
+	margin-left: 0rem;
 	cursor: pointer
 }
 
@@ -4002,24 +3945,36 @@ hr {
 	.btn_NoActivity,
 	.btn_NoActivity_big {
 		width: 203px;
-		margin-left: 3.9rem;
+		margin-left: 4.9rem;
 		font-size: 1.125rem;
-		margin-bottom: 1rem
+		margin-bottom: 1rem;
+		text-decoration: none;
 	}
 
 	.btn_ViewFAQs {
 		width: 199px;
-		margin-left: -1.5rem;
+		margin-left: 0rem;
 		font-size: 1.125rem;
 		margin-bottom: 1rem;
-		margin-top: 0
+		margin-top: 0;
+		margin-left: 0.5rem;
+	}
+}
+
+
+
+@media (max-width:357px) {
+
+	.btn_NoActivity,
+	.btn_NoActivity_big {
+		margin-left: 4.3rem !important;
 	}
 }
 
 @media (max-width:20em) {
 	.container {
 		max-width: 320px;
-		padding: 0 .5rem
+		padding: 0 !important;
 	}
 
 	.box_ActivityDetails {
@@ -4027,27 +3982,29 @@ hr {
 		height: 158px;
 		margin-bottom: 1rem;
 		margin-right: 0;
-		margin-left: 0
+		margin-left: 0;
+		margin-left: 8px;
 	}
 
 	.btn_NoActivity,
 	.btn_NoActivity_big {
 		width: 203px;
-		margin-left: 3rem;
+		margin-left: 3.4rem !important;
 		font-size: 1.125rem;
-		margin-bottom: 1rem
+		margin-bottom: 1rem;
+		text-decoration: none;
 	}
 
 	.btn_ViewFAQs {
 		width: 199px;
-		margin-left: .1rem;
+		margin-left: 0;
 		font-size: 1.125rem;
 		margin-bottom: 1rem;
-		margin-top: 0
+		margin-top: 0;
 	}
 
 	.AnyActivities_img {
-		margin-right: 1rem
+		margin-right: 0rem;
 	}
 }
 
@@ -5125,6 +5082,18 @@ label:not(:empty) {
 	display: none
 }
 
+.btn_BuyThePainting {
+	width: 249px !important;
+	height: 48px !important;
+	background-color: #000;
+	color: #fff;
+	border: none;
+	font-size: 1.125rem !important;
+	font-family: Axiforma;
+	font-weight: 700;
+	cursor: pointer;
+}
+
 .btn_filtr-gift {
 	width: 176px;
 	height: 56px;
@@ -5179,41 +5148,8 @@ label:not(:empty) {
 	opacity: .54
 }
 
-.block {
-	border: 2px solid #b3b3b3;
-	padding: 1rem;
-	text-align: left;
-	font-size: 1rem;
-	color: #757575;
-	font-family: Axiforma;
-	font-weight: 400;
-	position: absolute;
-	left: 400px;
-	bottom: 0;
-	right: 100px;
-	top: -60px;
-	width: 239px;
-	height: 170px;
-	background-color: #fff;
-	display: none;
-	z-index: 9999
-}
 
-.block::before {
-	position: relative;
-	right: 33px;
-	top: 68px;
-	content: "";
-	display: inline-block;
-	width: 25px;
-	height: 25px;
-	background-image: url(../img/Polygon2.svg);
-	background-repeat: no-repeat
-}
 
-.info_btn:hover .block {
-	display: block
-}
 
 .section_SellAndGift,
 .section_description,
@@ -5517,13 +5453,14 @@ label:not(:empty) {
 	height: 9px;
 	background-image: url(../img/description_line.svg);
 	top: 55px;
-	left: 0
+	left: 0px;
 }
 
 .title_description span {
 	font-family: Axiforma;
 	font-weight: 800;
-	font-size: 2rem
+	font-size: 2rem;
+	margin-left: 0px;
 }
 
 .description_text {
@@ -5555,9 +5492,19 @@ label:not(:empty) {
 	font-weight: 700
 }
 
-.btn_likes:hover {
-	background-color: #1b1e28
+
+.btn_ViewDetails:hover {
+	background-color: #1b1e28;
 }
+
+.btn_ViewDetails:active {
+	background-color: #000;
+}
+
+.btn_likes:hover {
+	background-color: #1b1e28;
+}
+
 
 .btn_likes:active {
 	background-color: #000
@@ -5666,7 +5613,8 @@ label:not(:empty) {
 		-webkit-box-pack: start;
 		-ms-flex-pack: start;
 		justify-content: flex-start;
-		position: relative
+		position: relative;
+		padding-left: 10px;
 	}
 
 	.section_SellAndGift {
@@ -5723,7 +5671,7 @@ label:not(:empty) {
 	}
 
 	.btn_sell {
-		margin-left: 5.5rem;
+		margin-left: 4.7rem;
 		-webkit-transform: translateY(-30%);
 		transform: translateY(-30%)
 	}
@@ -5731,7 +5679,7 @@ label:not(:empty) {
 	.btn_gift {
 		margin-left: 1rem;
 		-webkit-transform: translateY(-30%);
-		transform: translateY(-30%)
+		transform: translateY(-32%)
 	}
 
 	.text_buyNow {
@@ -5788,18 +5736,30 @@ label:not(:empty) {
 		padding: 0 .5rem
 	}
 
+	.title_description span {
+		margin-left: 10px;
+	}
+
+	.title_description:after {
+		left: 10px;
+	}
+
 	.btn_sell {
-		width: 75px;
-		margin-left: 5rem
+		width: 56px !important;
+		margin-left: 5rem !important;
 	}
 
 	.btn_gift {
-		margin-left: .5rem
+		margin-left: .5rem;
+		width: 56px !important;
+		transform: translateY(-32%);
+
 	}
 
 	.description_text {
 		width: 312px;
-		margin-right: 0
+		margin-right: 0;
+		margin-left: 10px;
 	}
 
 	.btn_report {
@@ -6754,9 +6714,13 @@ html {
 	cursor: pointer
 }
 
-.block2 {
+.block5,
+.block4,
+.block3,
+.block2,
+.block {
 	border: 2px solid #b3b3b3;
-	padding: .3rem 1rem 1rem;
+	padding: 1rem;
 	text-align: left;
 	font-size: 1rem;
 	color: #757575;
@@ -6766,15 +6730,30 @@ html {
 	left: 400px;
 	bottom: 0;
 	right: 100px;
-	top: 32px;
+	top: -60px;
 	width: 239px;
 	height: 170px;
 	background-color: #fff;
 	display: none;
-	z-index: 9999
+	z-index: 9999;
 }
 
-.block2::before {
+.block2 {
+	top: 22px !important;
+	left: 380px;
+}
+
+.block5  {
+	bottom: 10px !important;
+	left: 380px;
+}
+
+
+.block5::before,
+.block4::before,
+.block3::before,
+.block2::before,
+.block::before {
 	position: relative;
 	right: 33px;
 	top: 68px;
@@ -6783,12 +6762,14 @@ html {
 	width: 25px;
 	height: 25px;
 	background-image: url(../img/Polygon2.svg);
-	background-repeat: no-repeat
+	background-repeat: no-repeat;
 }
 
-.info_btn:hover .block2 {
-	display: block
+.info_btn:hover .block {
+	display: block;
 }
+
+
 
 @media (min-width:81.25em) and (max-width:312.5em) {
 	.create_img-framed-large {
@@ -6817,6 +6798,11 @@ html {
 @media (max-width:56.25em) {
 	.container {
 		max-width: 360px
+	}
+
+	.btn_sell,
+	.btn_gift {
+		width: 70px;
 	}
 
 	.main_header,
@@ -7093,6 +7079,10 @@ html {
 	.main_nav {
 		margin-left: 3.1rem
 	}
+
+	.btn_likes {
+		margin-left: 10px;
+	}
 }
 
 @media (max-width:56.25em) {
@@ -7157,15 +7147,37 @@ html {
 		background-color: #fff;
 		border-radius: 50%;
 		border-color: #fff;
-		margin-bottom: 0
+		margin-bottom: 0;
 	}
+
+	.title_BuyThePainting {
+		font-size: 1rem;
+		margin: 0;
+		padding-top: 0.8rem;
+		padding-bottom: 0.8rem;
+		padding-left: 2rem;
+	}
+
+	.title_BuyThePainting:before {
+		background-repeat: no-repeat;
+		background-size: 15px 15px;
+		background-position: center;
+		display: inline-block;
+		content: "";
+		width: 8px;
+		height: 8px;
+		position: relative;
+		top: -2px;
+		right: 6px
+	}
+
 
 	.title_CreateThePainting,
 	.title_SellThePainting {
 		font-size: 1rem;
 		margin: 0 0 0 2rem;
 		padding-top: .5rem;
-		padding-bottom: .5rem
+		padding-bottom: .5rem;
 	}
 
 	.title_CreateThePainting:before,
@@ -7346,7 +7358,9 @@ html {
 	}
 
 	.group_BuyThePainting {
-		height: 209px
+		height: 209px;
+		margin-top: 0rem;
+		margin-top: 0rem;
 	}
 
 	.btn_create,
@@ -7369,8 +7383,6 @@ html {
 	input[type=text]::placeholder {
 		font-size: 1.25rem
 	}
-
-
 
 	.price_sell-text {
 		font-size: 1rem;
@@ -7475,102 +7487,14 @@ html {
 		height: 30px;
 		background-image: url(../img/info_mobile.svg);
 		background-repeat: no-repeat;
-		background-size: 13.5px 13.5px
+		background-size: 13.5px 13.5px;
 	}
 
-	.block {
-		left: 0;
-		bottom: 0;
-		right: 0;
-		top: 66px;
-		width: 210px;
-		height: 130px;
-		font-size: 12px;
-		line-height: 130%;
-		text-align: left;
-		padding-top: 0;
-		margin-top: 0
-	}
-
-	.block::before {
-		position: relative;
-		left: 95px;
-		top: -16.5px;
-		content: "";
-		display: inline-block;
-		width: 25px;
-		height: 25px;
-		background-image: url(../img/Polygon21.svg);
-		background-repeat: no-repeat
-	}
-
-	.block2 {
-		text-align: left;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		top: 130px;
-		width: 210px;
-		height: 130px;
-		font-size: 12px;
-		line-height: 130%;
-		padding-top: 0;
-		margin-top: 0
-	}
-
-	.block2::before {
-		position: relative;
-		left: 95px;
-		top: -16.5px;
-		content: "";
-		display: inline-block;
-		width: 25px;
-		height: 25px;
-		background-image: url(../img/Polygon21.svg);
-		background-repeat: no-repeat
-	}
-
-	.block3 {
-		left: 0;
-		bottom: 0;
-		right: 0;
-		top: 66px;
-		width: 210px;
-		height: 130px;
-		font-size: 12px;
-		line-height: 130%;
-		text-align: left;
-		padding-top: 0;
-		margin-top: 0
-	}
-
-	.block3::before {
-		position: relative;
-		left: 95px;
-		top: -16.5px;
-		content: "";
-		display: inline-block;
-		width: 25px;
-		height: 25px;
-		background-image: url(../img/Polygon21.svg);
-		background-repeat: no-repeat
-	}
-
-	.block4 {
-		left: 0;
-		bottom: 0;
-		right: 0;
-		top: 66px;
-		width: 210px;
-		height: 130px;
-		font-size: 12px;
-		line-height: 130%;
-		text-align: left;
-		padding-top: 0;
-		margin-top: 0
-	}
-
-	.block4::before {
+	.block::before,
+	.block2::before,
+	.block3::before,
+	.block4::before,
+	.block5::before {
 		position: relative;
 		left: 95px;
 		top: -16.5px;
@@ -7580,6 +7504,46 @@ html {
 		height: 25px;
 		background-image: url(../img/Polygon21.svg);
 		background-repeat: no-repeat;
+	}
+
+	.block,
+	.block2,
+	.block3,
+	.block4,
+	.block5 {
+		left: 0;
+		bottom: 0;
+		right: 0;
+		top: 66px;
+		width: 210px;
+		height: 130px;
+		font-size: 12px;
+		line-height: 130%;
+		text-align: left;
+		padding-top: 0rem;
+		margin-top: 0rem;
+	}
+
+	.block2{
+		top: 130px !important;
+		left: 10px;
+	}
+
+	.block5 {
+		top: 70px !important;
+		left: 13px;
+	}
+
+	.container_question,
+	.container_FAQs {
+		max-width: 320px;
+		margin: 0 auto;
+	}
+
+	.shadow_back-grey {
+		background-image: url(../img/fon.png);
+		background-size: auto;
+		background-repeat: repeat;
 	}
 
 }
@@ -7630,11 +7594,5 @@ html {
 
 	.btn_create {
 		margin-left: 4.7rem;
-	}
-}
-
-@media screen and (min-width:1138px) and (max-width:1155px) {
-	.box_all:nth-child(4) {
-		display: none;
 	}
 }
