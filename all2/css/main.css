@@ -264,7 +264,8 @@ body {
 	.mobile_item2 {
 		margin-right: 6rem;
 		-webkit-transform: translateX(40%);
-		transform: translateX(40%)
+		-ms-transform: translateX(40%);
+		    transform: translateX(40%)
 	}
 
 	.mobile_item2:last-child {
@@ -303,7 +304,8 @@ body {
 
 	.mobile_link {
 		-webkit-transform: translateX(30%);
-		transform: translateX(30%)
+		-ms-transform: translateX(30%);
+		    transform: translateX(30%)
 	}
 
 	.container {
@@ -458,7 +460,8 @@ body {
 
 	.btn_register {
 		-webkit-transform: translateX(170%);
-		transform: translateX(170%);
+		-ms-transform: translateX(170%);
+		    transform: translateX(170%);
 		margin-bottom: 0;
 		width: 127px;
 		height: 48px
@@ -976,6 +979,7 @@ label:not(:empty) {
 	border-radius: 3px;
 	cursor: pointer;
 	-webkit-transition: background .3s;
+	-o-transition: background .3s;
 	transition: background .3s
 }
 
@@ -996,7 +1000,8 @@ label:not(:empty) {
 
 .md-checkbox .checkbox_rules[type=checkbox]:checked+.rules_text:after {
 	-webkit-transform: translate(.25em, .33654em) rotate(-45deg) translateX(1%) translateY(0);
-	transform: translate(.25em, .33654em) rotate(-45deg) translateX(1%) translateY(0);
+	-ms-transform: translate(.25em, .33654em) rotate(-45deg) translateX(1%) translateY(0);
+	    transform: translate(.25em, .33654em) rotate(-45deg) translateX(1%) translateY(0);
 	width: .75em;
 	height: .375em;
 	border: .125em solid #fff;
@@ -1045,6 +1050,7 @@ label:not(:empty) {
 	border-radius: 3px;
 	cursor: pointer;
 	-webkit-transition: background .3s;
+	-o-transition: background .3s;
 	transition: background .3s
 }
 
@@ -1065,7 +1071,8 @@ label:not(:empty) {
 
 .md-checkbox2 .checkbox_updates[type=checkbox]:checked+.updates_text:after {
 	-webkit-transform: translate(.25em, .33654em) rotate(-45deg) translateX(1%) translateY(0);
-	transform: translate(.25em, .33654em) rotate(-45deg) translateX(1%) translateY(0);
+	-ms-transform: translate(.25em, .33654em) rotate(-45deg) translateX(1%) translateY(0);
+	    transform: translate(.25em, .33654em) rotate(-45deg) translateX(1%) translateY(0);
 	width: .75em;
 	height: .375em;
 	border: .125em solid #fff;
@@ -1106,6 +1113,7 @@ label:not(:empty) {
 	position: absolute;
 	pointer-events: none;
 	-webkit-transition: .2s;
+	-o-transition: .2s;
 	transition: .2s
 }
 
@@ -1130,7 +1138,8 @@ label:not(:empty) {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 	-webkit-transform: translateX(210%);
-	transform: translateX(210%)
+	-ms-transform: translateX(210%);
+	    transform: translateX(210%)
 }
 
 .btn_register:hover {
@@ -1308,7 +1317,7 @@ select:checked {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	cursor: poiner
+	cursor: pointer;
 }
 
 .label_reason {
@@ -1535,7 +1544,8 @@ select:checked {
 
 	.btn_register {
 		-webkit-transform: translateX(170%);
-		transform: translateX(170%);
+		-ms-transform: translateX(170%);
+		    transform: translateX(170%);
 		margin-bottom: 0;
 		width: 127px;
 		height: 48px
@@ -1985,7 +1995,8 @@ select:checked {
 	.link_telegram {
 		display: none;
 		-webkit-transform: translateX(5%);
-		transform: translateX(5%)
+		-ms-transform: translateX(5%);
+		    transform: translateX(5%)
 	}
 
 	.create-img {
@@ -2119,7 +2130,8 @@ select:checked {
 		width: 96px;
 		margin-right: 4rem;
 		-webkit-transform: translateX(40%) translateY(25%);
-		transform: translateX(40%) translateY(25%)
+		-ms-transform: translateX(40%) translateY(25%);
+		    transform: translateX(40%) translateY(25%)
 	}
 
 	.mobile_item2:last-child {
@@ -2129,7 +2141,8 @@ select:checked {
 
 	.mobile_privacy {
 		-webkit-transform: translateX(20%) translateY(15%);
-		transform: translateX(20%) translateY(15%)
+		-ms-transform: translateX(20%) translateY(15%);
+		    transform: translateX(20%) translateY(15%)
 	}
 
 	.footer_group:nth-child(2) {
@@ -2570,7 +2583,9 @@ select:checked {
 
 .btn_report2 {
 	height: 42px;
-	transform: translateY(-1.8%);
+	-webkit-transform: translateY(-1.8%);
+	    -ms-transform: translateY(-1.8%);
+	        transform: translateY(-1.8%);
 }
 
 
@@ -2733,7 +2748,8 @@ select:checked {
 	color: #fff;
 	outline: 0;
 	-webkit-transform: translateY(-40%);
-	transform: translateY(-40%)
+	-ms-transform: translateY(-40%);
+	    transform: translateY(-40%)
 }
 
 .footer_profile-btnPaint:hover {
@@ -2753,7 +2769,8 @@ select:checked {
 	margin-left: 1rem;
 	margin-right: .2rem;
 	-webkit-transform: translateY(-42%);
-	transform: translateY(-42%)
+	-ms-transform: translateY(-42%);
+	    transform: translateY(-42%)
 }
 
 .footer_profile-Auction:hover {
@@ -2902,16 +2919,16 @@ input[type=search]::placeholder {
 
 .btn_auction-like {
 	position: absolute;
-	left: 200px  !important;
+	left: 198px;
 	top: 35px;
 	width: 28px;
 	height: 28px;
-	opacity: 1;
-	z-index: 1;
+	opacity: 1 !important;
+	z-index: 999;
 	cursor: pointer;
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	appearance: none;
+	appearance: none !important;
 	border: none;
 	outline: 0;
 	background: 0 0
@@ -2932,12 +2949,14 @@ svg:hover {
 
 .data_author {
 	-webkit-transform: translateY(-130%) translateX(-30%);
-	transform: translateY(-130%) translateX(-30%)
+	-ms-transform: translateY(-130%) translateX(-30%);
+	    transform: translateY(-130%) translateX(-30%)
 }
 
 .data_number {
 	-webkit-transform: translateY(-130%) translateX(30%);
-	transform: translateY(-130%) translateX(30%)
+	-ms-transform: translateY(-130%) translateX(30%);
+	    transform: translateY(-130%) translateX(30%)
 }
 
 .img_data {
@@ -2962,7 +2981,8 @@ svg:hover {
 	height: 33px;
 	margin: 0 auto;
 	-webkit-transform: translateY(-11%);
-	transform: translateY(-11%);
+	-ms-transform: translateY(-11%);
+	    transform: translateY(-11%);
 	text-align: center
 }
 
@@ -3203,7 +3223,8 @@ svg:hover {
 		max-width: 125px;
 		height: 20px;
 		-webkit-transform: translateY(-45.5%);
-		transform: translateY(-45.5%);
+		-ms-transform: translateY(-45.5%);
+		    transform: translateY(-45.5%);
 		text-align: center
 	}
 
@@ -3227,7 +3248,7 @@ svg:hover {
 
 	.btn_auction-like {
 		left: 106px;
-		top: 20px
+		top: 20px;
 	}
 
 	.btn_auction-like svg {
@@ -3237,7 +3258,8 @@ svg:hover {
 
 	.data_number {
 		-webkit-transform: translateY(-15%) translateX(-35%);
-		transform: translateY(-15%) translateX(-35%)
+		-ms-transform: translateY(-15%) translateX(-35%);
+		    transform: translateY(-15%) translateX(-35%)
 	}
 
 	.btn_TheCheapest,
@@ -3343,7 +3365,8 @@ svg:hover {
 		margin-right: 1rem;
 		margin-top: 1rem;
 		-webkit-transform: translateY(-40%) translateX(0);
-		transform: translateY(-40%) translateX(0);
+		-ms-transform: translateY(-40%) translateX(0);
+		    transform: translateY(-40%) translateX(0);
 		width: 109px;
 		height: 48px
 	}
@@ -3351,7 +3374,8 @@ svg:hover {
 	.footer_profile-Auction {
 		margin-left: 6.5rem;
 		-webkit-transform: translateY(-148%) translateX(15%);
-		transform: translateY(-148%) translateX(15%);
+		-ms-transform: translateY(-148%) translateX(15%);
+		    transform: translateY(-148%) translateX(15%);
 		max-width: 121px;
 		height: 44px
 	}
@@ -3363,7 +3387,8 @@ svg:hover {
 
 	.btn_footer-profile-group {
 		-webkit-transform: translateX(-28%);
-		transform: translateX(-28%)
+		-ms-transform: translateX(-28%);
+		    transform: translateX(-28%)
 	}
 
 	.section_Author-profile {
@@ -3414,7 +3439,8 @@ svg:hover {
 		margin-right: 1rem;
 		margin-top: 1rem;
 		-webkit-transform: translateY(-40%) translateX(-26%);
-		transform: translateY(-40%) translateX(-26%);
+		-ms-transform: translateY(-40%) translateX(-26%);
+		    transform: translateY(-40%) translateX(-26%);
 		width: 109px;
 		height: 48px
 	}
@@ -3422,14 +3448,16 @@ svg:hover {
 	.footer_profile-Auction {
 		margin-left: 6.5rem;
 		-webkit-transform: translateY(-148%) translateX(-8%);
-		transform: translateY(-148%) translateX(-8%);
+		-ms-transform: translateY(-148%) translateX(-8%);
+		    transform: translateY(-148%) translateX(-8%);
 		max-width: 121px;
 		height: 44px
 	}
 
 	.btn_footer-profile-group {
 		-webkit-transform: translateX(-30%);
-		transform: translateX(-30%)
+		-ms-transform: translateX(-30%);
+		    transform: translateX(-30%)
 	}
 
 	.btn_copyAddress {
@@ -4449,6 +4477,7 @@ label:not(:empty) {
 	border-radius: 3px;
 	cursor: pointer;
 	-webkit-transition: background .3s;
+	-o-transition: background .3s;
 	transition: background .3s
 }
 
@@ -4469,7 +4498,8 @@ label:not(:empty) {
 
 .mdCheck .checkbox_wantUpdate2[type=checkbox]:checked+.wantUpdate_text2:after {
 	-webkit-transform: translate(.25em, .33654em) rotate(-45deg);
-	transform: translate(.25em, .33654em) rotate(-45deg);
+	-ms-transform: translate(.25em, .33654em) rotate(-45deg);
+	    transform: translate(.25em, .33654em) rotate(-45deg);
 	width: .75em;
 	height: .375em;
 	border: .125em solid #fff;
@@ -4522,6 +4552,7 @@ label:not(:empty) {
 	border-radius: 3px;
 	cursor: pointer;
 	-webkit-transition: background .3s;
+	-o-transition: background .3s;
 	transition: background .3s
 }
 
@@ -4542,7 +4573,8 @@ label:not(:empty) {
 
 .mdCheck .checkbox_wantUpdate[type=checkbox]:checked+.wantUpdate_text:after {
 	-webkit-transform: translate(.25em, .33654em) rotate(-45deg);
-	transform: translate(.25em, .33654em) rotate(-45deg);
+	-ms-transform: translate(.25em, .33654em) rotate(-45deg);
+	    transform: translate(.25em, .33654em) rotate(-45deg);
 	width: .75em;
 	height: .375em;
 	border: .125em solid #fff;
@@ -5703,13 +5735,15 @@ label:not(:empty) {
 	.btn_sell {
 		margin-left: 4.7rem;
 		-webkit-transform: translateY(-30%);
-		transform: translateY(-30%)
+		-ms-transform: translateY(-30%);
+		    transform: translateY(-30%)
 	}
 
 	.btn_gift {
 		margin-left: 1rem;
 		-webkit-transform: translateY(-30%);
-		transform: translateY(-32%)
+		-ms-transform: translateY(-32%);
+		    transform: translateY(-32%)
 	}
 
 	.text_buyNow {
@@ -5752,7 +5786,8 @@ label:not(:empty) {
 
 	.btn_buyNow {
 		-webkit-transform: translateY(-40%);
-		transform: translateY(-40%)
+		-ms-transform: translateY(-40%);
+		    transform: translateY(-40%)
 	}
 
 	.section_BuyNow {
@@ -5782,7 +5817,9 @@ label:not(:empty) {
 	.btn_gift {
 		margin-left: .5rem;
 		width: 56px !important;
-		transform: translateY(-32%);
+		-webkit-transform: translateY(-32%);
+		    -ms-transform: translateY(-32%);
+		        transform: translateY(-32%);
 
 	}
 
@@ -5912,6 +5949,9 @@ label:not(:empty) {
 	position: absolute;
 	opacity: 1 !important;
 	appearance: none !important;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none !important;
 }
 
 .btn_down-days:active,
@@ -6003,7 +6043,8 @@ label:not(:empty) {
 
 	.link_telegram {
 		-webkit-transform: translateX(1030%);
-		transform: translateX(1030%)
+		-ms-transform: translateX(1030%);
+		    transform: translateX(1030%)
 	}
 }
 
@@ -6066,7 +6107,8 @@ label:not(:empty) {
 	.link_telegram {
 		display: none;
 		-webkit-transform: translateX(5%);
-		transform: translateX(5%)
+		-ms-transform: translateX(5%);
+		    transform: translateX(5%)
 	}
 
 	.create-img {
@@ -6196,7 +6238,8 @@ label:not(:empty) {
 		width: 96px;
 		margin-right: 4rem;
 		-webkit-transform: translateX(40%) translateY(25%);
-		transform: translateX(40%) translateY(25%)
+		-ms-transform: translateX(40%) translateY(25%);
+		    transform: translateX(40%) translateY(25%)
 	}
 
 	.mobile_item2:last-child {
@@ -6206,7 +6249,8 @@ label:not(:empty) {
 
 	.mobile_privacy {
 		-webkit-transform: translateX(20%) translateY(15%);
-		transform: translateX(20%) translateY(15%)
+		-ms-transform: translateX(20%) translateY(15%);
+		    transform: translateX(20%) translateY(15%)
 	}
 
 	.footer_group:nth-child(2) {
@@ -6436,7 +6480,8 @@ html {
 	margin-top: 1rem;
 	position: fixed;
 	-webkit-transform: translateX(800%);
-	transform: translateX(800%)
+	-ms-transform: translateX(800%);
+	    transform: translateX(800%)
 }
 
 .section_cryptopainters {
@@ -6823,7 +6868,8 @@ html {
 
 	.link_telegram {
 		-webkit-transform: translateX(1030%);
-		transform: translateX(1030%)
+		-ms-transform: translateX(1030%);
+		    transform: translateX(1030%)
 	}
 }
 
@@ -6891,7 +6937,8 @@ html {
 	.link_telegram {
 		display: none;
 		-webkit-transform: translateX(5%);
-		transform: translateX(5%)
+		-ms-transform: translateX(5%);
+		    transform: translateX(5%)
 	}
 
 	.create-img {
@@ -7021,7 +7068,8 @@ html {
 		width: 96px;
 		margin-right: 4rem;
 		-webkit-transform: translateX(40%) translateY(25%);
-		transform: translateX(40%) translateY(25%)
+		-ms-transform: translateX(40%) translateY(25%);
+		    transform: translateX(40%) translateY(25%)
 	}
 
 	.mobile_item2:last-child {
@@ -7031,7 +7079,8 @@ html {
 
 	.mobile_privacy {
 		-webkit-transform: translateX(20%) translateY(15%);
-		transform: translateX(20%) translateY(15%)
+		-ms-transform: translateX(20%) translateY(15%);
+		    transform: translateX(20%) translateY(15%)
 	}
 
 	.footer_group:nth-child(2) {
@@ -7439,7 +7488,8 @@ html {
 
 	.price_days {
 		-webkit-transform: translateY(-30%) translateX(14%);
-		transform: translateY(-30%) translateX(14%)
+		-ms-transform: translateY(-30%) translateX(14%);
+		    transform: translateY(-30%) translateX(14%)
 	}
 
 	.btn_filtr-sell {
@@ -7482,10 +7532,16 @@ html {
 		margin-bottom: 11px;
 		opacity: 1 !important;
 		appearance: none;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none !important;
 	}
 
 	.price_days {
 		appearance: none;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none !important;
 	}
 
 	.frame_text {
