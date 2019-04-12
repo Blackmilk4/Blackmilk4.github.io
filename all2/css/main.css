@@ -265,7 +265,7 @@ body {
 		margin-right: 6rem;
 		-webkit-transform: translateX(40%);
 		-ms-transform: translateX(40%);
-		    transform: translateX(40%)
+		transform: translateX(40%)
 	}
 
 	.mobile_item2:last-child {
@@ -305,7 +305,7 @@ body {
 	.mobile_link {
 		-webkit-transform: translateX(30%);
 		-ms-transform: translateX(30%);
-		    transform: translateX(30%)
+		transform: translateX(30%)
 	}
 
 	.container {
@@ -461,7 +461,7 @@ body {
 	.btn_register {
 		-webkit-transform: translateX(170%);
 		-ms-transform: translateX(170%);
-		    transform: translateX(170%);
+		transform: translateX(170%);
 		margin-bottom: 0;
 		width: 127px;
 		height: 48px
@@ -1001,7 +1001,7 @@ label:not(:empty) {
 .md-checkbox .checkbox_rules[type=checkbox]:checked+.rules_text:after {
 	-webkit-transform: translate(.25em, .33654em) rotate(-45deg) translateX(1%) translateY(0);
 	-ms-transform: translate(.25em, .33654em) rotate(-45deg) translateX(1%) translateY(0);
-	    transform: translate(.25em, .33654em) rotate(-45deg) translateX(1%) translateY(0);
+	transform: translate(.25em, .33654em) rotate(-45deg) translateX(1%) translateY(0);
 	width: .75em;
 	height: .375em;
 	border: .125em solid #fff;
@@ -1072,7 +1072,7 @@ label:not(:empty) {
 .md-checkbox2 .checkbox_updates[type=checkbox]:checked+.updates_text:after {
 	-webkit-transform: translate(.25em, .33654em) rotate(-45deg) translateX(1%) translateY(0);
 	-ms-transform: translate(.25em, .33654em) rotate(-45deg) translateX(1%) translateY(0);
-	    transform: translate(.25em, .33654em) rotate(-45deg) translateX(1%) translateY(0);
+	transform: translate(.25em, .33654em) rotate(-45deg) translateX(1%) translateY(0);
 	width: .75em;
 	height: .375em;
 	border: .125em solid #fff;
@@ -1139,7 +1139,7 @@ label:not(:empty) {
 	margin-bottom: 2rem;
 	-webkit-transform: translateX(210%);
 	-ms-transform: translateX(210%);
-	    transform: translateX(210%)
+	transform: translateX(210%)
 }
 
 .btn_register:hover {
@@ -1545,7 +1545,7 @@ select:checked {
 	.btn_register {
 		-webkit-transform: translateX(170%);
 		-ms-transform: translateX(170%);
-		    transform: translateX(170%);
+		transform: translateX(170%);
 		margin-bottom: 0;
 		width: 127px;
 		height: 48px
@@ -1996,7 +1996,7 @@ select:checked {
 		display: none;
 		-webkit-transform: translateX(5%);
 		-ms-transform: translateX(5%);
-		    transform: translateX(5%)
+		transform: translateX(5%)
 	}
 
 	.create-img {
@@ -2131,7 +2131,7 @@ select:checked {
 		margin-right: 4rem;
 		-webkit-transform: translateX(40%) translateY(25%);
 		-ms-transform: translateX(40%) translateY(25%);
-		    transform: translateX(40%) translateY(25%)
+		transform: translateX(40%) translateY(25%)
 	}
 
 	.mobile_item2:last-child {
@@ -2142,7 +2142,7 @@ select:checked {
 	.mobile_privacy {
 		-webkit-transform: translateX(20%) translateY(15%);
 		-ms-transform: translateX(20%) translateY(15%);
-		    transform: translateX(20%) translateY(15%)
+		transform: translateX(20%) translateY(15%)
 	}
 
 	.footer_group:nth-child(2) {
@@ -2451,7 +2451,7 @@ select:checked {
 .BrowesAll_select {
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	appearance: none
+	appearance: none;
 }
 
 .section_BuyValue,
@@ -2584,8 +2584,8 @@ select:checked {
 .btn_report2 {
 	height: 42px;
 	-webkit-transform: translateY(-1.8%);
-	    -ms-transform: translateY(-1.8%);
-	        transform: translateY(-1.8%);
+	-ms-transform: translateY(-1.8%);
+	transform: translateY(-1.8%);
 }
 
 
@@ -2749,7 +2749,7 @@ select:checked {
 	outline: 0;
 	-webkit-transform: translateY(-40%);
 	-ms-transform: translateY(-40%);
-	    transform: translateY(-40%)
+	transform: translateY(-40%)
 }
 
 .footer_profile-btnPaint:hover {
@@ -2770,7 +2770,7 @@ select:checked {
 	margin-right: .2rem;
 	-webkit-transform: translateY(-42%);
 	-ms-transform: translateY(-42%);
-	    transform: translateY(-42%)
+	transform: translateY(-42%)
 }
 
 .footer_profile-Auction:hover {
@@ -2950,13 +2950,13 @@ svg:hover {
 .data_author {
 	-webkit-transform: translateY(-130%) translateX(-30%);
 	-ms-transform: translateY(-130%) translateX(-30%);
-	    transform: translateY(-130%) translateX(-30%)
+	transform: translateY(-130%) translateX(-30%)
 }
 
 .data_number {
 	-webkit-transform: translateY(-130%) translateX(30%);
 	-ms-transform: translateY(-130%) translateX(30%);
-	    transform: translateY(-130%) translateX(30%)
+	transform: translateY(-130%) translateX(30%)
 }
 
 .img_data {
@@ -2982,7 +2982,7 @@ svg:hover {
 	margin: 0 auto;
 	-webkit-transform: translateY(-11%);
 	-ms-transform: translateY(-11%);
-	    transform: translateY(-11%);
+	transform: translateY(-11%);
 	text-align: center
 }
 
@@ -3224,7 +3224,7 @@ svg:hover {
 		height: 20px;
 		-webkit-transform: translateY(-45.5%);
 		-ms-transform: translateY(-45.5%);
-		    transform: translateY(-45.5%);
+		transform: translateY(-45.5%);
 		text-align: center
 	}
 
@@ -3247,19 +3247,19 @@ svg:hover {
 	}
 
 	.btn_auction-like {
-		left: 106px;
+		left: 114px;
 		top: 20px;
 	}
 
 	.btn_auction-like svg {
-		width: 20px;
+		width: 17px;
 		height: 18.5px
 	}
 
 	.data_number {
 		-webkit-transform: translateY(-15%) translateX(-35%);
 		-ms-transform: translateY(-15%) translateX(-35%);
-		    transform: translateY(-15%) translateX(-35%)
+		transform: translateY(-15%) translateX(-35%)
 	}
 
 	.btn_TheCheapest,
@@ -3366,7 +3366,7 @@ svg:hover {
 		margin-top: 1rem;
 		-webkit-transform: translateY(-40%) translateX(0);
 		-ms-transform: translateY(-40%) translateX(0);
-		    transform: translateY(-40%) translateX(0);
+		transform: translateY(-40%) translateX(0);
 		width: 109px;
 		height: 48px
 	}
@@ -3375,7 +3375,7 @@ svg:hover {
 		margin-left: 6.5rem;
 		-webkit-transform: translateY(-148%) translateX(15%);
 		-ms-transform: translateY(-148%) translateX(15%);
-		    transform: translateY(-148%) translateX(15%);
+		transform: translateY(-148%) translateX(15%);
 		max-width: 121px;
 		height: 44px
 	}
@@ -3388,7 +3388,7 @@ svg:hover {
 	.btn_footer-profile-group {
 		-webkit-transform: translateX(-28%);
 		-ms-transform: translateX(-28%);
-		    transform: translateX(-28%)
+		transform: translateX(-28%)
 	}
 
 	.section_Author-profile {
@@ -3440,7 +3440,7 @@ svg:hover {
 		margin-top: 1rem;
 		-webkit-transform: translateY(-40%) translateX(-26%);
 		-ms-transform: translateY(-40%) translateX(-26%);
-		    transform: translateY(-40%) translateX(-26%);
+		transform: translateY(-40%) translateX(-26%);
 		width: 109px;
 		height: 48px
 	}
@@ -3449,7 +3449,7 @@ svg:hover {
 		margin-left: 6.5rem;
 		-webkit-transform: translateY(-148%) translateX(-8%);
 		-ms-transform: translateY(-148%) translateX(-8%);
-		    transform: translateY(-148%) translateX(-8%);
+		transform: translateY(-148%) translateX(-8%);
 		max-width: 121px;
 		height: 44px
 	}
@@ -3457,7 +3457,7 @@ svg:hover {
 	.btn_footer-profile-group {
 		-webkit-transform: translateX(-30%);
 		-ms-transform: translateX(-30%);
-		    transform: translateX(-30%)
+		transform: translateX(-30%)
 	}
 
 	.btn_copyAddress {
@@ -4499,7 +4499,7 @@ label:not(:empty) {
 .mdCheck .checkbox_wantUpdate2[type=checkbox]:checked+.wantUpdate_text2:after {
 	-webkit-transform: translate(.25em, .33654em) rotate(-45deg);
 	-ms-transform: translate(.25em, .33654em) rotate(-45deg);
-	    transform: translate(.25em, .33654em) rotate(-45deg);
+	transform: translate(.25em, .33654em) rotate(-45deg);
 	width: .75em;
 	height: .375em;
 	border: .125em solid #fff;
@@ -4574,7 +4574,7 @@ label:not(:empty) {
 .mdCheck .checkbox_wantUpdate[type=checkbox]:checked+.wantUpdate_text:after {
 	-webkit-transform: translate(.25em, .33654em) rotate(-45deg);
 	-ms-transform: translate(.25em, .33654em) rotate(-45deg);
-	    transform: translate(.25em, .33654em) rotate(-45deg);
+	transform: translate(.25em, .33654em) rotate(-45deg);
 	width: .75em;
 	height: .375em;
 	border: .125em solid #fff;
@@ -5736,14 +5736,14 @@ label:not(:empty) {
 		margin-left: 4.7rem;
 		-webkit-transform: translateY(-30%);
 		-ms-transform: translateY(-30%);
-		    transform: translateY(-30%)
+		transform: translateY(-30%)
 	}
 
 	.btn_gift {
 		margin-left: 1rem;
 		-webkit-transform: translateY(-30%);
 		-ms-transform: translateY(-32%);
-		    transform: translateY(-32%)
+		transform: translateY(-32%)
 	}
 
 	.text_buyNow {
@@ -5787,7 +5787,7 @@ label:not(:empty) {
 	.btn_buyNow {
 		-webkit-transform: translateY(-40%);
 		-ms-transform: translateY(-40%);
-		    transform: translateY(-40%)
+		transform: translateY(-40%)
 	}
 
 	.section_BuyNow {
@@ -5818,8 +5818,8 @@ label:not(:empty) {
 		margin-left: .5rem;
 		width: 56px !important;
 		-webkit-transform: translateY(-32%);
-		    -ms-transform: translateY(-32%);
-		        transform: translateY(-32%);
+		-ms-transform: translateY(-32%);
+		transform: translateY(-32%);
 
 	}
 
@@ -5912,7 +5912,6 @@ label:not(:empty) {
 }
 
 .price_input {
-	opacity: 1 !important;
 	width: 98px;
 	height: 43px;
 	outline: 0;
@@ -5931,7 +5930,7 @@ label:not(:empty) {
 	font-family: Axiforma;
 	font-weight: 600;
 	font-size: 1.25rem;
-	outline: 0
+	outline: 0;
 }
 
 .btn_down,
@@ -6026,7 +6025,6 @@ label:not(:empty) {
 
 .price_days {
 	margin-bottom: 2.4375rem;
-	opacity: 1 !important;
 }
 
 @media (min-width:1300px) and (max-width:5000px) {
@@ -6044,7 +6042,7 @@ label:not(:empty) {
 	.link_telegram {
 		-webkit-transform: translateX(1030%);
 		-ms-transform: translateX(1030%);
-		    transform: translateX(1030%)
+		transform: translateX(1030%)
 	}
 }
 
@@ -6108,7 +6106,7 @@ label:not(:empty) {
 		display: none;
 		-webkit-transform: translateX(5%);
 		-ms-transform: translateX(5%);
-		    transform: translateX(5%)
+		transform: translateX(5%)
 	}
 
 	.create-img {
@@ -6239,7 +6237,7 @@ label:not(:empty) {
 		margin-right: 4rem;
 		-webkit-transform: translateX(40%) translateY(25%);
 		-ms-transform: translateX(40%) translateY(25%);
-		    transform: translateX(40%) translateY(25%)
+		transform: translateX(40%) translateY(25%)
 	}
 
 	.mobile_item2:last-child {
@@ -6250,7 +6248,7 @@ label:not(:empty) {
 	.mobile_privacy {
 		-webkit-transform: translateX(20%) translateY(15%);
 		-ms-transform: translateX(20%) translateY(15%);
-		    transform: translateX(20%) translateY(15%)
+		transform: translateX(20%) translateY(15%)
 	}
 
 	.footer_group:nth-child(2) {
@@ -6481,7 +6479,7 @@ html {
 	position: fixed;
 	-webkit-transform: translateX(800%);
 	-ms-transform: translateX(800%);
-	    transform: translateX(800%)
+	transform: translateX(800%)
 }
 
 .section_cryptopainters {
@@ -6869,7 +6867,7 @@ html {
 	.link_telegram {
 		-webkit-transform: translateX(1030%);
 		-ms-transform: translateX(1030%);
-		    transform: translateX(1030%)
+		transform: translateX(1030%)
 	}
 }
 
@@ -6938,7 +6936,7 @@ html {
 		display: none;
 		-webkit-transform: translateX(5%);
 		-ms-transform: translateX(5%);
-		    transform: translateX(5%)
+		transform: translateX(5%)
 	}
 
 	.create-img {
@@ -7069,7 +7067,7 @@ html {
 		margin-right: 4rem;
 		-webkit-transform: translateX(40%) translateY(25%);
 		-ms-transform: translateX(40%) translateY(25%);
-		    transform: translateX(40%) translateY(25%)
+		transform: translateX(40%) translateY(25%)
 	}
 
 	.mobile_item2:last-child {
@@ -7080,7 +7078,7 @@ html {
 	.mobile_privacy {
 		-webkit-transform: translateX(20%) translateY(15%);
 		-ms-transform: translateX(20%) translateY(15%);
-		    transform: translateX(20%) translateY(15%)
+		transform: translateX(20%) translateY(15%)
 	}
 
 	.footer_group:nth-child(2) {
@@ -7489,7 +7487,7 @@ html {
 	.price_days {
 		-webkit-transform: translateY(-30%) translateX(14%);
 		-ms-transform: translateY(-30%) translateX(14%);
-		    transform: translateY(-30%) translateX(14%)
+		transform: translateY(-30%) translateX(14%);
 	}
 
 	.btn_filtr-sell {
@@ -7502,7 +7500,6 @@ html {
 	.btn_up-days {
 		width: 20px;
 		height: 35px;
-		opacity: 1;
 	}
 
 	.span_days {
@@ -7530,15 +7527,12 @@ html {
 		height: 66px;
 		margin-top: 11px;
 		margin-bottom: 11px;
-		opacity: 1 !important;
-		appearance: none;
 		-webkit-appearance: none;
 		-moz-appearance: none;
 		appearance: none !important;
 	}
 
 	.price_days {
-		appearance: none;
 		-webkit-appearance: none;
 		-moz-appearance: none;
 		appearance: none !important;
@@ -7564,25 +7558,21 @@ html {
 	.btn_up {
 		right: 5px;
 		top: 11px;
-		opacity: 1 !important;
 	}
 
 	.btn_down {
 		right: 5px;
 		top: 46px;
-		opacity: 1 !important;
 	}
 
 	.btn_up-days {
 		bottom: 67px;
 		right: 5px;
-		opacity: 1 !important;
 	}
 
 	.btn_down-days {
 		bottom: 32px;
 		right: 5px;
-		opacity: 1 !important;
 	}
 
 	.info_btn {
@@ -7676,23 +7666,19 @@ html {
 	.btn_up {
 		right: 5px;
 		top: 11px;
-		opacity: 1;
 	}
 
 	.btn_down {
 		right: 5px;
 		top: 46px;
-		opacity: 1;
 	}
 
 	.btn_up-days {
-		opacity: 1;
 		bottom: 67px;
 		right: 5px;
 	}
 
 	.btn_down-days {
-		opacity: 1;
 		bottom: 32px;
 		right: 5px;
 	}
@@ -7730,4 +7716,22 @@ html {
 	.line2:after {
 		left: 244px;
 	}
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	opacity: 1;
+}
+
+
+input[type=search]::-webkit-input-placeholder {
+	font-size: 1.5rem;
+	padding-top: 0.6rem;
+}
+
+input[type=text]::-webkit-input-placeholder {
+	font-size: 1rem;
+	padding-top: 0.6rem;
 }

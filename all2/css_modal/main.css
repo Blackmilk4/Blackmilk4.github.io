@@ -65,6 +65,7 @@
   .container {
     max-width: 360px;
   }
+
   .modal_window-report,
   .modal_window-browser,
   .modal_window-WannaPaint,
@@ -75,10 +76,12 @@
     background-color: #fff;
     border: 1px solid black;
   }
+
   .modal_window-WannaPaint {
     background-image: url(../img/Icon_paint-mobile.svg);
     background-position: center 47%;
   }
+
   .WannaPaint_title,
   .MetaMask_title,
   .signing_title {
@@ -89,9 +92,11 @@
     margin-top: 5.125rem;
     margin-left: 14px;
   }
+
   .signing_title {
     margin-bottom: 3rem;
   }
+
   .signing_title:after {
     width: 120px;
     height: 8px;
@@ -100,9 +105,11 @@
     top: 50px;
     left: 0;
   }
+
   .WannaPaint_title {
     margin-bottom: 1.5rem;
   }
+
   .WannaPaint_title:after {
     width: 225px;
     height: 13px;
@@ -110,24 +117,29 @@
     left: 0;
     background-image: url(../img/Wanna_paint-mobile.png);
   }
+
   .WannaPaint_text,
   .MetaMask_text,
   .signing_text {
     padding-left: 0;
     margin-left: 14px;
   }
+
   .signing_btn {
     padding-left: 0;
     margin-left: 14px;
   }
+
   .signing_text-check {
     padding-left: 0;
     margin-left: 14px;
   }
+
   .MetaMask_title {
     margin-bottom: 0;
     position: relative;
   }
+
   .MetaMask_title:after {
     content: "";
     display: inline-block;
@@ -140,31 +152,38 @@
     left: 0;
     opacity: 1;
   }
+
   .MetaMask_text:after {
     display: none;
   }
+
   .modal_window-CreateAccount {
     max-width: 360px;
     min-height: 750px;
   }
+
   .CreateAccount_title {
     font-size: 1.5rem;
     padding-left: 0;
     margin-left: 14px;
     padding-top: 72px;
   }
+
   .CreateAccount_title:after {
     top: 106px;
     left: 0;
   }
+
   .CreateAccount_text {
     padding-left: 0;
     margin-left: 14px;
     font-size: 1rem;
   }
+
   .CreateAccount_text br {
     display: none;
   }
+
   .form_email,
   .form_text {
     width: 314px;
@@ -174,100 +193,123 @@
     border-left: 1px solid #c4c4c4;
     border-top: 1px solid #c4c4c4;
   }
-  .form_email:focus, .form_email:active,
+
+  .form_email:focus,
+  .form_email:active,
   .form_text:focus,
   .form_text:active {
     outline: none;
   }
+
   .CreateAccount_text-privacy {
     padding-left: 0;
     margin-left: 14px;
     color: #757575;
     opacity: 1;
   }
+
   .CreateAccount_text-privacy a {
     opacity: 1;
     color: #2F80ED;
   }
+
   .CreateAccount_rules,
   .CreateAccount_updates {
     width: 332px;
     padding-left: 0;
     margin-left: 14px;
   }
+
   .btn_register {
     -webkit-transform: translateX(170%);
-            transform: translateX(170%);
+    -ms-transform: translateX(170%);
+    transform: translateX(170%);
     margin-bottom: 0;
     width: 127px;
     height: 48px;
   }
+
   .updates_text,
   .rules_text {
     font-size: 14px;
     color: #6F6F6F;
   }
+
   .floating-label {
     left: 27px;
     top: 268px;
   }
+
   .floating-label2 {
     left: 27px;
     top: 341px;
   }
-  .form_email:focus ~ .floating-label,
-  .form_email:not(:focus):valid ~ .floating-label {
+
+  .form_email:focus~.floating-label,
+  .form_email:not(:focus):valid~.floating-label {
     top: 255px;
   }
-  .form_text:focus ~ .floating-label2,
-  .form_text:not(:focus):valid ~ .floating-label2 {
+
+  .form_text:focus~.floating-label2,
+  .form_text:not(:focus):valid~.floating-label2 {
     top: 330px;
   }
+
   .btn_close-signing {
     left: 310px;
     top: 20px;
   }
+
   .btn_close-MetaMask {
     left: 310px;
     top: 20px;
   }
+
   .btn_close-CreateAccount {
     left: 310px;
     top: 20px;
   }
+
   .btn_close-WannaPaint {
     left: 310px;
     top: 20px;
   }
+
   .btn_close-browser {
     left: 310px;
     top: 20px;
   }
+
   .btn_close-report {
     left: 310px;
     top: -90px;
   }
+
   .btn_GetFirefox {
     width: 298px;
     font-size: 0.875rem;
     margin-top: 2rem;
     margin-left: 2rem;
   }
+
   .WannaPaint_text-secure {
     padding-top: 9rem;
     text-align: center;
     margin-left: 0;
     padding-left: 0;
   }
+
   .WannaPaint_text-secure br {
     display: none;
   }
+
   .MetaMask_gif {
     width: 330px;
     height: 250px;
     padding-left: 0.6rem;
     margin-top: 4rem;
   }
+
   .browser_title {
     font-size: 1.25rem;
     padding-bottom: 10px;
@@ -276,18 +318,22 @@
     margin-top: 5.125rem;
     margin-left: 14px;
   }
+
   .modal_window-browser {
     background-image: url(../img/painting_mobile.svg);
     background-position: 43% 43%;
   }
+
   .btn_downloadChrome,
   .btn_downloadFirefox {
     margin-top: 12.5rem;
     margin-left: 3rem;
   }
+
   .btn_downloadFirefox {
     margin-top: 1.5rem;
   }
+
   .btn_report,
   .input_url,
   .label_reason,
@@ -300,9 +346,11 @@
     padding-left: 0;
     margin-left: 14px;
   }
+
   .report_title {
     margin-top: 4.5rem;
   }
+
   .input_url,
   .input_comments,
   .report_select {
@@ -311,18 +359,22 @@
     border-left: 1px solid #c4c4c4;
     border-top: 1px solid #c4c4c4;
   }
+
   .input_url,
   .input_comments {
     width: 322px;
     height: 46px;
   }
+
   .report_select {
     height: 50px;
   }
+
   .btn_report {
     width: 183px;
     height: 48px;
   }
+
   .btn_report {
     margin-right: 0.8rem;
   }
@@ -690,7 +742,7 @@ label:after,
 input[type="checkbox"]:checked,
 input[type="checkbox"]:disabled {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .md-checkbox.md-checkbox-inline {
@@ -710,7 +762,8 @@ input[type="checkbox"]:disabled {
   padding-left: .75em;
 }
 
-.md-checkbox .rules_text:before, .md-checkbox .rules_text:after {
+.md-checkbox .rules_text:before,
+.md-checkbox .rules_text:after {
   content: "";
   position: absolute;
   top: 20px;
@@ -725,6 +778,7 @@ input[type="checkbox"]:disabled {
   border-radius: 3px;
   cursor: pointer;
   -webkit-transition: background .3s;
+  -o-transition: background .3s;
   transition: background .3s;
 }
 
@@ -738,14 +792,15 @@ input[type="checkbox"]:disabled {
   font-size: inherit;
 }
 
-.md-checkbox .checkbox_rules[type="checkbox"]:checked + .rules_text:before {
+.md-checkbox .checkbox_rules[type="checkbox"]:checked+.rules_text:before {
   background: #333333;
   border: none;
 }
 
-.md-checkbox .checkbox_rules[type="checkbox"]:checked + .rules_text:after {
+.md-checkbox .checkbox_rules[type="checkbox"]:checked+.rules_text:after {
   -webkit-transform: translate(0.25em, 0.33654em) rotate(-45deg) translateX(1%) translateY(0%);
-          transform: translate(0.25em, 0.33654em) rotate(-45deg) translateX(1%) translateY(0%);
+  -ms-transform: translate(0.25em, 0.33654em) rotate(-45deg) translateX(1%) translateY(0%);
+  transform: translate(0.25em, 0.33654em) rotate(-45deg) translateX(1%) translateY(0%);
   width: 0.75em;
   height: 0.375em;
   border: 0.125em solid #fff;
@@ -753,11 +808,11 @@ input[type="checkbox"]:disabled {
   border-right-style: none;
 }
 
-.md-checkbox .checkbox_rules[type="checkbox"]:disabled + .rules_text:before {
+.md-checkbox .checkbox_rules[type="checkbox"]:disabled+.rules_text:before {
   border-color: #333333;
 }
 
-.md-checkbox .checkbox_rules[type="checkbox"]:disabled:checked + .rules_text:before {
+.md-checkbox .checkbox_rules[type="checkbox"]:disabled:checked+.rules_text:before {
   background: #333333;
 }
 
@@ -778,7 +833,8 @@ input[type="checkbox"]:disabled {
   padding-left: 0.75em;
 }
 
-.md-checkbox2 .updates_text:before, .md-checkbox2 .updates_text:after {
+.md-checkbox2 .updates_text:before,
+.md-checkbox2 .updates_text:after {
   content: "";
   position: absolute;
   top: 20px;
@@ -793,6 +849,7 @@ input[type="checkbox"]:disabled {
   border-radius: 3px;
   cursor: pointer;
   -webkit-transition: background .3s;
+  -o-transition: background .3s;
   transition: background .3s;
 }
 
@@ -806,14 +863,15 @@ input[type="checkbox"]:disabled {
   font-size: inherit;
 }
 
-.md-checkbox2 .checkbox_updates[type="checkbox"]:checked + .updates_text:before {
+.md-checkbox2 .checkbox_updates[type="checkbox"]:checked+.updates_text:before {
   background: #333333;
   border: none;
 }
 
-.md-checkbox2 .checkbox_updates[type="checkbox"]:checked + .updates_text:after {
+.md-checkbox2 .checkbox_updates[type="checkbox"]:checked+.updates_text:after {
   -webkit-transform: translate(0.25em, 0.33654em) rotate(-45deg) translateX(1%) translateY(0%);
-          transform: translate(0.25em, 0.33654em) rotate(-45deg) translateX(1%) translateY(0%);
+  -ms-transform: translate(0.25em, 0.33654em) rotate(-45deg) translateX(1%) translateY(0%);
+  transform: translate(0.25em, 0.33654em) rotate(-45deg) translateX(1%) translateY(0%);
   width: 0.75em;
   height: 0.375em;
   border: 0.125em solid #fff;
@@ -821,24 +879,24 @@ input[type="checkbox"]:disabled {
   border-right-style: none;
 }
 
-.md-checkbox2 .checkbox_updates[type="checkbox"]:disabled + .updates_text:before {
+.md-checkbox2 .checkbox_updates[type="checkbox"]:disabled+.updates_text:before {
   border-color: #333333;
 }
 
-.md-checkbox2 .checkbox_updates[type="checkbox"]:disabled:checked + .updates_text:before {
+.md-checkbox2 .checkbox_updates[type="checkbox"]:disabled:checked+.updates_text:before {
   background: #333333;
 }
 
-.form_email:focus ~ .floating-label,
-.form_email:not(:focus):valid ~ .floating-label {
+.form_email:focus~.floating-label,
+.form_email:not(:focus):valid~.floating-label {
   top: 217px;
   font-size: 12px;
   color: #000000;
   opacity: .5;
 }
 
-.form_text:focus ~ .floating-label2,
-.form_text:not(:focus):valid ~ .floating-label2 {
+.form_text:focus~.floating-label2,
+.form_text:not(:focus):valid~.floating-label2 {
   top: 285px;
   font-size: 12px;
   color: #000000;
@@ -854,17 +912,18 @@ input[type="checkbox"]:disabled {
   position: absolute;
   pointer-events: none;
   -webkit-transition: 0.2s ease all;
+  -o-transition: 0.2s ease all;
   transition: 0.2s ease all;
 }
 
 .floating-label {
   left: 60px;
-  top: 230px;
+  top: 232px;
 }
 
 .floating-label2 {
   left: 60px;
-  top: 297px;
+  top: 301px;
 }
 
 .btn_register {
@@ -878,7 +937,8 @@ input[type="checkbox"]:disabled {
   margin-top: 2rem;
   margin-bottom: 2rem;
   -webkit-transform: translateX(210%);
-          transform: translateX(210%);
+  -ms-transform: translateX(210%);
+  transform: translateX(210%);
 }
 
 .btn_register:hover {
@@ -1061,8 +1121,8 @@ select:checked {
   background-repeat: no-repeat;
   background-position: 95% 50%;
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   cursor: poiner;
 }
 
@@ -1092,6 +1152,11 @@ select:checked {
   font-family: Axiforma;
   font-weight: 400;
   font-size: 1.125rem;
+}
+
+input[type=text]::-webkit-input-placeholder {
+  font-size: 1rem;
+  padding-top: 1.6rem !important;
 }
 
 .report_form input[type="text"]::-webkit-input-placeholder {
@@ -1151,4 +1216,3 @@ select:checked {
   top: 35px;
   left: 1px;
 }
-/*# sourceMappingURL=main.css.map */
