@@ -46,11 +46,11 @@
 			is public and is how other users<br> will indetify you.</p>
 		<form class="CreateAccount_form" action="POST" method="">
 			<div>
-				<input type="text" class="form_email" name="email" id="email" required>
+				<input type="text" class="form_email" name="email" id="email" required autocomplete="off">
 				<span class="floating-label">Email address</span>
 			</div>
 			<div>
-				<input type="text" class="form_text" name="nickname" id="text" required>
+				<input type="text" class="form_text" name="nickname" id="text" required autocomplete="off">
 				<span class="floating-label2">Nickname</span>
 			</div>
 			<p class="CreateAccount_text-privacy">We take your privacy seriously. Learn<br>more by reviewing our <a href="#"
@@ -99,15 +99,14 @@
 			<label class="label_reason" for="Reason">Reason</label>
 			<select class="report_select" name="Reason" id="Reason">
 				<option disabled selected>Seleсеt a reason for reporting this page...</option>
-				
 				<option value="Seleсеt a reason for reporting this page...">Inappropriate content</option>
 				<option value="Seleсеt a reason for reporting this page...">There is a bug</option>
 				<option value="Seleсеt a reason for reporting this page...">Other</option>
 			</select>
 			<label class="label_reason" for="comments">More comments</label>
-			<input class="input_comments" type="text" name="comments" id="comments" placeholder="(optional)">
+			<input class="input_comments" type="text" name="comments" id="comments" placeholder="(optional)" autocomplete="off">
 			<label class="label_reason" for="url">URL:</label>
-			<input class="input_url" type="text" name="url" id="url" placeholder="(optional)">
+			<input class="input_url" type="text" name="url" id="url" placeholder="(optional)" autocomplete="off">
 			<button class="btn_report" type="submit">SUBMIT REPORT</button>
 		</form>
 	</div>

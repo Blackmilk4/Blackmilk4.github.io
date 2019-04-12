@@ -3732,17 +3732,29 @@ hr {
 	margin-right: .7rem
 }
 
+
+
 .btn_NoActivity:active,
 .btn_NoActivity:focus,
 .btn_NoActivity_big:active,
 .btn_NoActivity_big:focus {
 	border: none;
-	outline: 0
+	outline: 0;
 }
 
 .btn_NoActivity {
 	width: 187px;
-	height: 52px
+	height: 52px;
+}
+
+.btn_NoActivity_big:hover,
+.btn_NoActivity:hover {
+	background-color: #1b1e28;
+}
+
+.btn_NoActivity_big:active,
+.btn_NoActivity:active {
+	background-color: #000;
 }
 
 .btn_NoActivity_big {
@@ -3769,6 +3781,14 @@ hr {
 .btn_ViewFAQs:active,
 .btn_ViewFAQs:focus {
 	border: none
+}
+
+.btn_ViewFAQs:hover {
+	background-color: #f0f0f0;
+}
+
+.btn_ViewFAQs:active {
+	background-color: #d6d6d6;
 }
 
 @media (max-width:56.25em) {
@@ -3960,8 +3980,6 @@ hr {
 		margin-left: 0.5rem;
 	}
 }
-
-
 
 @media (max-width:357px) {
 
@@ -5878,7 +5896,8 @@ label:not(:empty) {
 	cursor: pointer;
 	background-repeat: no-repeat;
 	background-position: center;
-	position: absolute
+	position: absolute;
+	opacity: 1;
 }
 
 .btn_down-days:active,
@@ -6743,7 +6762,7 @@ html {
 	left: 380px;
 }
 
-.block5  {
+.block5 {
 	bottom: 10px !important;
 	left: 380px;
 }
@@ -7524,7 +7543,7 @@ html {
 		margin-top: 0rem;
 	}
 
-	.block2{
+	.block2 {
 		top: 130px !important;
 		left: 10px;
 	}
