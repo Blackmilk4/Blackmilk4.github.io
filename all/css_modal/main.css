@@ -1492,6 +1492,18 @@ input[type=text]::-webkit-input-placeholder {
   padding-top: 14px;
 }
 
+.EmailUs_text::-webkit-input-placeholder {
+  color: #ADADAD;
+}
+
+.EmailUs_text:-ms-input-placeholder {
+  color: #ADADAD;
+}
+
+.EmailUs_text::-ms-input-placeholder {
+  color: #ADADAD;
+}
+
 .EmailUs_text::placeholder {
   color: #ADADAD;
 }
@@ -1552,15 +1564,26 @@ input[type=text]::-webkit-input-placeholder {
 
 .shareModal_group {
   margin-top: 2rem;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .shareModal_group-socialSecond,
 .shareModal_group-social {
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -1598,6 +1621,8 @@ input[type=text]::-webkit-input-placeholder {
 
 .btn_whiteListNow {
   width: 172px;
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
   transform: translateX(0%);
   margin-bottom: 0;
   margin-left: 13.75rem;
