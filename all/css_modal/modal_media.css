@@ -1,0 +1,549 @@
+@media (max-width: 56.25em) {
+  .container {
+    max-width: 360px;
+  }
+
+  .modal_window-report,
+  .modal_window-browser,
+  .modal_window-WannaPaint,
+  .modal_window-SignInMetaMask,
+  .modal_window-signing {
+    max-width: 360px;
+    min-height: 640px;
+    background-color: #fff;
+    border: 1px solid black;
+  }
+
+  .modal_window-WannaPaint {
+    background-image: url(../img/Icon_paint-mobile.svg);
+    background-position: center 47%;
+  }
+
+  .WannaPaint_title,
+  .MetaMask_title,
+  .signing_title {
+    font-size: 2rem;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 0;
+    margin-top: 5.125rem;
+    margin-left: 14px;
+  }
+
+  .signing_title {
+    margin-bottom: 3rem;
+  }
+
+  .signing_title:after {
+    width: 120px;
+    height: 8px;
+    background-image: url(../img/Sign_in-mobile.png);
+    background-repeat: no-repeat;
+    top: 50px;
+    left: 0;
+  }
+
+  .WannaPaint_title {
+    margin-bottom: 1.5rem;
+  }
+
+  .WannaPaint_title:after {
+    width: 225px;
+    height: 13px;
+    top: 44px;
+    left: 0;
+    background-image: url(../img/Wanna_paint-mobile.png);
+  }
+
+  .WannaPaint_text,
+  .MetaMask_text,
+  .signing_text {
+    padding-left: 0;
+    margin-left: 14px;
+  }
+
+  .signing_btn {
+    padding-left: 0;
+    margin-left: 14px;
+  }
+
+  .signing_text-check {
+    padding-left: 0;
+    margin-left: 14px;
+  }
+
+  .MetaMask_title {
+    margin-bottom: 0;
+    position: relative;
+  }
+
+  .MetaMask_title:after {
+    content: "";
+    display: inline-block;
+    width: 332px;
+    height: 13px;
+    background-image: url(../img/SignintoMetamask.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    opacity: 1;
+  }
+
+  .MetaMask_text:after {
+    display: none;
+  }
+
+  .modal_window-CreateAccount {
+    max-width: 360px;
+    min-height: 750px;
+  }
+
+  .CreateAccount_title {
+    font-size: 1.5rem;
+    padding-left: 0;
+    margin-left: 14px;
+    padding-top: 72px;
+  }
+
+  .CreateAccount_title:after {
+    top: 106px;
+    left: 0;
+  }
+
+  .CreateAccount_text {
+    padding-left: 0;
+    margin-left: 14px;
+    font-size: 1rem;
+  }
+
+  .CreateAccount_text br {
+    display: none;
+  }
+
+  .form_email,
+  .form_text {
+    width: 314px;
+    max-height: 57px;
+    margin-left: 14px;
+    margin-top: 7px;
+    border-left: 1px solid #c4c4c4;
+    border-top: 1px solid #c4c4c4;
+  }
+
+  .form_email:focus,
+  .form_email:active,
+  .form_text:focus,
+  .form_text:active {
+    outline: none;
+  }
+
+  .CreateAccount_text-privacy {
+    padding-left: 0;
+    margin-left: 14px;
+    color: #757575;
+    opacity: 1;
+  }
+
+  .CreateAccount_text-privacy a {
+    opacity: 1;
+    color: #2F80ED;
+  }
+
+  .CreateAccount_rules,
+  .CreateAccount_updates {
+    width: 332px;
+    padding-left: 0;
+    margin-left: 14px;
+  }
+
+  .btn_register {
+    -webkit-transform: translateX(170%);
+    -ms-transform: translateX(170%);
+    transform: translateX(170%);
+    margin-bottom: 0;
+    width: 127px;
+    height: 48px;
+  }
+
+  .updates_text,
+  .rules_text {
+    font-size: 14px;
+    color: #6F6F6F;
+  }
+
+  .floating-label {
+    left: 27px;
+    top: 268px;
+  }
+
+  .floating-label2 {
+    left: 27px;
+    top: 341px;
+  }
+
+  .form_email:focus~.floating-label,
+  .form_email:not(:focus):valid~.floating-label {
+    top: 255px;
+  }
+
+  .form_text:focus~.floating-label2,
+  .form_text:not(:focus):valid~.floating-label2 {
+    top: 330px;
+  }
+
+  .btn_close-signing {
+    left: 310px;
+    top: 20px;
+  }
+
+  .btn_close-MetaMask {
+    left: 310px;
+    top: 20px;
+  }
+
+  .btn_close-CreateAccount {
+    left: 310px;
+    top: 20px;
+  }
+
+  .btn_close-WannaPaint {
+    left: 310px;
+    top: 20px;
+  }
+
+  .btn_close-browser {
+    left: 310px;
+    top: 20px;
+  }
+
+  .btn_close-report {
+    left: 310px;
+    top: -90px;
+  }
+
+  .btn_GetFirefox {
+    width: 298px;
+    font-size: 0.875rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+  .WannaPaint_text-secure {
+    padding-top: 9rem;
+    text-align: center;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .WannaPaint_text-secure br {
+    display: none;
+  }
+
+  .MetaMask_gif {
+    width: 330px;
+    height: 250px;
+    padding-left: 0.6rem;
+    margin-top: 4rem;
+  }
+
+  .browser_title {
+    font-size: 1.25rem;
+    padding-bottom: 10px;
+    padding-top: 0;
+    padding-left: 0;
+    margin-top: 5.125rem;
+    margin-left: 14px;
+  }
+
+  .modal_window-browser {
+    background-image: url(../img/painting_mobile.svg);
+    background-position: 43% 43%;
+  }
+
+  .btn_downloadChrome,
+  .btn_downloadFirefox {
+    margin-top: 12.5rem;
+    margin-left: 3rem;
+  }
+
+  .btn_downloadFirefox {
+    margin-top: 1.5rem;
+  }
+
+  .btn_report,
+  .input_url,
+  .label_reason,
+  .input_comments,
+  .label_reason,
+  .report_select,
+  .label_reason,
+  .report_text,
+  .report_title {
+    padding-left: 0;
+    margin-left: 14px;
+  }
+
+  .report_title {
+    margin-top: 4.5rem;
+  }
+
+  .input_url,
+  .input_comments,
+  .report_select {
+    width: 332px;
+    padding-left: 0.5rem;
+    border-left: 1px solid #c4c4c4;
+    border-top: 1px solid #c4c4c4;
+  }
+
+  .input_url,
+  .input_comments {
+    width: 322px;
+    height: 46px;
+  }
+
+  .report_select {
+    height: 50px;
+  }
+
+  .btn_report {
+    width: 183px;
+    height: 48px;
+  }
+
+  .btn_report {
+    margin-right: 0.8rem;
+  }
+
+  .btn_downloadOpera {
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+  }
+
+  .modal_learnHowPlay {
+    max-width: 320px;
+    height: 525px;
+    border: 1px solid black;
+  }
+
+  .learnHowPlay_title {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-bottom: 1.5rem;
+    margin-top: 3.1875rem;
+    font-weight: bold;
+  }
+
+  .learnHowPlay_img {
+    padding-left: 0;
+    height: 215px;
+    width: 319px;
+    padding-top: 1rem;
+  }
+
+  .btn_learnHowPlay {
+    width: 220px;
+    height: 48px;
+    margin-left: 4.75rem;
+    font-size: 1.125rem;
+  }
+
+  .learnHowPlay_title:after {
+    content: '';
+    width: 245px;
+    height: 15.3px;
+    background-image: url(../img/How.svg);
+    position: absolute;
+    top: 75px;
+    left: -10px;
+  }
+
+  .modal_sharePainting {
+    width: 360px;
+    height: 609px;
+  }
+
+  .title_sharePainting {
+    font-size: 1.25rem;
+    padding-left: 0;
+    margin-left: 14px;
+    padding-bottom: 1rem;
+  }
+
+  .title_sharePainting:after {
+    content: '';
+    width: 340px;
+    height: 17px;
+    background-image: url(../img/How.svg);
+    background-size: cover;
+    position: absolute;
+    top: 235px;
+    left: -10px;
+  }
+
+  .img_sharePainting {
+    width: 202px;
+    max-height: 240px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .share_twitter22,
+  .share_CopyLink22,
+  .share_facebook22,
+  .share_telegram22 {
+    width: 75px;
+    height: 75px;
+    margin-left: 0;
+    padding-left: 0.8rem;
+    padding-right: 0rem;
+  }
+
+  .shareModal_group {
+    display: none;
+  }
+
+  .shareModal_group-social {
+
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+  .shareModal_group-mobile {
+    display: block;
+  }
+
+  .modal_window-EmailUs {
+    width: 320px;
+    height: 678px;
+  }
+
+  .EmailUs_title {
+    font-size: 1rem;
+    padding-left: 14px;
+    margin-left: 0;
+    margin-bottom: 2rem;
+    padding-bottom: 0;
+    font-weight: bold;
+  }
+
+  .EmailUs_title:after {
+    width: 193px;
+    background-image: url(../img/EMAILUS_Second.png);
+    top: 72px;
+    left: 13px;
+  }
+
+  .form_emailUS,
+  .form_text-emailUS {
+    width: 285px;
+    height: 50px;
+    margin-left: 7px;
+    padding-left: 14px;
+
+  }
+
+  .floating-label6 {
+    left: 18px;
+    top: 203px;
+  }
+
+  .floating-label7 {
+    left: 18px;
+    top: 272px;
+  }
+
+  .EmailUs_select {
+    margin-left: 7px;
+    width: 303px;
+  }
+
+  .EmailUs_select .EmailUs_option {
+    max-width: 303px !important;
+  }
+
+  .EmailUs_text {
+    border: 1px solid grey;
+    width: 284px;
+    height: 146px;
+    margin-left: 8px;
+    margin-top: 1px;
+  }
+
+  .btn_EmailUS {
+    margin-left: 10.6rem;
+    width: 139px;
+    height: 48px;
+  }
+
+  .btn_EmailUs-close {
+    left: 272px;
+  }
+
+  .btn_close-learnHowPlay {
+    left: 272px;
+    top: 13px;
+  }
+
+  .btn_share-close {
+    left: 321px;
+    top: 11px;
+  }
+
+  .form_emailUS:focus~.floating-label6,
+  .form_emailUS:not(:focus):valid~.floating-label6 {
+    top: 187px;
+  }
+
+  .form_text-emailUS:focus~.floating-label7,
+  .form_text-emailUS:not(:focus):valid~.floating-label7 {
+    top: 258px;
+  }
+
+  .Whitelist_title {
+    font-size: 1.5rem;
+    margin-left: 15px;
+  }
+
+  .Whitelist_text {
+    font-size: 1rem;
+    margin-left: 15px;
+  }
+
+  .btn_whiteListNow {
+    width: 172px;
+    height: 48px;
+    margin-left: 11rem;
+    transform: translateX(0%);
+  }
+
+  .floating-labelList {
+    left: 25px;
+    top: 244px;
+  }
+
+  .floating-labelList2 {
+    left: 25px;
+    top: 318px;
+  }
+
+  .form_email:focus~.floating-labelList,
+  .form_email:not(:focus):valid~.floating-labelList {
+    top: 230px;
+  }
+
+
+  .form_text:focus~.floating-labelList2,
+  .form_text:not(:focus):valid~.floating-labelList2 {
+    top: 302px;
+  }
+}
+
+input[type=text]::-webkit-input-placeholder {
+  font-size: 1rem;
+  padding-top: 0.6rem !important;
+}
