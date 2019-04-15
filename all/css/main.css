@@ -8815,3 +8815,7 @@ input[type=text]::-webkit-input-placeholder {
 .start_text-whitelist {
 	line-height: 35px;
 }
+
+.btn_telegram-join {
+	width: 178px;
+}
