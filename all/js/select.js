@@ -41,20 +41,3 @@ var ddData = [{
 		imageSrc: "../img/frames/blue1part-01.svg"
 	},
 ];
-
-// $('.sortByPrice').click(function () {
-// 	$('.sortByPrice').toggleClass('index')
-// });
-
-// $('.sortByPrice').click(function () {
-// 	$('#myDropdown').toggleClass('index')
-// });
-
-
-$('#davai').click(function () {
-	$('.sortByPrice').toggleClass('index')
-});
-
-$('.sortByPrice').click(function () {
-	$('.cool').toggleClass('none')
-});

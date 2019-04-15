@@ -1565,7 +1565,7 @@ input[type=text]::-webkit-input-placeholder {
 .shareModal_group {
   margin-top: 2rem;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1574,17 +1574,17 @@ input[type=text]::-webkit-input-placeholder {
 .shareModal_group-socialSecond,
 .shareModal_group-social {
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .share_CopyLink22,
@@ -1622,8 +1622,8 @@ input[type=text]::-webkit-input-placeholder {
 .btn_whiteListNow {
   width: 172px;
   -webkit-transform: translateX(0%);
-  -ms-transform: translateX(0%);
-  transform: translateX(0%);
+      -ms-transform: translateX(0%);
+          transform: translateX(0%);
   margin-bottom: 0;
   margin-left: 13.75rem;
   height: 48px;

@@ -66,24 +66,31 @@
 
 	<section class="section_BrowesAll">
 		<div class="container">
-			<form class="form_BrowesAll" action="">				
-				<input class="BrowesAll_search" type="search" name="search" id="search" placeholder="Search" autocomplete="off">
-				<div id="myDropdown"></div>
-				<div class="box_wantUpdate mdCheck">
-					<input class="checkbox_wantUpdate" type="checkbox" name="rules" id="mdCheck">
-					<label class="wantUpdate_text" for="mdCheck">For sale</label>
-				</div>
-				<select class="sortByPrice" name="Price" id="Price">
-					<option disabled selected><span class="span_sort">Sort by: </span>price</option>
-					<option value="Price">Price</option>
-					<option value="Age">Age</option>
-					<option value="Likes">Likes</option>
-				</select>
-				<select class="BrowesAll_select" name="Sort" id="Sort">
-					<option value="Low to High">Low to High</option>
-					<option value="High to Low">High to Low</option>
-				</select>
-			</form>
+				<form class="form_BrowesAll" action="">
+						<input class="BrowesAll_search" type="search" name="search" id="search" placeholder="Search" autocomplete="off">
+						<!-- <div id="myDropdown"></div> -->
+						<select class="sortByPrice" name="Price" id="Price">
+								<option disabled selected><span class="span_sort">Sort by: </span>price</option>
+								<option value="Price">Price</option>
+								<option value="Age">Age</option>
+								<option value="Likes">Likes</option>
+							</select>
+						<div class="box_wantUpdate mdCheck">
+							<input class="checkbox_wantUpdate" type="checkbox" name="rules" id="mdCheck">
+							<label class="wantUpdate_text" for="mdCheck">For sale</label>
+						</div>
+						<div id="myDropdown"></div>
+						<!-- <select class="sortByPrice" name="Price" id="Price">
+							<option disabled selected><span class="span_sort">Sort by: </span>price</option>
+							<option value="Price">Price</option>
+							<option value="Age">Age</option>
+							<option value="Likes">Likes</option>
+						</select> -->
+						<select class="BrowesAll_select" name="Sort" id="Sort">
+							<option value="Low to High">Low to High</option>
+							<option value="High to Low">High to Low</option>
+						</select>
+					</form>
 			<div class="box_likes">
 				<div class="img_group">
 					<div class="box_all">
