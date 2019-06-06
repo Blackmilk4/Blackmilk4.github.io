@@ -1,0 +1,42 @@
+@font-face {
+	font-family: 'LatoBold';
+	src: local('Lato Bold'), local('Lato-Bold'), 
+	url('work/fonts/lato-bold/latobold.woff2') format('woff2'), 
+	url('work/fonts/lato-bold/latobold.woff') format('woff'), 
+	url('work/fonts/lato-bold/latobold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'LatoLight';
+	src: local('Lato Light'), local('Lato-Light'),
+	url('work/fonts/lato-light/latolight.woff2') format('woff2'), 
+	url('work/fonts/lato-lightlatolight.woff') format('woff'), 
+	url('work/fonts/lato-lightlatolight.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'LatoRegular';
+	src: local('Lato Regular'), local('Lato-Regular'), 
+	url('work/fonts/lato-regular/latoregular.woff2') format('woff2'), 
+	url('work/fonts/lato-regular/latoregular.woff') format('woff'), 
+	url('work/fonts/lato-regular/latoregular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Varela Round';
+	src: local('Varela Round'), local('VarelaRound-Regular'), 
+	url('work/fonts/VarelaRound/Varelaround.woff2') format('woff2'), 
+	url('work/fonts/VarelaRound/Varelaround.woff') format('woff'), 
+	url('work/fonts/VarelaRound/Varelaround.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
