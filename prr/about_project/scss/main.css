@@ -383,6 +383,11 @@ html {
           justify-content: space-between;
 }
 
+.box_viewDocuments img {
+  position: relative;
+  left: 30px;
+}
+
 .text_license-first {
   margin-top: 0;
   padding-left: 7.9rem;
