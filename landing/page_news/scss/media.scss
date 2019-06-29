@@ -1,0 +1,209 @@
+@media screen and (max-width: 812px) {
+	.container {
+		max-width: 320px;
+	}
+
+	.main_header {
+		display: none;
+	}
+
+	.wrapper-gamb {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		-webkit-box-shadow: 0px 0px 30px 0px rgba(42, 57, 79, 0.1);
+		box-shadow: 0px 0px 30px 0px rgba(42, 57, 79, 0.1);
+
+		.container {
+			margin: 0;
+		}
+	}
+
+	.ham {
+		bottom: 12px;
+		display: block;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.line {
+		fill: none;
+		-webkit-transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+		-o-transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+		transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+		stroke: #7888A1;
+		stroke-width: 4;
+		stroke-linecap: round;
+	}
+
+	.gamb-menu {
+		bottom: -5px;
+		-webkit-box-shadow: 0px 0px 30px 0px rgba(42, 57, 79, 0.1);
+		box-shadow: 0px 0px 30px 0px rgba(42, 57, 79, 0.1);
+		z-index: 100;
+	}
+
+	.gamb-menu-link {
+		padding-left: 10px;
+		font-size: 20px;
+		color: #2A394F;
+		font-family: RalewaySemiBold;
+	}
+
+	.box-gamb {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		height: 60px;
+	}
+
+	.active-gamb {
+		max-height: 290px;
+	}
+
+	.header_btn-toTry {
+		display: block;
+		background-image: none;
+		text-transform: none;
+		margin-top: 0;
+		margin-left: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		border: none;
+		width: 47px;
+		color: #7888A1;
+		font-size: 1rem;
+		font-family: RalewayMedium;
+		font-weight: 500;
+		margin-right: 35px;
+		margin-top: 10px;
+		position: relative;
+
+		&:after {
+			display: inline-block;
+			content: '';
+			width: 1.5px;
+			height: 35px;
+			position: absolute;
+			left: 88px;
+			background-image: url(../img/mobile/Line.png);
+			background-repeat: repeat-x;
+			top: 0px;
+		}
+	}
+
+	.box_logo {
+		padding-top: 7px;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		padding-bottom: 0;
+		height: 45px;
+	}
+
+	.footer_nav {
+		display: block;
+	}
+
+	.footer_menu {
+		display: block;
+		padding-top: 0;
+		padding-left: 10px;
+	}
+
+	.footer_item {
+		margin-left: 0;
+		padding-bottom: 1rem;
+	}
+
+	.footer_item-link {
+		font-size: 14px;
+	}
+
+	.footer_logo {
+		margin-left: 5px;
+	}
+
+	.text_Rights {
+		font-size: 10px;
+		padding-left: 10px;
+		padding-bottom: 10px;
+	}
+
+	.box_Rights {
+		display: block;
+		padding-bottom: 30px;
+
+		svg {
+			position: relative;
+			bottom: -10px;
+		}
+	}
+
+	.box_Rights a {
+		padding-left: 15px;
+	}
+
+
+	.Rights_link-question {
+		font-size: 13px;
+		margin-left: 10px;
+		padding-left: 20px !important;
+	}
+
+	.Rights_link-school {
+		margin-right: 10px;
+	}
+
+	aside {
+		display: none;
+	}
+
+	.main_newsBox {
+		display: block;
+		padding-bottom: 1rem;
+	}
+
+	.article_title {
+		font-size: 20px;
+		line-height: 120%;
+		padding-left: 10px;
+	}
+
+	.article_title br {
+		display: none;
+	}
+
+
+	.avatar_info:before {
+		bottom: 37px;
+		left: 5px;
+	}
+
+	.acticle_text {
+		font-size: 14px;
+		font-family: RalewayMedium;
+		font-weight: 500;
+		max-width: 95%;
+		display: block;
+		padding-left: 10px;
+	}
+
+	.article_img {
+		width: 288px;
+		height: 138px;
+		padding-left: 10px;
+		margin-bottom: 0;
+	}
+
+	.comments_button {
+		margin-left: 2rem;
+	}
+
+	.date_text {
+		margin-left: 10px;
+	}
+
+}
