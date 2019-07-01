@@ -1,0 +1,504 @@
+@media screen and (max-width: 812px) {
+  .container {
+    max-width: 320px;
+  }
+  .top_btn {
+    display: none;
+  }
+  .main_header {
+    display: none;
+  }
+  .wrapper-gamb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(42, 57, 79, 0.1);
+    box-shadow: 0px 0px 30px 0px rgba(42, 57, 79, 0.1);
+  }
+  .ham {
+    bottom: 12px;
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .line {
+    fill: none;
+    -webkit-transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke: #7888A1;
+    stroke-width: 4;
+    stroke-linecap: round;
+  }
+  .gamb-menu {
+    bottom: 0px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(42, 57, 79, 0.1);
+    box-shadow: 0px 0px 30px 0px rgba(42, 57, 79, 0.1);
+    z-index: 9999;
+  }
+  .gamb-menu-link {
+    padding-left: 10px;
+    font-size: 20px;
+    color: #2A394F;
+    font-family: RalewaySemiBold;
+  }
+  .box-gamb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 60px;
+  }
+  .active-gamb {
+    max-height: 290px;
+  }
+  .header_btn-toTry {
+    display: block;
+    background-image: none;
+    text-transform: none;
+    margin-top: 0;
+    margin-left: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    width: 47px;
+    color: #7888A1;
+    font-size: 1rem;
+    font-family: RalewayMedium;
+    font-weight: 500;
+    margin-right: 35px;
+    margin-top: 10px;
+    position: relative;
+  }
+  .header_btn-toTry:after {
+    display: inline-block;
+    content: '';
+    width: 1.5px;
+    height: 35px;
+    position: absolute;
+    left: 88px;
+    background-image: url(../img/mobile/Line.png);
+    background-repeat: repeat-x;
+    top: 0px;
+  }
+  .box_logo {
+    padding-top: 7px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom: 0;
+    height: 45px;
+  }
+  .footer_nav {
+    display: block;
+  }
+  .footer_menu {
+    display: block;
+    padding-top: 0;
+    padding-left: 10px;
+  }
+  .footer_item {
+    margin-left: 0;
+    padding-bottom: 1rem;
+  }
+  .footer_item-link {
+    font-size: 14px;
+  }
+  .footer_logo {
+    margin-left: 5px;
+  }
+  .text_Rights {
+    font-size: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  .box_Rights {
+    display: block;
+    padding-bottom: 30px;
+  }
+  .box_Rights svg {
+    position: relative;
+    bottom: -10px;
+  }
+  .box_Rights a {
+    padding-left: 15px;
+  }
+  .Rights_link-question {
+    font-size: 13px;
+    margin-left: 10px;
+    padding-left: 20px !important;
+  }
+  .Rights_link-school {
+    margin-right: 10px;
+  }
+  .section_tariffs {
+    margin-bottom: 2rem;
+  }
+  .title_tariffs {
+    font-size: 1.5rem;
+  }
+  #tabs .tab {
+    margin-bottom: 1rem;
+    padding: 5px 0px;
+  }
+  .whiteborder,
+  .tab {
+    left: 0 !important;
+    font-size: 1rem;
+  }
+  .tab:nth-child(2) span {
+    font-size: 12px;
+  }
+  .wrapper_box {
+    display: block;
+  }
+  .tariffs_box {
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+    height: 465px;
+  }
+  .tariffs_box-title {
+    margin-top: 0;
+    padding-top: 2rem;
+  }
+  .box_browes {
+    margin-left: 0;
+  }
+  .section_app {
+    background-color: #f5b549;
+    background-image: url(../img/mobile/Bg_mobile.png);
+    margin-bottom: 0;
+    padding-bottom: 0.8rem;
+  }
+  .app_title {
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-top: 12rem;
+    padding-bottom: 0.2rem;
+  }
+  .app_text {
+    font-size: 14px;
+    padding-left: 10px;
+    line-height: 110%;
+    margin-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 95%;
+  }
+  .app_link {
+    padding-left: 10px;
+  }
+  .section_partner {
+    padding-top: 1rem;
+  }
+  .title_partner {
+    font-size: 20px;
+    padding-top: 0px;
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+  }
+  .tabs-wrapper {
+    text-align-last: left;
+  }
+  .nav-tabs li {
+    display: block;
+  }
+  .nav-tabs li a {
+    font-size: 16px;
+  }
+  .section_partner-mobile {
+    display: block;
+  }
+  .section_partner {
+    display: none;
+  }
+  .mobile-box_partner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .mobile-box_partner div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .mobile-box_partner img {
+    margin-top: 30px;
+  }
+  .mobile-box_partner img:nth-child(1), .mobile-box_partner img:nth-child(2) {
+    margin-top: 11px;
+  }
+  .mobile-box_partner img:nth-child(3) {
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+  .mobile-box_partner img:nth-child(4) {
+    margin-top: 25px;
+    padding-bottom: 10px;
+  }
+  .quantum {
+    width: 80px;
+    margin-top: 35px !important;
+    height: 50px;
+  }
+  .quantum2 {
+    margin-top: 10px !important;
+    padding-top: 5px;
+  }
+  .header_fix {
+    display: none;
+  }
+  .main_slider-title,
+  .main_slider-titleSecond {
+    font-size: 1rem;
+    margin-left: 10px;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .main_slider-text,
+  .main_slider-textSecond,
+  .main_slider-textThird,
+  .main_slider-textFour {
+    font-size: 14px;
+    margin-left: 10px;
+    width: 100%;
+  }
+  .main_slider-textSecond br,
+  .main_slider-text br {
+    display: none;
+  }
+  .main_slider-textThird {
+    width: 300px;
+  }
+  .window {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .section_applications,
+  .applecations_continue,
+  .section_transportation,
+  .section_escort,
+  .section_withUs,
+  .withUs_continue {
+    display: none;
+  }
+  .controls {
+    left: 1px;
+    opacity: 0;
+  }
+  .slick-dots {
+    right: -285px;
+  }
+  .wrapperMain,
+  .wrapperMain-second,
+  .wrapperMain-third,
+  .wrapper-second {
+    max-width: 320px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .wrapper {
+    max-width: 320px;
+    padding-right: 0;
+  }
+  .statistics_box {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .statistics_menu {
+    margin-left: 43px;
+    padding-top: 2rem;
+  }
+  .statistics_price {
+    font-size: 18px;
+    height: 30px;
+  }
+  .statistics_menu-text {
+    font-size: 12px !important;
+  }
+  .text_toDay {
+    font-size: 12px;
+  }
+  .textTander:before {
+    right: 96px;
+    top: 18px;
+  }
+  .textCars:before {
+    background-image: url(../img/Ellipse.png);
+    right: 96px;
+    top: 1px;
+  }
+  .textCargo:before {
+    right: 102px;
+    top: 1px;
+    background-image: url(../img/mobile/before/Icon_cargo.svg);
+    width: 24px;
+    height: 24px;
+  }
+  .textParticipant:before {
+    right: 102px;
+    top: 1px;
+    background-image: url(../img/mobile/before/Icon_participants.svg);
+    width: 24px;
+    height: 24px;
+  }
+  .textCars:before {
+    background-image: url(../img/mobile/before/Icon_car.svg);
+    width: 24px;
+    height: 24px;
+  }
+  .textTander:before {
+    background-image: url(../img/mobile/before/Icon_flag.svg);
+    width: 24px;
+    height: 24px;
+  }
+  .box_cargo {
+    padding-bottom: 1rem;
+  }
+  .textTander {
+    padding-top: 1rem;
+  }
+  .otherList {
+    margin-left: 0rem;
+  }
+  .main_slider-first {
+    background-image: url(../img/mobile/Image_slide_1.png);
+    background-size: contain;
+    height: 450px;
+    background-position: 50% center !important;
+  }
+  .main_slider-second {
+    background-image: url(../img/mobile/Image_slide_2.png);
+    background-size: contain;
+    height: 450px;
+    background-color: #8898a8;
+  }
+  .main_slider-third {
+    background-image: url(../img/mobile/Imahe_slide_3.png);
+    background-size: contain;
+    height: 450px;
+    padding-bottom: 0;
+    background-color: #f8f9fc;
+  }
+  .main_slider-four {
+    background-image: url(../img/mobile/Image_slider_4.png);
+    background-size: contain;
+    height: 450px;
+    background-color: #fff1f6;
+  }
+  .good {
+    position: relative;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .box_cargo,
+  .box_participants {
+    padding-right: 53px;
+    padding-left: 10px;
+  }
+  .section_list-road {
+    margin-top: 3rem;
+    display: block;
+  }
+  .img_top {
+    background-image: url(../img/mobile/Icon_up.svg) !important;
+    background-repeat: no-repeat;
+  }
+  .line_img {
+    min-width: 100%;
+  }
+  .title_transportationMobile,
+  .title_applicationsMobile {
+    font-size: 20px;
+    font-family: MagistralCBold;
+    color: #2A394F;
+    position: relative;
+    margin-left: 3.25rem;
+    background-image: url(../img/mobile/Icon_down.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+  .title_transportationMobile:before,
+  .title_applicationsMobile:before {
+    content: '';
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: -46px;
+    top: -6px;
+  }
+  .title_applicationsMobile:before {
+    background-image: url(../img/mobile/Icon_zayavki_normal.svg);
+  }
+  .title_transportationMobile:before {
+    background-image: url(../img/mobile/Icon_perevozki_hover.svg);
+  }
+  .oneFrom_titleApplications {
+    font-size: 1rem;
+    padding-left: 10px;
+    font-family: RalewaySemiBold;
+    color: #2A394F;
+    margin-top: 0;
+  }
+  .text_oneFromApplications {
+    font-size: 14px;
+    font-family: RalewayMedium;
+    color: #7888A1;
+    padding-left: 10px;
+  }
+  .help_text {
+    font-size: 12px;
+    color: #7888A1;
+    font-family: RalewayRegular;
+    margin-top: 14px;
+    margin-bottom: 0;
+    padding-left: 10px;
+  }
+  .slider_Applications {
+    margin-top: 1rem;
+  }
+  .slider_Applications img {
+    max-width: 100%;
+  }
+  .dotsMy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+    list-style-type: none;
+  }
+  .dotsMy li {
+    margin: 0 0.25rem;
+  }
+  .dotsMy button {
+    display: block;
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    background-color: #E0E6F1;
+    text-indent: -9999px;
+  }
+  .dotsMy li.slick-active button {
+    background-color: #FF9801;
+  }
+  .answer_boxMobile .slick-slide {
+    min-width: 320px !important;
+  }
+  .answer_boxMobile .slick-track {
+    width: 2240px !important;
+  }
+}
+/*# sourceMappingURL=media.css.map */
